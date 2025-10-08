@@ -1,0 +1,4 @@
+/c/en/ogres	HasProperty	/c/en/ugly_scary_and_make_believe	1.0	0.073
+/c/en/ogres	FormOf	/c/en/ogre	1.0	0.935
+/c/en/ogres	ReceivesAction	/c/en/reputed_to_strong	1.0	-0.004
+/c/en/ogres	RelatedTo	/c/en/ogre	1.0	0.935
