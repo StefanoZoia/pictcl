@@ -4,7 +4,7 @@ import os
 import json
 import time
 
-def download_image(prompt, image_name):
+def download_image(prompt, image_path):
 
     width = cfg.WIDTH
     height = cfg.HEIGHT
@@ -13,20 +13,34 @@ def download_image(prompt, image_name):
 
     image_url = f"https://pollinations.ai/p/{prompt}?width={width}&height={height}&seed={seed}&model={model}"
 
-    # Writing the content to a new file
-    image_path = os.path.join(cfg.OUTPUT_DIR, image_name)
-    with open(image_path, 'xb') as file:
+    limit = 10  # max n of retries
+    delay = 5   # n of seconds to wait between retries
+    retried = 0
+    while retried < limit:
+        if retried > 0:
+            time.sleep(delay)
+
         # Fetching the image from the URL
         response = requests.get(image_url)
-        file.write(response.content)
-    # Logging completion message
-    print(f'Download of {image_path} Completed')
+        if response:
+            # Writing the content to a new file
+            with open(image_path, 'xb') as file:
+                file.write(response.content)
+                # Logging completion message
+                print(f'Download of {image_path} Completed')
+                return
+        else:
+            retried += 1
+            print(f'>>>> Warning - error in image generation: {response.status_code} {response.reason} - failed attempt {retried}/{limit}')
+    
+    raise Exception("Unable to get a generated image")
     
 
 # use LLM to generate a prompt for image generation
 def llm_prompt(head, modifier, features):
     
     features.remove('@scenario_probability')
+    features = [f.replace("-", "not ", 1) if f[0] == "-" else f for f in features]
     features = ", ".join(features)
     features = features.replace("-", " ").replace("_", " ")
 
@@ -36,9 +50,8 @@ As a reference, I constructed a list containing some relevant properties and som
 Describe the image in an objective and unbiased way. Keep the description clear and unambiguous, and synthesize the objects in a clever and clean way, so people can roughly picture the scene from your description.
 DO NOT introduce unnecessary objects and unnecessary descriptions of the objects beyond the given properties. Avoid any descriptions involving a group of objects, or an ambiguous number of objects like “at least one”, “one or more”, or “several”. Do not add subjective judgments about the image, it should be as factual as possible. Do not use fluffy, poetic language, or any words beyond the elementary school level.
 Respond only with the caption itself.'''
-    '''
-Respond “WRONG” and explain if the properties have obvious issues or conflicts, or if it is hard to realize them in an image. Otherwise, respond only with the caption itself.
-'''
+    #Respond “WRONG” and explain if the properties have obvious issues or conflicts, or if it is hard to realize them in an image. Otherwise, respond only with the caption itself.
+
     url = "https://apifreellm.com/api/chat"
     headers = {
         "Content-Type": "application/json"
@@ -47,10 +60,13 @@ Respond “WRONG” and explain if the properties have obvious issues or conflic
         "message": instructions
     }
 
-    limit = 4  #max n of retries
-    delay = 5   #n of seconds to wait between retries
+    limit = 4  # max n of retries
+    delay = 5   # n of seconds to wait between retries
     retried = 0
     while retried < limit:
+        if retried > 0:
+            time.sleep(delay)
+
         response = requests.post(url, headers=headers, json=data)
         result = response.json()
 
@@ -58,17 +74,32 @@ Respond “WRONG” and explain if the properties have obvious issues or conflic
             return result["response"]
         else:
             retried += 1
-            print(f'>>>>WARNING: {result["error"]} - failed attempt {retried}/{limit}')
-            time.sleep(delay)
+            print(f'>>>> Warning - error in prompt generation: {response.status_code} {result["error"]} - failed attempt {retried}/{limit}')
 
     raise Exception("Unable to get a prompt from LLM")
 
 # generate a prompt for image generation using a fixed template
 def template_prompt(head, modifier, features):
     features.remove('@scenario_probability')
+    features = [f.replace("-", "not ", 1) if f[0] == "-" else f for f in features]
     features = ", ".join(features)
     features = features.replace("-", " ").replace("_", " ")
     prompt = cfg.PROMPT_TEMPLATE.format(head=head, modifier=modifier, features=features)
+    return prompt
+
+# wrapper for prompt generation
+def generate_prompt(head, modifier, features, output_path):
+    prompt = None
+    if cfg.PROMPT_ORIGIN == 'llm':
+        prompt = llm_prompt(head, modifier, features)
+    elif cfg.PROMPT_ORIGIN == 'template':
+        prompt = template_prompt(head, modifier, features)
+    else:
+        raise Exception(f"Wrong cofiguration of PROMPT_ORIGIN: {cfg.PROMPT_ORIGIN}")
+    
+    with open(output_path, "x", encoding="utf-8") as output_file:
+        output_file.write(prompt)
+
     return prompt
 
 def main():
@@ -104,10 +135,20 @@ def main():
         features = list(combination_result.keys())
 
         # generate image
-        prompt = llm_prompt(head, modifier, features)
-        print(prompt)
-        image_name = f"{head}_{modifier}_llm_cocos.jpeg"
-        download_image(prompt, image_name)
+        image_name = f"{head}_{modifier}_{cfg.PROMPT_ORIGIN}"
+        image_path = os.path.join(cfg.OUTPUT_DIR, image_name+".jpeg")
+        prompt_path = os.path.join(cfg.PROMPT_DIR, image_name+".txt")
+        if os.path.exists(image_path):
+            print(f"File exists: {image_path} - skipping generation")
+        else:
+            prompt = None
+            if os.path.exists(prompt_path):
+                with open(prompt_path, encoding="utf-8") as f:
+                    prompt = f.read()
+            else:
+                prompt = generate_prompt(head, modifier, features, prompt_path)
+            print(prompt)
+            download_image(prompt, image_path)
 
 
 if __name__ == "__main__": main()

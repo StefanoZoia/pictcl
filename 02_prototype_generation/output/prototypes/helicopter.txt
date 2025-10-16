@@ -1,8 +1,0 @@
-fly: 0.893
-transport: 0.863
-holding_steady: 0.858
-travel: 0.841
-flying_vehicle: 0.832
-transport_injured_persons_to_hospital: 0.83
-rotor: 0.824
-land_on_roof: 0.818

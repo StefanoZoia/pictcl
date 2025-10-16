@@ -1,8 +1,0 @@
-wearing_on_head: 0.905
-wearing: 0.905
-headdress: 0.898
-uniforms: 0.886
-hatstand: 0.866
-waving: 0.86
-protecting_head: 0.852
-protecting_face_from_sun: 0.852

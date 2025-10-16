@@ -1,0 +1,3 @@
+{
+  "prompt": "A glowing, fiery object shaped like a human fist clenched in rage, its surface covered in cracks and intense flames erupting from them. The object exudes an aura of violence and uncontrollable energy, its form shifting and changing as if it’s about to burst apart, reflecting anger and a desire for destruction. The burning heat distorts the surrounding air, amplifying its intense power. The object appears unstable, threatening to lose its integrity with every passing moment."
+}
