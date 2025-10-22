@@ -1,0 +1,8 @@
+pet: 0.937
+canine: 0.92
+guide_blind_person: 0.917
+guide_blind: 0.917
+bark: 0.914
+kennel: 0.906
+dog_house: 0.905
+stray: 0.905

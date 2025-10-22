@@ -1,0 +1,13 @@
+/c/en/dirt_road	DerivedFrom	/c/en/dirt	1.0	0.47
+/c/en/dirt_road	RelatedTo	/c/en/road	1.0	0.29
+/c/en/dirt_roads	FormOf	/c/en/dirt_road	1.0	1.0
+/c/en/dirt_road	RelatedTo	/c/en/gravel_road	1.0	0.227
+/c/en/gravel_road	RelatedTo	/c/en/dirt_road	1.0	0.227
+/c/en/roadbase	SimilarTo	/c/en/dirt_road	1.0	0.145
+/c/en/dirt_road	RelatedTo	/c/en/subgrade	1.0	0.214
+/c/en/dirt_road	RelatedTo	/c/en/unimproved	1.0	0.2
+/c/en/dirt_road	Synonym	/c/en/dirt_track	1.0	0.724
+/c/en/dirt_road	RelatedTo	/c/en/unpaved	1.0	0.33
+/c/en/dirt_track	RelatedTo	/c/en/dirt_road	1.0	0.724
+/c/en/dirt_road	Synonym	/c/en/dirt_road	0.5	1.0
+/c/en/gravel	RelatedTo	/c/en/dirt_road	0.3799999999999999	0.261

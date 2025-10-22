@@ -20,14 +20,17 @@ def get_json_or_retry(query):
     retried = 0
     got_it = False
     while not got_it and retried < limit:
+        if retried > 0:
+            time.sleep(delay)
         try:
             json = requests.get(query, REQ_HEADERS).json()
             got_it = True
         except:
-            time.sleep(delay)
             got_it = False
             retried += 1
             print(f'>>>>WARNING: failed attempt {retried}/{limit}')
+    if not got_it:
+        raise Exception(f"Unable to contact server after {retried} tries")
     return json
     
 

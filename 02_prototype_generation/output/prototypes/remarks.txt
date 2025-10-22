@@ -1,4 +1,0 @@
-statement: 0.783
-notice: 0.7668
-cause_response: 0.7434
-engraving: 0.6849000000000001

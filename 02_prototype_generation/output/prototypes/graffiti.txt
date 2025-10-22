@@ -1,0 +1,7 @@
+written_character_sequence: 0.783
+-art: 0.772
+archaeology: 0.759
+italian_word: 0.75
+bridge: 0.748
+hand_written_document: 0.746
+bus_stop: 0.746

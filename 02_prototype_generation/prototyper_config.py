@@ -3,7 +3,7 @@
 ######################################
 
 # path to the file containing the corpus
-CORPUS_FILE = '../01_dataset_building/output/metanet_corpus_0_11.tsv'
+CORPUS_FILE = '../01_dataset_building/output/conceptmix_all.tsv'
 # CORPUS_FILE = '../01_dataset_building/output/nn450_corpus.tsv'
 
 # path to the output file of cn_rel_getter - input for prototyper

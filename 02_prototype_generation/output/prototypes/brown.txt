@@ -1,0 +1,8 @@
+color: 0.854
+cook: 0.845
+brownish_thing: 0.832
+chromatic_color: 0.822
+cooking: 0.82
+ticks: 0.777
+colour: 0.777
+eyes: 0.773

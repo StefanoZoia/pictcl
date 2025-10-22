@@ -1,0 +1,8 @@
+automaton: 0.867
+automation: 0.865
+machine: 0.862
+botmaster: 0.845
+manufacturing_plant: 0.837
+companionship: 0.826
+repetitive: 0.824
+walk_and_talk: 0.824

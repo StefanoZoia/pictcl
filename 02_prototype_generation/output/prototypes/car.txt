@@ -1,0 +1,8 @@
+car_factory_like_toyota: 0.925
+car_dealership: 0.917
+vehicle: 0.914
+car_show: 0.899
+motor_vehicle: 0.897
+drive: 0.892
+tire: 0.875
+car_door: 0.875

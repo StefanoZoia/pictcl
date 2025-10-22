@@ -1,0 +1,8 @@
+primary_colour: 0.924
+primary_color: 0.915
+-blue: 0.911
+color: 0.876
+colour: 0.875
+-yellow: 0.867
+oxygenated_blood: 0.835
+-green: 0.828

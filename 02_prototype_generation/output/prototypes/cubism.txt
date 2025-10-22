@@ -1,0 +1,3 @@
+artistic_movement: 0.815
+art_movement: 0.794
+capitalized: 0.765

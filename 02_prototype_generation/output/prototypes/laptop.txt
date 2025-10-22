@@ -1,0 +1,5 @@
+computing: 0.822
+portable_computer: 0.814
+desk: 0.81
+internet_cafe: 0.746
+going_on_internet: 0.673

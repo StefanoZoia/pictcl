@@ -1,0 +1,8 @@
+orange: 0.946
+citrus_fruit: 0.902
+citrus: 0.891
+orangeish_thing: 0.883
+sweet: 0.881
+color: 0.859
+colour: 0.858
+-apple: 0.844

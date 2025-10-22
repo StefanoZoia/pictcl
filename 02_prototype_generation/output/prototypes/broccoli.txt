@@ -1,0 +1,8 @@
+broccoli: 0.946
+crucifer: 0.894
+cruciferous_vegetable: 0.886
+green: 0.858
+green_vegetable: 0.839
+vegetable_people_may_cook: 0.829
+very_nutritious: 0.824
+plate: 0.764

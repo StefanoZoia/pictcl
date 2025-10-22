@@ -1,0 +1,6 @@
+-huge: 0.809
+-large: 0.782
+-great: 0.771
+-incalculable: 0.765
+-giant: 0.765
+kitties: 0.734

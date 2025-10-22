@@ -1,0 +1,8 @@
+vehicle: 0.902
+automobile: 0.874
+motor_vehicle: 0.869
+wheeled_vehicle: 0.861
+stabilizer_bar: 0.854
+garage: 0.85
+transport: 0.847
+vehicle_type: 0.845

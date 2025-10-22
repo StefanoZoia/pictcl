@@ -1,0 +1,8 @@
+roar: 0.889
+feline: 0.865
+zoo_to_have_on_display: 0.848
+animal: 0.846
+veldt: 0.846
+carnivore: 0.845
+safari: 0.845
+hunt_zebras: 0.829

@@ -1,0 +1,4 @@
+book: 0.883
+learning: 0.819
+locker: 0.811
+include_glossary: 0.811

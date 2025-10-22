@@ -1,0 +1,17 @@
+/c/en/corgi	IsA	/c/en/dog	2.0	0.491
+/c/en/welsh_corgi	Synonym	/c/en/corgi	2.0	0.951
+/c/en/pembroke	IsA	/c/en/corgi	2.0	0.352
+/c/en/cardigan	IsA	/c/en/corgi	2.0	0.155
+/c/en/corgi	Synonym	/c/en/welsh_corgi	1.0	0.951
+/c/en/corgi	RelatedTo	/c/en/breed	1.0	0.355
+/c/en/welsh_corgi	RelatedTo	/c/en/corgi	1.0	0.951
+/c/en/corgis	FormOf	/c/en/corgi	1.0	0.629
+/c/en/corgi	RelatedTo	/c/en/dog	1.0	0.491
+/c/en/corgy	FormOf	/c/en/corgi	1.0	0.902
+/c/en/corgwn	FormOf	/c/en/corgi	1.0	0.902
+/c/en/dorgi	DerivedFrom	/c/en/corgi	1.0	0.108
+/c/en/corgi	RelatedTo	/c/en/fox	1.0	0.082
+/c/en/corgi	RelatedTo	/c/en/feature	1.0	-0.002
+/c/en/corgi	IsA	/c/en/breed_of_herding_dog	1.0	0.244
+/c/en/dorgi	RelatedTo	/c/en/corgi	1.0	0.108
+/c/en/corgis	RelatedTo	/c/en/corgi	1.0	0.629

@@ -1,0 +1,8 @@
+two: 0.94
+spelled_two: 0.816
+number: 0.81
+text_messaging: 0.773
+prime_number: 0.746
+computing: 0.739
+higher_number_than_1: 0.735
+historical: 0.734
