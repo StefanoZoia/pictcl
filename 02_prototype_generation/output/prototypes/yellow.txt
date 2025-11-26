@@ -1,8 +1,0 @@
-primary_color: 0.907
-color: 0.877
-colour: 0.871
--blue: 0.858
-discolor: 0.854
-yellowish_thing: 0.824
-coloring: 0.818
-banana_peels: 0.798

@@ -1,8 +1,0 @@
--top: 0.875
-inning: 0.85
-cargo_ship: 0.843
-hit: 0.833
-region: 0.805
-cabinetwork: 0.796
-turn: 0.793
-supply: 0.785

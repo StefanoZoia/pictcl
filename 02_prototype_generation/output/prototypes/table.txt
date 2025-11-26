@@ -1,8 +1,0 @@
-drawing_on: 0.883
-dining: 0.881
-dining_room: 0.877
-eating_off_of: 0.869
-read: 0.868
-resturant: 0.862
-tabletop: 0.861
-kitchen: 0.856

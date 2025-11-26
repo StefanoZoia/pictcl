@@ -1,0 +1,29 @@
+Title: graffiti-chicken
+
+Head Concept Name: graffiti
+Modifier Concept Name: chicken
+
+
+
+
+
+T(modifier), chicken, 0.946
+T(modifier), cross_road, 0.917
+T(modifier), poultry, 0.913
+T(modifier), meat, 0.874
+T(modifier), chicken_wing, 0.859
+T(modifier), tasty_when_fried_or_baked, 0.847
+T(modifier), lay_eggs, 0.845
+T(modifier), lay_egg, 0.845
+
+T(head), written_character_sequence, 0.783
+T(head), -art, 0.772
+T(head), archaeology, 0.759
+T(head), italian_word, 0.75
+T(head), bridge, 0.748
+T(head), hand_written_document, 0.746
+T(head), bus_stop, 0.746
+
+
+Result: {"chicken": 0.946, "cross_road": 0.917, "poultry": 0.913, "meat": 0.874, "chicken_wing": 0.859, "written_character_sequence": 0.783, "@scenario_probability": 3.8221903136943966e-05}
+Scenario: [1, 1, 1, 1, 1, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 3.8221903136943966e-05]

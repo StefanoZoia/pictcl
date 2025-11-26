@@ -1,8 +1,0 @@
-baked_in_oven: 0.922
-pizza_toppings: 0.849
-pizza_sauce: 0.849
-oven: 0.844
-popular: 0.838
-dish: 0.823
-flatbread: 0.822
-disc_shaped_food_item: 0.815

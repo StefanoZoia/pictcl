@@ -1,7 +1,0 @@
--below: 0.917
--beneath: 0.851
-section: 0.832
--under: 0.83
-archaic: 0.745
--underneath: 0.739
--sewer: 0.677

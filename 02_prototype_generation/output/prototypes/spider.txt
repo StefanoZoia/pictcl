@@ -1,8 +1,0 @@
-arachnid: 0.916
-web: 0.876
-inject_venom: 0.859
-spin_webs: 0.849
-sticking_to_wall: 0.823
-arthropod: 0.816
-spin_web: 0.805
-venomous_animal: 0.804

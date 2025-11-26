@@ -1,8 +1,0 @@
-drawing: 0.868
-comics: 0.863
-animation: 0.858
-draw: 0.849
-picture: 0.837
-show: 0.828
-art: 0.82
-publication: 0.819

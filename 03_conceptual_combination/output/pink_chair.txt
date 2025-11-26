@@ -1,0 +1,30 @@
+Title: pink-chair
+
+Head Concept Name: pink
+Modifier Concept Name: chair
+
+
+
+
+
+T(modifier), reupholstering, 0.896
+T(modifier), furniture_store, 0.889
+T(modifier), sitting, 0.879
+T(modifier), resting, 0.871
+T(modifier), sit_down, 0.853
+T(modifier), furniture_market_category, 0.851
+T(modifier), living_room, 0.847
+T(modifier), people, 0.841
+
+T(head), pinkish_thing, 0.875
+T(head), color, 0.871
+T(head), flower, 0.846
+T(head), pastel_color, 0.829
+T(head), flowers, 0.809
+T(head), colour, 0.803
+T(head), cut, 0.8
+T(head), chromatic_color, 0.79
+
+
+Result: {"reupholstering": 0.896, "furniture_store": 0.889, "sitting": 0.879, "resting": 0.871, "pinkish_thing": 0.875, "color": 0.871, "@scenario_probability": 1.030625496190768e-06}
+Scenario: [1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 0, 0, 0, 0, 0, 0, 1.030625496190768e-06]

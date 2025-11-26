@@ -44,13 +44,21 @@ def llm_prompt(head, modifier, features):
     features = ", ".join(features)
     features = features.replace("-", " ").replace("_", " ")
 
-    instructions = f'''Make up a human-annotated description of an image that describe the following properties (meaning you can infer these properties from the description):
+    instructions = None
+    if cfg.USE_COCOS:
+        instructions = f'''Make up a human-annotated description of an image that describe the following properties (meaning you can infer these properties from the description):
 The image contains an invented object, that is obtained by the combination of "{head}" and "{modifier}".
 As a reference, I constructed a list containing some relevant properties and some additional information that you should incorporate into your description: {features}.
 Describe the image in an objective and unbiased way. Keep the description clear and unambiguous, and synthesize the objects in a clever and clean way, so people can roughly picture the scene from your description.
 DO NOT introduce unnecessary objects and unnecessary descriptions of the objects beyond the given properties. Avoid any descriptions involving a group of objects, or an ambiguous number of objects like “at least one”, “one or more”, or “several”. Do not add subjective judgments about the image, it should be as factual as possible. Do not use fluffy, poetic language, or any words beyond the elementary school level.
 Respond only with the caption itself.'''
     #Respond “WRONG” and explain if the properties have obvious issues or conflicts, or if it is hard to realize them in an image. Otherwise, respond only with the caption itself.
+    else:
+        instructions = f'''Make up a human-annotated description of an image that describe the following properties (meaning you can infer these properties from the description):
+The image contains an invented object, that is obtained by the combination of "{head}" and "{modifier}".
+Describe the image in an objective and unbiased way. Keep the description clear and unambiguous, and synthesize the objects in a clever and clean way, so people can roughly picture the scene from your description.
+DO NOT introduce unnecessary objects and unnecessary descriptions of the objects beyond the given properties. Avoid any descriptions involving a group of objects, or an ambiguous number of objects like “at least one”, “one or more”, or “several”. Do not add subjective judgments about the image, it should be as factual as possible. Do not use fluffy, poetic language, or any words beyond the elementary school level.
+Respond only with the caption itself.'''
 
     url = "https://apifreellm.com/api/chat"
     headers = {
@@ -135,7 +143,7 @@ def main():
         features = list(combination_result.keys())
 
         # generate image
-        image_name = f"{head}_{modifier}_{cfg.PROMPT_ORIGIN}"
+        image_name = f"{head}_{modifier}{"_cocos" if cfg.USE_COCOS else ""}_{cfg.PROMPT_ORIGIN}"
         image_path = os.path.join(cfg.OUTPUT_DIR, image_name+".jpeg")
         prompt_path = os.path.join(cfg.PROMPT_DIR, image_name+".txt")
         if os.path.exists(image_path):

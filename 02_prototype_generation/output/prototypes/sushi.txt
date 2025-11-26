@@ -1,8 +1,0 @@
-japan: 0.867
-eating: 0.834
-dish: 0.829
-both_beautiful_and_delicious: 0.817
-japanese_food: 0.816
-very_popular_in_asian_cuisine: 0.816
-raw_fish: 0.792
-plate: 0.777

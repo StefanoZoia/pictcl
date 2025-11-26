@@ -1,8 +1,0 @@
-tool_box: 0.904
-tool_belt: 0.904
-unscrewing_screws: 0.894
-tool_box_or_junk_drawer: 0.868
-inserting_screw: 0.864
-toolbox: 0.861
-pry: 0.859
-junk_drawer: 0.842

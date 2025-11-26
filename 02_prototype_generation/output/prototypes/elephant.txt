@@ -1,8 +1,0 @@
-pachyderm: 0.909
-proboscidean: 0.887
-tusks: 0.878
-zoo: 0.854
-circus: 0.846
-africa: 0.845
-elephantidae: 0.836
-forget_to_go_on_paper: 0.827

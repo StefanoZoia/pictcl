@@ -1,0 +1,30 @@
+Title: rectangle-apple
+
+Head Concept Name: rectangle
+Modifier Concept Name: apple
+
+
+
+
+
+T(modifier), apple, 0.946
+T(modifier), pome, 0.894
+T(modifier), apple_tree, 0.887
+T(modifier), green, 0.886
+T(modifier), red, 0.876
+T(modifier), fall_from_tree, 0.87
+T(modifier), red_or_green, 0.855
+T(modifier), eating, 0.851
+
+T(head), parallelogram, 0.888
+T(head), shape, 0.859
+T(head), quadrangle, 0.841
+T(head), figure, 0.816
+T(head), geometry, 0.815
+T(head), geometric_figure, 0.807
+T(head), cyclic_quadrilateral, 0.765
+T(head), four_sided_figure, 0.749
+
+
+Result: {"apple": 0.946, "pome": 0.894, "apple_tree": 0.887, "green": 0.886, "red": 0.876, "parallelogram": 0.888, "@scenario_probability": 1.2615526289804557e-06}
+Scenario: [1, 1, 1, 1, 1, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 1.2615526289804557e-06]

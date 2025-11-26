@@ -1,8 +1,0 @@
-county_fair: 0.928
-cattle: 0.911
-dairy_farm: 0.908
-milking: 0.889
-barnyard: 0.884
-milking_stall: 0.883
-milking_barn: 0.883
-hamburger_meat: 0.883

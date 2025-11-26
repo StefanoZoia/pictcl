@@ -1,6 +1,0 @@
-otaku_sub_culture: 0.859
-comic_book_series: 0.85
-novel: 0.841
-comic: 0.839
-christianity: 0.749
-person: 0.708

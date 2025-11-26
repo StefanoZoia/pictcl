@@ -1,8 +1,0 @@
-artistic_movement: 0.835
-countenance: 0.7704
-dark: 0.7461
-movement: 0.7424999999999999
-demonstration: 0.7407
-genetics: 0.7389
-squeeze: 0.7353
-subexpression: 0.7308000000000001

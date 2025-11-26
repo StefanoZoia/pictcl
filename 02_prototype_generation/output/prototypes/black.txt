@@ -1,8 +1,0 @@
--white: 0.922
-achromatic_color: 0.859
-considered_timeless_color: 0.826
-man: 0.823
-chess: 0.811
-darker_color_than_white: 0.802
-become_white: 0.799
-clothing: 0.798

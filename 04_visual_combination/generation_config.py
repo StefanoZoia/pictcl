@@ -4,16 +4,21 @@
 COCOS_DIR = '../03_conceptual_combination/output'
 
 # path to the directory where the generated prompts are saved
-PROMPT_DIR = 'prompts'
+PROMPT_DIR = 'prompts-conceptmix'
 
 # path to the directory where the generated images are saved
-OUTPUT_DIR = 'output'
+OUTPUT_DIR = 'output-conceptmix'
 
 # select how to generate the template. Possible values: "llm" or "template"
-PROMPT_ORIGIN = 'llm'
+PROMPT_ORIGIN = 'template'
+
+# if False, the representation of the combined concepts is ignored
+USE_COCOS = True
 
 # template of the prompt to query the generative model
-PROMPT_TEMPLATE = 'Combine the concepts "{head}" and "{modifier}" to generate something new. Consider the following features: {features}.'
+PROMPT_TEMPLATE = 'Combine the concepts "{head}" and "{modifier}" to generate something new.'
+if USE_COCOS:
+    PROMPT_TEMPLATE += ' Consider the following features: {features}.'
 
 # Image generation options
 WIDTH = 500

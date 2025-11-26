@@ -1,8 +1,0 @@
-riding: 0.924
-equine: 0.922
-equestrian_competition: 0.912
-horse's_foot: 0.901
-horse_racing: 0.901
-kentucky_derby: 0.891
-horsemeat: 0.889
-harness_pulling_carriage: 0.888

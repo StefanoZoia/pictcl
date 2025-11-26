@@ -1,8 +1,0 @@
-giraffidae: 0.91
-male: 0.873
-zoo: 0.871
-ruminant: 0.853
-mammal: 0.824
-female: 0.824
-animal: 0.808
-drink_water: 0.791

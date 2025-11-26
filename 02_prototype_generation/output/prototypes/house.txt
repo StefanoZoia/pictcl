@@ -1,8 +1,0 @@
-dwelling: 0.886
-shelter: 0.864
-residential_area: 0.856
-home: 0.855
-protection_from_elements: 0.848
-family: 0.847
-cost_lot: 0.846
-suburbs: 0.838

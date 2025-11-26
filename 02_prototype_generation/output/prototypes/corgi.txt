@@ -1,2 +1,0 @@
-dog: 0.879
-breed_of_herding_dog: 0.794

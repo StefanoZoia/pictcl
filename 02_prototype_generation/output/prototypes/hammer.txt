@@ -1,8 +1,0 @@
-hammer: 0.974
-tool_box: 0.894
-whack: 0.889
-pounding_nails: 0.884
-hard: 0.882
-strike: 0.874
-tool: 0.87
-hit_nail: 0.867

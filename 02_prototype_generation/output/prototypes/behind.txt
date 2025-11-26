@@ -1,8 +1,0 @@
--front: 0.842
--in_front: 0.826
--ahead: 0.826
--in_front_of: 0.814
--before: 0.79
--fast: 0.763
-us: 0.76
-archaic: 0.751

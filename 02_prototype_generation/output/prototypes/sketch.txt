@@ -1,8 +1,0 @@
-drawing: 0.895
-draw: 0.873
-description: 0.84
-summary: 0.836
-describe: 0.826
-art: 0.822
-slang: 0.743
-ireland: 0.742

@@ -1,8 +1,0 @@
-silverware_drawer: 0.892
-scooping_food: 0.888
-utensil: 0.882
-stirring_coffee: 0.871
-eating: 0.869
-cutlery: 0.869
-mixing_ingredients: 0.866
-mixing_soup: 0.866

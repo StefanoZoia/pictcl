@@ -1,0 +1,30 @@
+Title: glass-cactus
+
+Head Concept Name: glass
+Modifier Concept Name: cactus
+
+
+
+
+
+T(modifier), desert, 0.885
+T(modifier), succulent, 0.866
+T(modifier), prickly_plant, 0.865
+T(modifier), survive_with_little_water, 0.82
+T(modifier), botany, 0.784
+T(modifier), holding_water, 0.782
+T(modifier), needle_person, 0.782
+T(modifier), australia, 0.758
+
+T(head), glass, 0.946
+T(head), glassware, 0.906
+T(head), drinking, 0.901
+T(head), recyclable, 0.893
+T(head), clear, 0.888
+T(head), ceramic, 0.877
+T(head), half_empty, 0.871
+T(head), very_fragile, 0.87
+
+
+Result: {"desert": 0.885, "glass": 0.946, "glassware": 0.906, "drinking": 0.901, "recyclable": 0.893, "clear": 0.888, "@scenario_probability": 9.042388677166986e-07}
+Scenario: [1, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 0, 0, 0, 9.042388677166986e-07]

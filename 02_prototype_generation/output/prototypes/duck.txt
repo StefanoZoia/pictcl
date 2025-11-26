@@ -1,8 +1,0 @@
-duck: 0.946
-webbed_feet: 0.909
-anseriform_bird: 0.877
-anatidae: 0.869
-poultry: 0.86
-waterfowl: 0.86
-dive: 0.83
-eat: 0.83

@@ -1,8 +1,0 @@
--above: 0.917
--upwards: 0.818
--beneath: 0.808
--aloft: 0.806
--over: 0.804
--under: 0.786
--upstairs: 0.783
--upstream: 0.779
