@@ -5,7 +5,7 @@ IMG_CONFIG_INFO = '../01_dataset_building/output/conceptmix_pairs.json'
 # path to the directory containing the conceptual combinations
 COCOS_DIR = '../03_conceptual_combination/output'
 # if False, the representation of the combined concepts is ignored
-USE_COCOS = False
+USE_COCOS = True
 
 # path to the directory where the refined jsons are saved
 REF_CONFIG_DIR = 'intermediate-gpt/refined-jsons' #NOTE: independent by the use of cocos

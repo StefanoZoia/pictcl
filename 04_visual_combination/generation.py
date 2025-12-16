@@ -199,9 +199,7 @@ def refine_info(img_info):
     
     return img_info
 
-# use LLM to generate a prompt for image generation
-def generate_t2i_prompt(img_info):
-
+def build_query_for_prompt(img_info):
     query_for_prompt = "Make up a human-annotated description of an image that describe the following properties (meaning you can infer these properties from the description):\n" 
     for description in img_info["descriptions"]:
         query_for_prompt += f"* {description}\n"
@@ -209,6 +207,12 @@ def generate_t2i_prompt(img_info):
     if "features" in img_info:
         query_for_prompt += f"If relevant, you can consider the following properties to enrich the prompt and make it more naturalistic: {", ".join(img_info["features"])}"
     query_for_prompt += "Describe the image in an objective and unbiased way. Keep the description clear and unambiguous, synthesize the objects in a clever and clean way, so people can roughly picture the scene from your description. DO NOT introduce unnecessary objects and unnecessary description of the objects beyond the given properties and JSON. If there is an interaction between two objects, make sure the two objects are distinguishable. Avoid any descriptions involving group of objects, or ambiguous number of objects like \"at least one\", \"one or more\", or \"several\". Do not add subjective judgments about the image, it should be as factual as possible. Do not use fluffy, poetic language, or any words beyond elementary school level. Respond \"WRONG\" and explain if the properties have obvious issues or conflicts, or if it is hard to realize them in an image. Otherwise, respond only with the caption itself. "
+    return query_for_prompt
+
+# use LLM to generate a prompt for image generation
+def generate_t2i_prompt(img_info):
+
+    query_for_prompt = build_query_for_prompt(img_info)
     #print(query_for_prompt)
 
     messages = [
@@ -240,6 +244,9 @@ def read_cocos_output(file_path):
     modifier = None
     combination_result = None
     
+    if not os.path.isfile(file_path):
+        return None
+    
     with open(file_path) as f:
         input_lines = f.readlines()
         # remove comments and void lines
@@ -261,10 +268,13 @@ def read_cocos_output(file_path):
             if line[0] == 'Result':
                 combination_result = json.loads(line[1])
         
+    if combination_result is None:
+        return None
+
     features = list(combination_result.keys())
     features.remove('@scenario_probability')
     features = [f.replace("-", "not ", 1) if f[0] == "-" else f for f in features]
-    features = features.replace("-", " ").replace("_", " ")
+    features = [f.replace("-", " ").replace("_", " ") for f in features]
 
     return features
 
@@ -291,35 +301,39 @@ def main():
     with open(cfg.IMG_CONFIG_INFO, encoding="utf-8") as configfile:
         img_config_info = json.loads(configfile.read())
 
+    os.makedirs(cfg.REF_CONFIG_DIR, exist_ok=True)
+    os.makedirs(cfg.PROMPT_DIR, exist_ok=True)
+    os.makedirs(cfg.IMAGE_DIR, exist_ok=True)
+
     for img in img_config_info:
         head = img["skills"][0]
         modifier = img["skills"][1]
 
-        # define image name
-        image_name = f"{head}_{modifier}"
 
-        os.makedirs(cfg.REF_CONFIG_DIR, exist_ok=True)
-        ref_config_path = os.path.join(cfg.REF_CONFIG_DIR, image_name+".json")
-        os.makedirs(cfg.PROMPT_DIR, exist_ok=True)
-        prompt_path = os.path.join(cfg.PROMPT_DIR, image_name+".txt")
-        os.makedirs(cfg.IMAGE_DIR, exist_ok=True)
-        image_path = os.path.join(cfg.IMAGE_DIR, image_name+".jpeg")
+        # define image name
+        image_name = f"{head.replace(" ", "-")}_{modifier.replace(" ", "-")}"
+        ref_config_path = f"{cfg.REF_CONFIG_DIR}/{image_name}.json"
+        prompt_path = f"{cfg.PROMPT_DIR}/{image_name}.txt"
+        image_path = f"{cfg.IMAGE_DIR}/{image_name}.jpeg"
         print(f'Working on image {image_name}.')
 
-        # refine the json description and the descriptions
-        refined_info = read_or_generate(ref_config_path, refine_info, img, save_textual_data)
-        print(f'Refined json info saved in {ref_config_path}.')
+        cocos_features = read_cocos_output(f'{cfg.COCOS_DIR}/{head}_{modifier}.txt')
+        if cfg.USE_COCOS and cocos_features is None:
+            print(f"skipping {image_name}: no Conceptal Combination results")
 
-        if cfg.USE_COCOS:
-            features = read_cocos_output(f'{cfg.COCOS_DIR}/{head}_{modifier}.txt')
-            refined_info["features"] = features
+        else:
+            # refine the json description and the descriptions
+            refined_info = read_or_generate(ref_config_path, refine_info, img, save_textual_data)
+            print(f'Refined json info saved in {ref_config_path}.')
+            if cfg.USE_COCOS:
+                refined_info["features"] = cocos_features
 
-        # read or generate the prompt
-        prompt = read_or_generate(prompt_path, generate_t2i_prompt, refined_info, save_textual_data)
-        print(f'T2I prompt saved to {prompt_path}.')
+            # read or generate the prompt
+            prompt = read_or_generate(prompt_path, generate_t2i_prompt, refined_info, save_textual_data)
+            print(f'T2I prompt saved to {prompt_path}.')
 
-        # read or generate the image
-        read_or_generate(image_path, generate_image, prompt, save_image)
+            # read or generate the image
+            read_or_generate(image_path, generate_image, prompt, save_image)
 
 
 

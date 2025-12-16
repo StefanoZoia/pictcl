@@ -3,7 +3,7 @@ import generation_config as cfg
 import os
 import json
 import time
-from generation import generate_text, read_or_generate, save_textual_data
+from generation import generate_text, read_or_generate, save_textual_data, build_query_for_prompt
 import base64
 from openai import OpenAI
 
@@ -99,15 +99,7 @@ def analyze_image(prompt, base64_image, max_tokens):
 def generate_questions(img_info):
     n = len(img_info["skills"])
 
-    #TODO: save query_for_prompt to avoid code duplication
-    query_for_prompt = "Make up a human-annotated description of an image that describe the following properties (meaning you can infer these properties from the description):\n" 
-    for description in img_info["descriptions"]:
-        query_for_prompt += f"* {description}\n"
-    query_for_prompt += "As a reference, I constructed a JSON containing all the information from the properties and some additional information that you should incorperate into your description:\n```json" + json.dumps(img_info["json_descr"]) + "```\n"
-    if "features" in img_info:
-        query_for_prompt += f"If relevant, you can consider the following properties to enrich the prompt and make it more naturalistic: {", ".join(img_info["features"])}"
-    query_for_prompt += "Describe the image in an objective and unbiased way. Keep the description clear and unambiguous, synthesize the objects in a clever and clean way, so people can roughly picture the scene from your description. DO NOT introduce unnecessary objects and unnecessary description of the objects beyond the given properties and JSON. If there is an interaction between two objects, make sure the two objects are distinguishable. Avoid any descriptions involving group of objects, or ambiguous number of objects like \"at least one\", \"one or more\", or \"several\". Do not add subjective judgments about the image, it should be as factual as possible. Do not use fluffy, poetic language, or any words beyond elementary school level. Respond \"WRONG\" and explain if the properties have obvious issues or conflicts, or if it is hard to realize them in an image. Otherwise, respond only with the caption itself. "
-    
+    query_for_prompt = build_query_for_prompt(img_info)
 
     if "json_descr" in img_info:
         question_generation = f"A student just draw a picture based on your description. Can you help me verify whether the student did a good job? Specifically, I want to know if the image follows your description and also follows the properties I mentioned earlier. You should ask me one yes or no question for each property, and I will tell you if they are satisfied. For example, for properties like \"the image contains one or more {img_info["skills"][0]}\", the corresponding question should be \"Does the image contain {img_info["skills"][0]}?\". Respond only the {n} questions, one for each property, in the same order of the properties, and each on a new line."
@@ -157,6 +149,9 @@ def evaluate_image(img_info):
 
 
 def main():
+    os.makedirs(cfg.QUESTIONS_DIR, exist_ok=True)
+    os.makedirs(cfg.SCORE_DIR, exist_ok=True)
+
     count_images = 0
     count_all_correct = 0
     count_questions = 0
@@ -168,8 +163,8 @@ def main():
         image_name = filename.split(".")[0]
         print(f'Working on image {image_name}.')
 
-        ref_config_path = os.path.join(cfg.REF_CONFIG_DIR, image_name+".json")
-        prompt_path = os.path.join(cfg.PROMPT_DIR, image_name+".txt")
+        ref_config_path = f"{cfg.REF_CONFIG_DIR}/{image_name}.json"
+        prompt_path = f"{cfg.PROMPT_DIR}/{image_name}.txt"
 
         # load image configuration data
         img_info = None
@@ -179,18 +174,16 @@ def main():
         with open(prompt_path, encoding="utf-8") as f:
             img_info["t2i_prompt"] = f.read()
 
-        os.makedirs(cfg.QUESTIONS_DIR, exist_ok=True)
-        questions_path = f"{os.path.join(cfg.QUESTIONS_DIR, image_name+".json")}"
+        questions_path = f"{f"{cfg.QUESTIONS_DIR}/{image_name}.json"}"
 
         # read or generate the questions
         questions = read_or_generate(questions_path, generate_questions, img_info, save_textual_data)
         questions = [q for q in questions if q.strip()]
         img_info["questions"] = questions
-        img_info["image_path"] = os.path.join(cfg.IMAGE_DIR, filename)
+        img_info["image_path"] = f"{cfg.IMAGE_DIR}/{filename}"
         print(f"Questions saved in {questions_path}.")
 
-        os.makedirs(cfg.SCORE_DIR, exist_ok=True)
-        score_path = os.path.join(cfg.SCORE_DIR, image_name+".json")
+        score_path = f"{cfg.SCORE_DIR}/{image_name}.json"
 
         img_info = read_or_generate(score_path, evaluate_image, img_info, save_textual_data)
         print(f"Final img info with scores saved in {score_path}.")
