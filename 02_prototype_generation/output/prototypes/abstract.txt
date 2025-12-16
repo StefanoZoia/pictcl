@@ -1,0 +1,8 @@
+summary: 0.856
+sum_up: 0.829
+see: 0.814
+consider: 0.809
+-concrete: 0.786
+fine_arts: 0.782
+patent: 0.781
+arts: 0.779

@@ -1,8 +1,0 @@
-type_of: 0.9
-cities: 0.888
-urban_areas: 0.879
-elevators: 0.876
-building: 0.87
-office_space: 0.865
-residences: 0.858
-tower: 0.852

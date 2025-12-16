@@ -1,8 +1,0 @@
-pinkish_thing: 0.875
-color: 0.871
-flower: 0.846
-pastel_color: 0.829
-flowers: 0.809
-colour: 0.803
-cut: 0.8
-chromatic_color: 0.79

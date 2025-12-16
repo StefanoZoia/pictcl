@@ -1,8 +1,0 @@
-apiary: 0.91
-sting: 0.897
-hymenopterous_insect: 0.883
-swarm: 0.883
-bee_tree: 0.882
-bee_hive: 0.879
-hive: 0.878
-hive_flower_field: 0.876

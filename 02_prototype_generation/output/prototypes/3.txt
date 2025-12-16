@@ -1,0 +1,8 @@
+three: 0.898
+-5: 0.897
+spelled_three: 0.815
+characters: 0.8
+higher_number_than_2: 0.738
+nuber: 0.735
+military: 0.73
+locomotive: 0.725

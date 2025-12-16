@@ -1,8 +1,0 @@
-four: 0.859
-number: 0.815
-equal_2_2: 0.803
-characters: 0.799
-text_messaging: 0.773
-slang: 0.761
-higher_number_than_3: 0.736
-locomotive: 0.735

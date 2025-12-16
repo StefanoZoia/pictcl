@@ -1,8 +1,0 @@
-author: 0.897
-fiction: 0.885
-book: 0.883
-writer: 0.878
-story: 0.861
-bookstore: 0.85
-read: 0.802
-classical_studies: 0.724

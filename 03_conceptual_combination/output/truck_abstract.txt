@@ -1,0 +1,30 @@
+Title: truck-abstract
+
+Head Concept Name: truck
+Modifier Concept Name: abstract
+
+
+
+
+
+T(modifier), summary, 0.856
+T(modifier), sum_up, 0.829
+T(modifier), see, 0.814
+T(modifier), consider, 0.809
+T(modifier), -concrete, 0.786
+T(modifier), fine_arts, 0.782
+T(modifier), patent, 0.781
+T(modifier), arts, 0.779
+
+T(head), vehicle, 0.902
+T(head), automobile, 0.874
+T(head), motor_vehicle, 0.869
+T(head), wheeled_vehicle, 0.861
+T(head), stabilizer_bar, 0.854
+T(head), garage, 0.85
+T(head), transport, 0.847
+T(head), vehicle_type, 0.845
+
+
+Result: {"summary": 0.856, "vehicle": 0.902, "automobile": 0.874, "motor_vehicle": 0.869, "wheeled_vehicle": 0.861, "stabilizer_bar": 0.854, "@scenario_probability": 2.103952829942691e-06}
+Scenario: [1, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 0, 0, 0, 2.103952829942691e-06]

@@ -1,8 +1,0 @@
-chicken: 0.946
-cross_road: 0.917
-poultry: 0.913
-meat: 0.874
-chicken_wing: 0.859
-tasty_when_fried_or_baked: 0.847
-lay_eggs: 0.845
-lay_egg: 0.845

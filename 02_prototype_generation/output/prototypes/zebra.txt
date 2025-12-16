@@ -1,8 +1,0 @@
-zoo: 0.867
-equine: 0.846
-animal: 0.812
-stripes: 0.802
-horse: 0.796
-herd_animal: 0.776
-mammal: 0.762
-sports: 0.754

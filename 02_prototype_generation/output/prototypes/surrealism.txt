@@ -1,2 +1,0 @@
-artistic_movement: 0.824
--reality: 0.725

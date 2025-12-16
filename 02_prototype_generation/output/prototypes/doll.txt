@@ -1,8 +1,0 @@
-dollshouse: 0.927
-plaything_for_cat: 0.918
-plaything_for_dog: 0.918
-toy: 0.897
-plaything: 0.883
-childs_play: 0.873
-doll_house: 0.873
-little_girls: 0.872

@@ -1,6 +1,0 @@
--diminutive: 0.825
--tiny: 0.809
-slang: 0.731
-space: 0.697
--minute: 0.693
-buildings: 0.683

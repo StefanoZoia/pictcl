@@ -1,8 +1,0 @@
-parallelogram: 0.888
-shape: 0.859
-quadrangle: 0.841
-figure: 0.816
-geometry: 0.815
-geometric_figure: 0.807
-cyclic_quadrilateral: 0.765
-four_sided_figure: 0.749
