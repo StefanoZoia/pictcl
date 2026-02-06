@@ -1,0 +1,8 @@
+.venv
+04_visual_combination/control_intermediate
+04_visual_combination/control_output
+04_visual_combination/intermediate
+04_visual_combination/intermediate/*
+04_visual_combination/output
+04_visual_combination/output/*
+05_evaluation/human_eval_results

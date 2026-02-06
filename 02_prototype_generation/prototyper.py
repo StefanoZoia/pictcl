@@ -90,7 +90,7 @@ def get_properties(concept, expand=True):
     if expand and (len(pos_dict) + len(neg_dict)) < cfg.MIN_PROP:
         # get each root concept's properties
         for root in root_concepts:
-            if rel.isRepresented(root) or rel.get_cn_rel_with_score(root):
+            if rel.isRepresented(root):#TODO rimosso per indisponibilità ConceptNet: or rel.get_cn_rel_with_score(root)
                 pos_expansion, neg_expansion = get_properties(root, expand=False)
                 # add root properties, applying a penalty
                 for p in pos_expansion:

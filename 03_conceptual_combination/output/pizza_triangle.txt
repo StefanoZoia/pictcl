@@ -1,0 +1,30 @@
+Title: pizza-triangle
+
+Head Concept Name: pizza
+Modifier Concept Name: triangle
+
+
+
+
+
+T(modifier), geometry, 0.906
+T(modifier), trigonometry, 0.89
+T(modifier), polygon, 0.87
+T(modifier), draw_line_at_angle, 0.86
+T(modifier), draw_straight_line, 0.86
+T(modifier), calculate_position_on_plan, 0.859
+T(modifier), musical_instrument, 0.856
+T(modifier), geometric_figure_with_three_sides, 0.855
+
+T(head), baked_in_oven, 0.922
+T(head), pizza_toppings, 0.849
+T(head), pizza_sauce, 0.849
+T(head), oven, 0.844
+T(head), popular, 0.838
+T(head), dish, 0.823
+T(head), flatbread, 0.822
+T(head), disc_shaped_food_item, 0.815
+
+
+Result: {"geometry": 0.906, "trigonometry": 0.89, "polygon": 0.87, "draw_line_at_angle": 0.86, "draw_straight_line": 0.86, "baked_in_oven": 0.922, "@scenario_probability": 4.7301334334254444e-07}
+Scenario: [1, 1, 1, 1, 1, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 4.7301334334254444e-07]

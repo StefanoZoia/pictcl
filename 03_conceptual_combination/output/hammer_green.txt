@@ -1,0 +1,30 @@
+Title: hammer-green
+
+Head Concept Name: hammer
+Modifier Concept Name: green
+
+
+
+
+
+T(modifier), primary_colour, 0.862
+T(modifier), environmentalist, 0.858
+T(modifier), color, 0.855
+T(modifier), -blue, 0.85
+T(modifier), colour, 0.844
+T(modifier), golf_course, 0.843
+T(modifier), peppers, 0.833
+T(modifier), -red, 0.828
+
+T(head), hammer, 0.974
+T(head), tool_box, 0.894
+T(head), whack, 0.889
+T(head), pounding_nails, 0.884
+T(head), hard, 0.882
+T(head), strike, 0.874
+T(head), tool, 0.87
+T(head), hit_nail, 0.867
+
+
+Result: {"primary_colour": 0.862, "hammer": 0.974, "tool_box": 0.894, "whack": 0.889, "pounding_nails": 0.884, "hard": 0.882, "@scenario_probability": 2.4626838679026937e-07}
+Scenario: [1, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 0, 0, 0, 2.4626838679026937e-07]

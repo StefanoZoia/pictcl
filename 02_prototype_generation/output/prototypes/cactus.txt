@@ -1,8 +1,0 @@
-desert: 0.885
-succulent: 0.866
-prickly_plant: 0.865
-survive_with_little_water: 0.82
-botany: 0.784
-holding_water: 0.782
-needle_person: 0.782
-australia: 0.758

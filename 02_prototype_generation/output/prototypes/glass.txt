@@ -1,0 +1,8 @@
+glass: 0.946
+glassware: 0.906
+drinking: 0.901
+recyclable: 0.893
+clear: 0.888
+ceramic: 0.877
+half_empty: 0.871
+very_fragile: 0.87

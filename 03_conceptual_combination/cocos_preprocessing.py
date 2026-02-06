@@ -59,6 +59,8 @@ def write_cocos_file(head, modifier):
 
 
 def main():
+    os.makedirs(cfg.COCOS_DIR, exist_ok=True)
+
     # remove old prototype files
     for filename in os.listdir(cfg.COCOS_DIR):
         file_path = os.path.join(cfg.COCOS_DIR, filename)

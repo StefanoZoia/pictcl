@@ -85,8 +85,9 @@ def save_textual_data(data, filepath):
     # Writing the content to a new file
     if isinstance(data, (dict, list)):
         data = json.dumps(data) 
-    with open(filepath, 'x') as file:
-        file.write(data)
+    if data:
+        with open(filepath, 'x', encoding='utf-8') as file:
+            file.write(data)
 
 def pollinations_generate_text(messages):
     payload = {
@@ -220,8 +221,8 @@ def generate_t2i_prompt(img_info):
     ]
     sentence = generate_text(messages)
     if sentence.startswith("WRONG"):
-        print("sentence:", sentence)
-        raise ValueError(f"Prompt generation returned:\n{sentence}")
+        print(f"Prompt generation returned:\n{sentence}")
+        return None
     
     verification = "Could you read your caption again and verify if it makes sense in a very loose sense (e.g., a person cannot be triangle shaped, but a cloud can be square-shaped and a tree can be rectangle-shaped)? If yes, respond with the exact same caption. If not, respond with \"WRONG\" and explain why."
     messages = [
@@ -232,9 +233,31 @@ def generate_t2i_prompt(img_info):
     t2i_prompt = generate_text(messages)
 
     if t2i_prompt.startswith("WRONG"):
-        print("sentence:", sentence)
-        raise ValueError(f"Prompt validation returned:\n{sentence}")
+        print(f"Prompt generation returned:\n{t2i_prompt}")
+        return None
     
+    return t2i_prompt
+
+# prompt for object-object combinations
+def ooc_query_for_prompt(img_info):
+    query_for_prompt = f'Make up a human-annotated description of an image that shows a single invented object created by combining "{img_info["skills"][0]}" and "{img_info["skills"][1]}". The description must make it possible to identify both original objects from the combined form.\n'
+    query_for_prompt += 'Describe the image in an objective and unbiased way. Keep the description clear and unambiguous, and synthesize the object in a clever and clean way, so people can roughly picture the scene from your description. DO NOT introduce unnecessary objects and unnecessary descriptions of the objects beyond the given properties. Avoid any descriptions involving a group of objects, or an ambiguous number of objects like "at least one", "one or more", or "several". Do not add subjective judgments about the image, it should be as factual as possible. Do not use fluffy, poetic language, or any words beyond the elementary school level. Respond only with the caption itself.\n'
+    if "features" in img_info:
+        query_for_prompt += f"If relevant, you can consider the following properties to enrich the prompt and make it more naturalistic: {", ".join(img_info["features"])}"
+
+    return query_for_prompt
+
+# use LLM to generate a prompt for (object-object combination) image generation
+def ooc_t2i_prompt(img_info):
+
+    query_for_prompt = ooc_query_for_prompt(img_info)
+    #print(query_for_prompt)
+
+    messages = [
+        {"role": "user", "content": query_for_prompt}
+    ]
+    t2i_prompt = generate_text(messages)
+
     return t2i_prompt
 
 
@@ -247,7 +270,7 @@ def read_cocos_output(file_path):
     if not os.path.isfile(file_path):
         return None
     
-    with open(file_path) as f:
+    with open(file_path, encoding="utf-8") as f:
         input_lines = f.readlines()
         # remove comments and void lines
         input_lines = [x.strip() for x in input_lines 
@@ -309,31 +332,44 @@ def main():
         head = img["skills"][0]
         modifier = img["skills"][1]
 
-
         # define image name
-        image_name = f"{head.replace(" ", "-")}_{modifier.replace(" ", "-")}"
+        image_name = f"_{'ooc_' if cfg.IS_COMBINATION else ''}{head.replace(" ", "-")}_{modifier.replace(" ", "-")}"
+        
         ref_config_path = f"{cfg.REF_CONFIG_DIR}/{image_name}.json"
         prompt_path = f"{cfg.PROMPT_DIR}/{image_name}.txt"
         image_path = f"{cfg.IMAGE_DIR}/{image_name}.jpeg"
-        print(f'Working on image {image_name}.')
+        print(f'\nWorking on image {image_name}.')
 
         cocos_features = read_cocos_output(f'{cfg.COCOS_DIR}/{head}_{modifier}.txt')
         if cfg.USE_COCOS and cocos_features is None:
             print(f"skipping {image_name}: no Conceptal Combination results")
 
         else:
-            # refine the json description and the descriptions
-            refined_info = read_or_generate(ref_config_path, refine_info, img, save_textual_data)
+            # refine the json description (or keep the original for object-object combinations)
+            refined_info = None
+            if cfg.IS_COMBINATION:
+                refined_info = read_or_generate(ref_config_path, lambda x : x, img, save_textual_data)
+            else:
+                refined_info = read_or_generate(ref_config_path, refine_info, img, save_textual_data)
             print(f'Refined json info saved in {ref_config_path}.')
+            
             if cfg.USE_COCOS:
                 refined_info["features"] = cocos_features
 
             # read or generate the prompt
-            prompt = read_or_generate(prompt_path, generate_t2i_prompt, refined_info, save_textual_data)
-            print(f'T2I prompt saved to {prompt_path}.')
+            prompt = None
+            if cfg.IS_COMBINATION:
+                prompt = read_or_generate(prompt_path, ooc_t2i_prompt, refined_info, save_textual_data)
+            else:
+                prompt = read_or_generate(prompt_path, generate_t2i_prompt, refined_info, save_textual_data)
 
-            # read or generate the image
-            read_or_generate(image_path, generate_image, prompt, save_image)
+            if prompt is None:
+                print("Skipping image generation.")
+            else:
+                print(f'T2I prompt saved to {prompt_path}.')
+
+                # read or generate the image
+                read_or_generate(image_path, generate_image, prompt, save_image)
 
 
 
