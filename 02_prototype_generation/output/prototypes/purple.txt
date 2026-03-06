@@ -1,8 +1,0 @@
-color: 0.882
-violet: 0.868
-discolor: 0.85
-colour: 0.84
-nobility: 0.814
-chromatic_color: 0.805
-roman_catholic: 0.799
-ecclesiastical_attire: 0.797

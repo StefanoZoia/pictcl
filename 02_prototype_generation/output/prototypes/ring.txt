@@ -1,8 +1,0 @@
-bath_tub: 0.87
-jewelry: 0.87
-wearing: 0.869
-toroid: 0.868
-engage: 0.862
-piece_of_jewelry: 0.849
-doorbell: 0.846
-finger: 0.842

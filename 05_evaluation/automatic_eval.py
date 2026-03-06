@@ -9,7 +9,7 @@ BASELINE_SCORE_DIR = "../04_visual_combination/output/scores"
 COCOS_IMAGE_DIR = "../04_visual_combination/output/cocos_images"
 COCOS_SCORE_DIR = "../04_visual_combination/output/cocos_scores"
 
-USE_COCOS = True
+USE_COCOS = False
 
 # check that the call to LLM has already been done and return its result
 def read_json_file(path):
@@ -18,7 +18,9 @@ def read_json_file(path):
         with open(path, encoding="utf-8") as f:
             return json.loads(f.read())
     else:
-        raise FileNotFoundError(f"Missing file at {path}: check your path and run auto_score.py first")
+        #raise FileNotFoundError(f"Missing file at {path}: check your path and run auto_score.py first")
+        print(f"Missing file at {path}: check your path and run auto_score.py first")
+        return None
 
 def list_images(path):
     return {
@@ -46,9 +48,10 @@ def main():
         score_path = f"{score_dir}/{image_name}.json"
         img_info = read_json_file(score_path)
 
-        # add image's individual question scores to the lists
-        concept_fraction_score.extend(img_info["scores"])
-        full_mark_score.append(np.min(img_info["scores"]))
+        if img_info:
+            # add image's individual question scores to the lists
+            concept_fraction_score.extend(img_info["scores"])
+            full_mark_score.append(np.min(img_info["scores"]))
         
     # compute overall scores with CI
     print(f"Evaluated images: {len(full_mark_score)}")
@@ -63,7 +66,8 @@ def main():
         random_state = 322026
     )
     plus_minus = (ci[1][1] - ci[1][0]) / 2 
-    print(f"Proportion of perfect-scoring images: {np.mean(full_mark_score):.2f} ±{plus_minus:.2f}")
+    print(f"Perfect-scoring images: {np.sum(full_mark_score):.4f} / {len(full_mark_score)}")
+    print(f"Proportion of perfect-scoring images: {np.mean(full_mark_score):.4f} ±{plus_minus:.4f}")
 
     ci = bootstrap_ci(
         y_true = np.ones(len(concept_fraction_score)),
@@ -74,7 +78,8 @@ def main():
         random_state = 322026
     )
     plus_minus = (ci[1][1] - ci[1][0]) / 2 
-    print(f"Average score per image: {np.mean(concept_fraction_score):.2f} ±{plus_minus:.2f}")
+    print(f"Perfect-scoring images: {np.sum(concept_fraction_score):.4f} / {len(concept_fraction_score)}")
+    print(f"Average score per image: {np.mean(concept_fraction_score):.4f} ±{plus_minus:.4f}")
 
 
 

@@ -1,8 +1,0 @@
-geometry: 0.906
-trigonometry: 0.89
-polygon: 0.87
-draw_line_at_angle: 0.86
-draw_straight_line: 0.86
-calculate_position_on_plan: 0.859
-musical_instrument: 0.856
-geometric_figure_with_three_sides: 0.855

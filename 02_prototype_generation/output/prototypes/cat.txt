@@ -1,8 +1,0 @@
-meow: 0.94
-miaow: 0.938
-pet: 0.925
-humane_society: 0.901
-humane_shelter: 0.901
-companion_to_humans: 0.888
--dog: 0.888
-companionship: 0.887

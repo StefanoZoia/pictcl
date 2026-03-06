@@ -1,8 +1,0 @@
-rectangle: 0.886
-checkerboard: 0.842
--circle: 0.84
-geometry: 0.836
-quadrilateral: 0.833
-shape: 0.832
-measuring_wood: 0.824
-form: 0.822

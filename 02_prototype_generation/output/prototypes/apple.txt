@@ -1,8 +1,0 @@
-apple: 0.946
-pome: 0.894
-apple_tree: 0.887
-green: 0.886
-red: 0.876
-fall_from_tree: 0.87
-red_or_green: 0.855
-eating: 0.851

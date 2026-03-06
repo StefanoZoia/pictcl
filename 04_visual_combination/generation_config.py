@@ -7,7 +7,7 @@ COCOS_DIR = '../03_conceptual_combination/output'
 # set to True for object-object combination, False for normal ConceptMix image compositions
 IS_COMBINATION = False
 # if True, read and use the representation of the combined concepts by TCL
-USE_COCOS = False
+USE_COCOS = True
 
 # path to the directory where the refined jsons are saved
 REF_CONFIG_DIR = 'control_intermediate/refined-jsons' #NOTE: independent by the use of cocos

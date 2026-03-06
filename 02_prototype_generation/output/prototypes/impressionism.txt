@@ -1,4 +1,0 @@
-artistic_movement: 0.828
-arts: 0.82
-poetry: 0.772
-music_genre: 0.771

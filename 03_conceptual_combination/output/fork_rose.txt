@@ -1,0 +1,30 @@
+Title: fork-rose
+
+Head Concept Name: fork
+Modifier Concept Name: rose
+
+
+
+
+
+T(modifier), pink, 0.868
+T(modifier), red, 0.86
+T(modifier), flower_room, 0.854
+T(modifier), thorns, 0.837
+T(modifier), flower, 0.827
+T(modifier), shrub, 0.826
+T(modifier), garden, 0.796
+T(modifier), smell_nice, 0.786
+
+T(head), cutlery, 0.867
+T(head), picking_up_food, 0.852
+T(head), prongs, 0.851
+T(head), silverware_drawer, 0.851
+T(head), eating_food, 0.85
+T(head), road, 0.847
+T(head), eat_dinner, 0.847
+T(head), eat_meal, 0.847
+
+
+Result: {"pink": 0.868, "red": 0.86, "flower_room": 0.854, "cutlery": 0.867, "picking_up_food": 0.852, "silverware_drawer": 0.851, "@scenario_probability": 6.871364960570249e-07}
+Scenario: [1, 1, 1, 0, 0, 0, 0, 0, 1, 1, 0, 1, 0, 0, 0, 0, 6.871364960570249e-07]

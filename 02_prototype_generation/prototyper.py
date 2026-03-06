@@ -11,6 +11,7 @@ from nltk.stem import WordNetLemmatizer
 import nltk
 nltk.download('wordnet')
 
+cn_is_live = True
 
 # compute a score for the relation
 def compute_score(main_concept, start, rel, end, weight, relatedness):
@@ -90,7 +91,7 @@ def get_properties(concept, expand=True):
     if expand and (len(pos_dict) + len(neg_dict)) < cfg.MIN_PROP:
         # get each root concept's properties
         for root in root_concepts:
-            if rel.isRepresented(root):#TODO rimosso per indisponibilità ConceptNet: or rel.get_cn_rel_with_score(root)
+            if rel.isRepresented(root) or rel.get_cn_rel_with_score(root, cn_is_live):
                 pos_expansion, neg_expansion = get_properties(root, expand=False)
                 # add root properties, applying a penalty
                 for p in pos_expansion:
@@ -146,6 +147,8 @@ def main():
         except Exception as e:
             print(f'Failed to delete {file_path}. Reason: {e}')
 
+    global cn_is_live
+    cn_is_live = rel.cn_api_online()
 
     with open(cfg.OUT_FILE, 'w', newline='', encoding='utf-8') as outputfile:
         with open(cfg.INTERMEDIATE_FILE, newline='', encoding='utf-8') as feed:

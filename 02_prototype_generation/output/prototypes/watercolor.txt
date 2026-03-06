@@ -1,7 +1,0 @@
-painting: 0.899
-art_supply: 0.853
-pigment: 0.848
-paint: 0.838
-water_base_paint: 0.833
-arts: 0.798
-aqua_medium_artists_use: 0.756

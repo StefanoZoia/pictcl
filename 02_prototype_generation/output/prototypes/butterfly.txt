@@ -1,8 +1,0 @@
-lepidopterous_insect: 0.906
-cocoon: 0.902
-fly: 0.885
-insect: 0.878
-flit: 0.851
--related_to_piano: 0.844
-swimming_stroke: 0.815
-unfold: 0.814
