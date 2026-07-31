@@ -138,3 +138,9 @@ Computes the evaluation metrics.
 To compute the automatic evaluation metrics: <code>python automatic_eval.py</code>
 
 To compute the human evaluation metrics: <code>python human_eval.py</code>
+
+---
+
+## Contact
+
+Stefano Zoia: stefano.zoia@unito.it
