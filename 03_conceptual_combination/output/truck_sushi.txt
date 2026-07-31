@@ -1,0 +1,30 @@
+Title: truck-sushi
+
+Head Concept Name: truck
+Modifier Concept Name: sushi
+
+
+
+
+
+T(modifier), japan, 0.867
+T(modifier), eating, 0.834
+T(modifier), dish, 0.829
+T(modifier), both_beautiful_and_delicious, 0.817
+T(modifier), japanese_food, 0.816
+T(modifier), very_popular_in_asian_cuisine, 0.816
+T(modifier), raw_fish, 0.792
+T(modifier), plate, 0.777
+
+T(head), vehicle, 0.902
+T(head), automobile, 0.874
+T(head), motor_vehicle, 0.869
+T(head), wheeled_vehicle, 0.861
+T(head), stabilizer_bar, 0.854
+T(head), garage, 0.85
+T(head), transport, 0.847
+T(head), vehicle_type, 0.845
+
+
+Result: {"japan": 0.867, "vehicle": 0.902, "automobile": 0.874, "motor_vehicle": 0.869, "wheeled_vehicle": 0.861, "stabilizer_bar": 0.854, "@scenario_probability": 1.2673348760697972e-06}
+Scenario: [1, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 0, 0, 0, 1.2673348760697972e-06]

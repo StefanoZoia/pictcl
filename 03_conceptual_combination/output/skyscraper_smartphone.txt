@@ -1,0 +1,26 @@
+Title: skyscraper-smartphone
+
+Head Concept Name: skyscraper
+Modifier Concept Name: smartphone
+
+
+
+
+
+T(modifier), mobile_phone, 0.871
+T(modifier), cellular_telephone, 0.868
+T(modifier), cellular_phone, 0.864
+T(modifier), palmtop_computer, 0.834
+
+T(head), type_of, 0.9
+T(head), cities, 0.888
+T(head), urban_areas, 0.879
+T(head), elevators, 0.876
+T(head), building, 0.87
+T(head), office_space, 0.865
+T(head), residences, 0.858
+T(head), tower, 0.852
+
+
+Result: {"mobile_phone": 0.871, "type_of": 0.9, "cities": 0.888, "urban_areas": 0.879, "elevators": 0.876, "building": 0.87, "@scenario_probability": 0.0003942671740008479}
+Scenario: [1, 0, 0, 0, 1, 1, 1, 1, 1, 0, 0, 0, 0.0003942671740008479]

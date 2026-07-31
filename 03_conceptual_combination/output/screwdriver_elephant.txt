@@ -1,0 +1,30 @@
+Title: screwdriver-elephant
+
+Head Concept Name: screwdriver
+Modifier Concept Name: elephant
+
+
+
+
+
+T(modifier), pachyderm, 0.909
+T(modifier), proboscidean, 0.887
+T(modifier), tusks, 0.878
+T(modifier), zoo, 0.854
+T(modifier), circus, 0.846
+T(modifier), africa, 0.845
+T(modifier), elephantidae, 0.836
+T(modifier), forget_to_go_on_paper, 0.827
+
+T(head), tool_box, 0.904
+T(head), tool_belt, 0.904
+T(head), unscrewing_screws, 0.894
+T(head), tool_box_or_junk_drawer, 0.868
+T(head), inserting_screw, 0.864
+T(head), toolbox, 0.861
+T(head), pry, 0.859
+T(head), junk_drawer, 0.842
+
+
+Result: {"pachyderm": 0.909, "proboscidean": 0.887, "tusks": 0.878, "tool_box": 0.904, "tool_belt": 0.904, "unscrewing_screws": 0.894, "@scenario_probability": 2.842859942670736e-07}
+Scenario: [1, 1, 1, 0, 0, 0, 0, 0, 1, 1, 1, 0, 0, 0, 0, 0, 2.842859942670736e-07]

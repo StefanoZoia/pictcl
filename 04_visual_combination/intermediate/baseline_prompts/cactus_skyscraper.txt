@@ -1,0 +1,1 @@
+A cactus (id 1) stands in the foreground, with a skyscraper (id 2) rising in the background behind it.

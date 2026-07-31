@@ -1,0 +1,29 @@
+Title: giraffe-inside
+
+Head Concept Name: giraffe
+Modifier Concept Name: inside
+
+
+
+
+
+T(modifier), -outside, 0.898
+T(modifier), interior, 0.857
+T(modifier), surface, 0.811
+T(modifier), region, 0.798
+T(modifier), uk, 0.764
+T(modifier), -out, 0.764
+T(modifier), -find_outside, 0.69
+
+T(head), giraffidae, 0.91
+T(head), male, 0.873
+T(head), zoo, 0.871
+T(head), ruminant, 0.853
+T(head), mammal, 0.824
+T(head), female, 0.824
+T(head), animal, 0.808
+T(head), drink_water, 0.791
+
+
+Result: {"-outside": 0.898, "interior": 0.857, "giraffidae": 0.91, "male": 0.873, "zoo": 0.871, "ruminant": 0.853, "@scenario_probability": 3.721788628638401e-05}
+Scenario: [1, 1, 0, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0, 0, 0, 3.721788628638401e-05]

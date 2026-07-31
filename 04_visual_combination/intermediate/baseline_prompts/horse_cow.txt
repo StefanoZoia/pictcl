@@ -1,0 +1,1 @@
+A horse (id 1) stands on the left side of the image, and a cow (id 2) stands on the right side of the image.

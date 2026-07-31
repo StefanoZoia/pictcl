@@ -1,0 +1,1 @@
+A house (id 1) is shown with a chicken (id 2) standing on the ground in front of it.

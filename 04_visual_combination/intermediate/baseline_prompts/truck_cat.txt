@@ -1,0 +1,1 @@
+A truck (id 1) is parked, and a cat (id 2) is sitting on the ground next to the truck.

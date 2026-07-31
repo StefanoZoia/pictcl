@@ -1,0 +1,1 @@
+A sushi (id 2) is placed in front of a pine tree (id 1).

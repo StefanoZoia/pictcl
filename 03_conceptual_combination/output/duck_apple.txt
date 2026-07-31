@@ -1,0 +1,30 @@
+Title: duck-apple
+
+Head Concept Name: duck
+Modifier Concept Name: apple
+
+
+
+
+
+T(modifier), apple, 0.946
+T(modifier), pome, 0.894
+T(modifier), apple_tree, 0.887
+T(modifier), green, 0.886
+T(modifier), red, 0.876
+T(modifier), fall_from_tree, 0.87
+T(modifier), red_or_green, 0.855
+T(modifier), eating, 0.851
+
+T(head), duck, 0.946
+T(head), webbed_feet, 0.909
+T(head), anseriform_bird, 0.877
+T(head), anatidae, 0.869
+T(head), poultry, 0.86
+T(head), waterfowl, 0.86
+T(head), dive, 0.83
+T(head), eat, 0.83
+
+
+Result: {"apple": 0.946, "pome": 0.894, "apple_tree": 0.887, "green": 0.886, "duck": 0.946, "webbed_feet": 0.909, "@scenario_probability": 1.816731079385557e-07}
+Scenario: [1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 0, 0, 0, 0, 0, 0, 1.816731079385557e-07]

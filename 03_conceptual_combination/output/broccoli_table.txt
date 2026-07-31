@@ -1,0 +1,30 @@
+Title: broccoli-table
+
+Head Concept Name: broccoli
+Modifier Concept Name: table
+
+
+
+
+
+T(modifier), drawing_on, 0.883
+T(modifier), dining, 0.881
+T(modifier), dining_room, 0.877
+T(modifier), eating_off_of, 0.869
+T(modifier), read, 0.868
+T(modifier), resturant, 0.862
+T(modifier), tabletop, 0.861
+T(modifier), kitchen, 0.856
+
+T(head), broccoli, 0.946
+T(head), crucifer, 0.894
+T(head), cruciferous_vegetable, 0.886
+T(head), green, 0.858
+T(head), green_vegetable, 0.839
+T(head), vegetable_people_may_cook, 0.829
+T(head), very_nutritious, 0.824
+T(head), plate, 0.764
+
+
+Result: {"drawing_on": 0.883, "dining": 0.881, "dining_room": 0.877, "broccoli": 0.946, "crucifer": 0.894, "cruciferous_vegetable": 0.886, "@scenario_probability": 3.9649269443259027e-07}
+Scenario: [1, 1, 1, 0, 0, 0, 0, 0, 1, 1, 1, 0, 0, 0, 0, 0, 3.9649269443259027e-07]

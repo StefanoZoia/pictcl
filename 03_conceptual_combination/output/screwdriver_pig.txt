@@ -1,0 +1,30 @@
+Title: screwdriver-pig
+
+Head Concept Name: screwdriver
+Modifier Concept Name: pig
+
+
+
+
+
+T(modifier), pigsty, 0.848
+T(modifier), find_truffles, 0.843
+T(modifier), find_truffle, 0.843
+T(modifier), -hog, 0.818
+T(modifier), ingot, 0.812
+T(modifier), live, 0.805
+T(modifier), pen, 0.792
+T(modifier), mud, 0.785
+
+T(head), tool_box, 0.904
+T(head), tool_belt, 0.904
+T(head), unscrewing_screws, 0.894
+T(head), tool_box_or_junk_drawer, 0.868
+T(head), inserting_screw, 0.864
+T(head), toolbox, 0.861
+T(head), pry, 0.859
+T(head), junk_drawer, 0.842
+
+
+Result: {"pigsty": 0.848, "tool_box": 0.904, "tool_belt": 0.904, "unscrewing_screws": 0.894, "tool_box_or_junk_drawer": 0.868, "inserting_screw": 0.864, "@scenario_probability": 1.0581802409411343e-06}
+Scenario: [1, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 0, 0, 0, 1.0581802409411343e-06]

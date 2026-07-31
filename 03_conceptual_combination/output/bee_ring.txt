@@ -1,0 +1,30 @@
+Title: bee-ring
+
+Head Concept Name: bee
+Modifier Concept Name: ring
+
+
+
+
+
+T(modifier), bath_tub, 0.87
+T(modifier), jewelry, 0.87
+T(modifier), wearing, 0.869
+T(modifier), toroid, 0.868
+T(modifier), engage, 0.862
+T(modifier), piece_of_jewelry, 0.849
+T(modifier), doorbell, 0.846
+T(modifier), finger, 0.842
+
+T(head), apiary, 0.91
+T(head), sting, 0.897
+T(head), hymenopterous_insect, 0.883
+T(head), swarm, 0.883
+T(head), bee_tree, 0.882
+T(head), bee_hive, 0.879
+T(head), hive, 0.878
+T(head), hive_flower_field, 0.876
+
+
+Result: {"jewelry": 0.87, "apiary": 0.91, "sting": 0.897, "hymenopterous_insect": 0.883, "swarm": 0.883, "bee_tree": 0.882, "@scenario_probability": 1.0189019351558274e-07}
+Scenario: [0, 1, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 0, 0, 0, 1.0189019351558274e-07]

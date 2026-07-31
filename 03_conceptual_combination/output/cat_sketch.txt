@@ -1,0 +1,30 @@
+Title: cat-sketch
+
+Head Concept Name: cat
+Modifier Concept Name: sketch
+
+
+
+
+
+T(modifier), drawing, 0.895
+T(modifier), draw, 0.873
+T(modifier), description, 0.84
+T(modifier), summary, 0.836
+T(modifier), describe, 0.826
+T(modifier), art, 0.822
+T(modifier), slang, 0.743
+T(modifier), ireland, 0.742
+
+T(head), meow, 0.94
+T(head), miaow, 0.938
+T(head), pet, 0.925
+T(head), humane_society, 0.901
+T(head), humane_shelter, 0.901
+T(head), companion_to_humans, 0.888
+T(head), -dog, 0.888
+T(head), companionship, 0.887
+
+
+Result: {"drawing": 0.895, "meow": 0.94, "miaow": 0.938, "pet": 0.925, "humane_society": 0.901, "humane_shelter": 0.901, "@scenario_probability": 5.748428876763822e-07}
+Scenario: [1, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 0, 0, 0, 5.748428876763822e-07]

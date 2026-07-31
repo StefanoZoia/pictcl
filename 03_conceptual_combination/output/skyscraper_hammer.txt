@@ -1,0 +1,30 @@
+Title: skyscraper-hammer
+
+Head Concept Name: skyscraper
+Modifier Concept Name: hammer
+
+
+
+
+
+T(modifier), hammer, 0.974
+T(modifier), tool_box, 0.894
+T(modifier), whack, 0.889
+T(modifier), pounding_nails, 0.884
+T(modifier), hard, 0.882
+T(modifier), strike, 0.874
+T(modifier), tool, 0.87
+T(modifier), hit_nail, 0.867
+
+T(head), type_of, 0.9
+T(head), cities, 0.888
+T(head), urban_areas, 0.879
+T(head), elevators, 0.876
+T(head), building, 0.87
+T(head), office_space, 0.865
+T(head), residences, 0.858
+T(head), tower, 0.852
+
+
+Result: {"hammer": 0.974, "tool_box": 0.894, "whack": 0.889, "pounding_nails": 0.884, "type_of": 0.9, "cities": 0.888, "@scenario_probability": 7.780146209946691e-08}
+Scenario: [1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 0, 0, 0, 0, 0, 0, 7.780146209946691e-08]

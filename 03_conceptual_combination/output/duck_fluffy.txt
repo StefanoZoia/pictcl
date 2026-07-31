@@ -1,0 +1,24 @@
+Title: duck-fluffy
+
+Head Concept Name: duck
+Modifier Concept Name: fluffy
+
+
+
+
+
+T(modifier), nz, 0.75
+T(modifier), clouds, 0.745
+
+T(head), duck, 0.946
+T(head), webbed_feet, 0.909
+T(head), anseriform_bird, 0.877
+T(head), anatidae, 0.869
+T(head), poultry, 0.86
+T(head), waterfowl, 0.86
+T(head), dive, 0.83
+T(head), eat, 0.83
+
+
+Result: {"nz": 0.75, "duck": 0.946, "webbed_feet": 0.909, "anseriform_bird": 0.877, "anatidae": 0.869, "poultry": 0.86, "@scenario_probability": 0.0436114135018224}
+Scenario: [1, 0, 1, 1, 1, 1, 1, 0, 0, 0, 0.0436114135018224]

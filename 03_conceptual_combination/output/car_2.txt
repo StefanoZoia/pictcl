@@ -1,0 +1,30 @@
+Title: car-2
+
+Head Concept Name: car
+Modifier Concept Name: 2
+
+
+
+
+
+T(modifier), two, 0.94
+T(modifier), spelled_two, 0.816
+T(modifier), number, 0.81
+T(modifier), text_messaging, 0.773
+T(modifier), prime_number, 0.746
+T(modifier), computing, 0.739
+T(modifier), higher_number_than_1, 0.735
+T(modifier), historical, 0.734
+
+T(head), car_factory_like_toyota, 0.925
+T(head), car_dealership, 0.917
+T(head), vehicle, 0.914
+T(head), car_show, 0.899
+T(head), motor_vehicle, 0.897
+T(head), drive, 0.892
+T(head), tire, 0.875
+T(head), car_door, 0.875
+
+
+Result: {"two": 0.94, "car_factory_like_toyota": 0.925, "car_dealership": 0.917, "vehicle": 0.914, "car_show": 0.899, "motor_vehicle": 0.897, "@scenario_probability": 3.6777317554496018e-06}
+Scenario: [1, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 0, 0, 0, 3.6777317554496018e-06]

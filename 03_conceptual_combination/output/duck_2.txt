@@ -1,0 +1,30 @@
+Title: duck-2
+
+Head Concept Name: duck
+Modifier Concept Name: 2
+
+
+
+
+
+T(modifier), two, 0.94
+T(modifier), spelled_two, 0.816
+T(modifier), number, 0.81
+T(modifier), text_messaging, 0.773
+T(modifier), prime_number, 0.746
+T(modifier), computing, 0.739
+T(modifier), higher_number_than_1, 0.735
+T(modifier), historical, 0.734
+
+T(head), duck, 0.946
+T(head), webbed_feet, 0.909
+T(head), anseriform_bird, 0.877
+T(head), anatidae, 0.869
+T(head), poultry, 0.86
+T(head), waterfowl, 0.86
+T(head), dive, 0.83
+T(head), eat, 0.83
+
+
+Result: {"two": 0.94, "duck": 0.946, "webbed_feet": 0.909, "anseriform_bird": 0.877, "anatidae": 0.869, "waterfowl": 0.86, "@scenario_probability": 7.949239619027346e-06}
+Scenario: [1, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 0, 1, 0, 0, 7.949239619027346e-06]

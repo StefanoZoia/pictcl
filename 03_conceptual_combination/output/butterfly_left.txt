@@ -1,0 +1,30 @@
+Title: butterfly-left
+
+Head Concept Name: butterfly
+Modifier Concept Name: left
+
+
+
+
+
+T(modifier), -right, 0.849
+T(modifier), hand, 0.837
+T(modifier), -rightward, 0.834
+T(modifier), turn, 0.818
+T(modifier), faction, 0.818
+T(modifier), position, 0.804
+T(modifier), politics, 0.789
+T(modifier), political_party, 0.756
+
+T(head), lepidopterous_insect, 0.906
+T(head), cocoon, 0.902
+T(head), fly, 0.885
+T(head), insect, 0.878
+T(head), flit, 0.851
+T(head), -related_to_piano, 0.844
+T(head), swimming_stroke, 0.815
+T(head), unfold, 0.814
+
+
+Result: {"-right": 0.849, "lepidopterous_insect": 0.906, "cocoon": 0.902, "fly": 0.885, "insect": 0.878, "flit": 0.851, "@scenario_probability": 2.227336656434365e-06}
+Scenario: [1, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 0, 0, 0, 2.227336656434365e-06]

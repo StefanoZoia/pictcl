@@ -1,0 +1,24 @@
+Title: chair-metallic
+
+Head Concept Name: chair
+Modifier Concept Name: metallic
+
+
+
+
+
+T(modifier), fabric, 0.829
+T(modifier), thread, 0.808
+
+T(head), reupholstering, 0.896
+T(head), furniture_store, 0.889
+T(head), sitting, 0.879
+T(head), resting, 0.871
+T(head), sit_down, 0.853
+T(head), furniture_market_category, 0.851
+T(head), living_room, 0.847
+T(head), people, 0.841
+
+
+Result: {"fabric": 0.829, "reupholstering": 0.896, "furniture_store": 0.889, "sitting": 0.879, "resting": 0.871, "sit_down": 0.853, "@scenario_probability": 0.030012102062125172}
+Scenario: [1, 0, 1, 1, 1, 1, 1, 0, 0, 0, 0.030012102062125172]

@@ -1,0 +1,29 @@
+Title: woman-watercolor
+
+Head Concept Name: woman
+Modifier Concept Name: watercolor
+
+
+
+
+
+T(modifier), painting, 0.899
+T(modifier), art_supply, 0.853
+T(modifier), pigment, 0.848
+T(modifier), paint, 0.838
+T(modifier), water_base_paint, 0.833
+T(modifier), arts, 0.798
+T(modifier), aqua_medium_artists_use, 0.756
+
+T(head), -men, 0.856
+T(head), adult, 0.84
+T(head), female, 0.83
+T(head), -male, 0.782
+T(head), female_person, 0.772
+T(head), -lass, 0.762
+T(head), adult_female_body, 0.76
+T(head), -girl, 0.756
+
+
+Result: {"painting": 0.899, "art_supply": 0.853, "pigment": 0.848, "paint": 0.838, "-men": 0.856, "adult": 0.84, "@scenario_probability": 3.7981979807113e-05}
+Scenario: [1, 1, 1, 1, 0, 0, 0, 1, 1, 0, 0, 0, 0, 0, 0, 3.7981979807113e-05]

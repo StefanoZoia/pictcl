@@ -1,0 +1,19 @@
+Title: sushi-in_front_of
+
+Head Concept Name: sushi
+Modifier Concept Name: in_front_of
+
+
+
+
+
+
+T(head), japan, 0.867
+T(head), eating, 0.834
+T(head), dish, 0.829
+T(head), both_beautiful_and_delicious, 0.817
+T(head), japanese_food, 0.816
+T(head), very_popular_in_asian_cuisine, 0.816
+T(head), raw_fish, 0.792
+T(head), plate, 0.777
+

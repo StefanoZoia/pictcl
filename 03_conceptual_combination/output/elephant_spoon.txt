@@ -1,0 +1,30 @@
+Title: elephant-spoon
+
+Head Concept Name: elephant
+Modifier Concept Name: spoon
+
+
+
+
+
+T(modifier), silverware_drawer, 0.892
+T(modifier), scooping_food, 0.888
+T(modifier), utensil, 0.882
+T(modifier), stirring_coffee, 0.871
+T(modifier), eating, 0.869
+T(modifier), cutlery, 0.869
+T(modifier), mixing_ingredients, 0.866
+T(modifier), mixing_soup, 0.866
+
+T(head), pachyderm, 0.909
+T(head), proboscidean, 0.887
+T(head), tusks, 0.878
+T(head), zoo, 0.854
+T(head), circus, 0.846
+T(head), africa, 0.845
+T(head), elephantidae, 0.836
+T(head), forget_to_go_on_paper, 0.827
+
+
+Result: {"silverware_drawer": 0.892, "scooping_food": 0.888, "utensil": 0.882, "pachyderm": 0.909, "proboscidean": 0.887, "tusks": 0.878, "@scenario_probability": 1.9438625308652256e-07}
+Scenario: [1, 1, 1, 0, 0, 0, 0, 0, 1, 1, 1, 0, 0, 0, 0, 0, 1.9438625308652256e-07]

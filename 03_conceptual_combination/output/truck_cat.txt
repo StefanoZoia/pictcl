@@ -1,0 +1,30 @@
+Title: truck-cat
+
+Head Concept Name: truck
+Modifier Concept Name: cat
+
+
+
+
+
+T(modifier), meow, 0.94
+T(modifier), miaow, 0.938
+T(modifier), pet, 0.925
+T(modifier), humane_society, 0.901
+T(modifier), humane_shelter, 0.901
+T(modifier), companion_to_humans, 0.888
+T(modifier), -dog, 0.888
+T(modifier), companionship, 0.887
+
+T(head), vehicle, 0.902
+T(head), automobile, 0.874
+T(head), motor_vehicle, 0.869
+T(head), wheeled_vehicle, 0.861
+T(head), stabilizer_bar, 0.854
+T(head), garage, 0.85
+T(head), transport, 0.847
+T(head), vehicle_type, 0.845
+
+
+Result: {"meow": 0.94, "miaow": 0.938, "pet": 0.925, "humane_society": 0.901, "humane_shelter": 0.901, "vehicle": 0.902, "@scenario_probability": 1.0087113740823005e-07}
+Scenario: [1, 1, 1, 1, 1, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 1.0087113740823005e-07]

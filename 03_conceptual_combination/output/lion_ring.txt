@@ -1,0 +1,30 @@
+Title: lion-ring
+
+Head Concept Name: lion
+Modifier Concept Name: ring
+
+
+
+
+
+T(modifier), bath_tub, 0.87
+T(modifier), jewelry, 0.87
+T(modifier), wearing, 0.869
+T(modifier), toroid, 0.868
+T(modifier), engage, 0.862
+T(modifier), piece_of_jewelry, 0.849
+T(modifier), doorbell, 0.846
+T(modifier), finger, 0.842
+
+T(head), roar, 0.889
+T(head), feline, 0.865
+T(head), zoo_to_have_on_display, 0.848
+T(head), animal, 0.846
+T(head), veldt, 0.846
+T(head), carnivore, 0.845
+T(head), safari, 0.845
+T(head), hunt_zebras, 0.829
+
+
+Result: {"bath_tub": 0.87, "jewelry": 0.87, "wearing": 0.869, "toroid": 0.868, "roar": 0.889, "feline": 0.865, "@scenario_probability": 3.296660717381787e-07}
+Scenario: [1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 0, 0, 0, 0, 0, 0, 3.296660717381787e-07]

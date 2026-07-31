@@ -1,0 +1,30 @@
+Title: ring-yellow
+
+Head Concept Name: ring
+Modifier Concept Name: yellow
+
+
+
+
+
+T(modifier), primary_color, 0.907
+T(modifier), color, 0.877
+T(modifier), colour, 0.871
+T(modifier), -blue, 0.858
+T(modifier), discolor, 0.854
+T(modifier), yellowish_thing, 0.824
+T(modifier), coloring, 0.818
+T(modifier), banana_peels, 0.798
+
+T(head), bath_tub, 0.87
+T(head), jewelry, 0.87
+T(head), wearing, 0.869
+T(head), toroid, 0.868
+T(head), engage, 0.862
+T(head), piece_of_jewelry, 0.849
+T(head), doorbell, 0.846
+T(head), finger, 0.842
+
+
+Result: {"primary_color": 0.907, "color": 0.877, "colour": 0.871, "bath_tub": 0.87, "jewelry": 0.87, "wearing": 0.869, "@scenario_probability": 4.091360191636808e-07}
+Scenario: [1, 1, 1, 0, 0, 0, 0, 0, 1, 1, 1, 0, 0, 0, 0, 0, 4.091360191636808e-07]

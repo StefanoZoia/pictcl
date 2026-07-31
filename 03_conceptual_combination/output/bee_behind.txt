@@ -1,0 +1,30 @@
+Title: bee-behind
+
+Head Concept Name: bee
+Modifier Concept Name: behind
+
+
+
+
+
+T(modifier), -front, 0.842
+T(modifier), -in_front, 0.826
+T(modifier), -ahead, 0.826
+T(modifier), -in_front_of, 0.814
+T(modifier), -before, 0.79
+T(modifier), -fast, 0.763
+T(modifier), us, 0.76
+T(modifier), archaic, 0.751
+
+T(head), apiary, 0.91
+T(head), sting, 0.897
+T(head), hymenopterous_insect, 0.883
+T(head), swarm, 0.883
+T(head), bee_tree, 0.882
+T(head), bee_hive, 0.879
+T(head), hive, 0.878
+T(head), hive_flower_field, 0.876
+
+
+Result: {"-front": 0.842, "apiary": 0.91, "sting": 0.897, "hymenopterous_insect": 0.883, "swarm": 0.883, "bee_tree": 0.882, "@scenario_probability": 1.4490803777708585e-06}
+Scenario: [1, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 0, 0, 0, 1.4490803777708585e-06]

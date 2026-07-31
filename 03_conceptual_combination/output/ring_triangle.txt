@@ -1,0 +1,30 @@
+Title: ring-triangle
+
+Head Concept Name: ring
+Modifier Concept Name: triangle
+
+
+
+
+
+T(modifier), geometry, 0.906
+T(modifier), trigonometry, 0.89
+T(modifier), polygon, 0.87
+T(modifier), draw_line_at_angle, 0.86
+T(modifier), draw_straight_line, 0.86
+T(modifier), calculate_position_on_plan, 0.859
+T(modifier), musical_instrument, 0.856
+T(modifier), geometric_figure_with_three_sides, 0.855
+
+T(head), bath_tub, 0.87
+T(head), jewelry, 0.87
+T(head), wearing, 0.869
+T(head), toroid, 0.868
+T(head), engage, 0.862
+T(head), piece_of_jewelry, 0.849
+T(head), doorbell, 0.846
+T(head), finger, 0.842
+
+
+Result: {"geometry": 0.906, "trigonometry": 0.89, "polygon": 0.87, "bath_tub": 0.87, "jewelry": 0.87, "wearing": 0.869, "@scenario_probability": 1.782006113618561e-07}
+Scenario: [1, 1, 1, 0, 0, 0, 0, 0, 1, 1, 1, 0, 0, 0, 0, 0, 1.782006113618561e-07]

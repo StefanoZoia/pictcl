@@ -1,0 +1,30 @@
+Title: man-pig
+
+Head Concept Name: man
+Modifier Concept Name: pig
+
+
+
+
+
+T(modifier), pigsty, 0.848
+T(modifier), find_truffles, 0.843
+T(modifier), find_truffle, 0.843
+T(modifier), -hog, 0.818
+T(modifier), ingot, 0.812
+T(modifier), live, 0.805
+T(modifier), pen, 0.792
+T(modifier), mud, 0.785
+
+T(head), -woman, 0.87
+T(head), male, 0.854
+T(head), -boy, 0.84
+T(head), lover, 0.825
+T(head), -female, 0.816
+T(head), -lady, 0.815
+T(head), subordinate, 0.811
+T(head), international_intelligence_agency, 0.807
+
+
+Result: {"pigsty": 0.848, "find_truffles": 0.843, "find_truffle": 0.843, "-woman": 0.87, "male": 0.854, "-boy": 0.84, "@scenario_probability": 2.4384831988299426e-06}
+Scenario: [1, 1, 1, 0, 0, 0, 0, 0, 1, 1, 1, 0, 0, 0, 0, 0, 2.4384831988299426e-06]

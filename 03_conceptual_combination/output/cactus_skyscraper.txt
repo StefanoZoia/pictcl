@@ -1,0 +1,30 @@
+Title: cactus-skyscraper
+
+Head Concept Name: cactus
+Modifier Concept Name: skyscraper
+
+
+
+
+
+T(modifier), type_of, 0.9
+T(modifier), cities, 0.888
+T(modifier), urban_areas, 0.879
+T(modifier), elevators, 0.876
+T(modifier), building, 0.87
+T(modifier), office_space, 0.865
+T(modifier), residences, 0.858
+T(modifier), tower, 0.852
+
+T(head), desert, 0.885
+T(head), succulent, 0.866
+T(head), prickly_plant, 0.865
+T(head), survive_with_little_water, 0.82
+T(head), botany, 0.784
+T(head), holding_water, 0.782
+T(head), needle_person, 0.782
+T(head), australia, 0.758
+
+
+Result: {"type_of": 0.9, "cities": 0.888, "urban_areas": 0.879, "elevators": 0.876, "building": 0.87, "desert": 0.885, "@scenario_probability": 1.0873966340732127e-06}
+Scenario: [1, 1, 1, 1, 1, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 1.0873966340732127e-06]

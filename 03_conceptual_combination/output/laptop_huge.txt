@@ -1,0 +1,25 @@
+Title: laptop-huge
+
+Head Concept Name: laptop
+Modifier Concept Name: huge
+
+
+
+
+
+T(modifier), -diminutive, 0.825
+T(modifier), -tiny, 0.809
+T(modifier), slang, 0.731
+T(modifier), space, 0.697
+T(modifier), -minute, 0.693
+T(modifier), buildings, 0.683
+
+T(head), computing, 0.822
+T(head), portable_computer, 0.814
+T(head), desk, 0.81
+T(head), internet_cafe, 0.746
+T(head), going_on_internet, 0.673
+
+
+Result: {"-diminutive": 0.825, "-tiny": 0.809, "computing": 0.822, "portable_computer": 0.814, "desk": 0.81, "internet_cafe": 0.746, "@scenario_probability": 0.06999432630381769}
+Scenario: [1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0.06999432630381769]

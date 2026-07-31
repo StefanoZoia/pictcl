@@ -1,0 +1,24 @@
+Title: duck-metallic
+
+Head Concept Name: duck
+Modifier Concept Name: metallic
+
+
+
+
+
+T(modifier), fabric, 0.829
+T(modifier), thread, 0.808
+
+T(head), duck, 0.946
+T(head), webbed_feet, 0.909
+T(head), anseriform_bird, 0.877
+T(head), anatidae, 0.869
+T(head), poultry, 0.86
+T(head), waterfowl, 0.86
+T(head), dive, 0.83
+T(head), eat, 0.83
+
+
+Result: {"fabric": 0.829, "duck": 0.946, "webbed_feet": 0.909, "anseriform_bird": 0.877, "anatidae": 0.869, "waterfowl": 0.86, "@scenario_probability": 0.036295641643179416}
+Scenario: [1, 0, 1, 1, 1, 1, 0, 1, 0, 0, 0.036295641643179416]

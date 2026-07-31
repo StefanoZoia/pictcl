@@ -1,0 +1,30 @@
+Title: lion-chicken
+
+Head Concept Name: lion
+Modifier Concept Name: chicken
+
+
+
+
+
+T(modifier), chicken, 0.946
+T(modifier), cross_road, 0.917
+T(modifier), poultry, 0.913
+T(modifier), meat, 0.874
+T(modifier), chicken_wing, 0.859
+T(modifier), tasty_when_fried_or_baked, 0.847
+T(modifier), lay_eggs, 0.845
+T(modifier), lay_egg, 0.845
+
+T(head), roar, 0.889
+T(head), feline, 0.865
+T(head), zoo_to_have_on_display, 0.848
+T(head), animal, 0.846
+T(head), veldt, 0.846
+T(head), carnivore, 0.845
+T(head), safari, 0.845
+T(head), hunt_zebras, 0.829
+
+
+Result: {"chicken": 0.946, "cross_road": 0.917, "poultry": 0.913, "meat": 0.874, "roar": 0.889, "feline": 0.865, "@scenario_probability": 4.0858180890583373e-07}
+Scenario: [1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 0, 0, 0, 0, 0, 0, 4.0858180890583373e-07]

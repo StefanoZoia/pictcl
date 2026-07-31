@@ -1,0 +1,24 @@
+Title: zebra-corgi
+
+Head Concept Name: zebra
+Modifier Concept Name: corgi
+
+
+
+
+
+T(modifier), dog, 0.879
+T(modifier), breed_of_herding_dog, 0.794
+
+T(head), zoo, 0.867
+T(head), equine, 0.846
+T(head), animal, 0.812
+T(head), stripes, 0.802
+T(head), horse, 0.796
+T(head), herd_animal, 0.776
+T(head), mammal, 0.762
+T(head), sports, 0.754
+
+
+Result: {"dog": 0.879, "zoo": 0.867, "equine": 0.846, "animal": 0.812, "stripes": 0.802, "horse": 0.796, "@scenario_probability": 0.09029196482409486}
+Scenario: [1, 0, 1, 1, 1, 1, 1, 0, 0, 0, 0.09029196482409486]

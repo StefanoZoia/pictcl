@@ -1,0 +1,28 @@
+Title: chicken-tiny
+
+Head Concept Name: chicken
+Modifier Concept Name: tiny
+
+
+
+
+
+T(modifier), -huge, 0.809
+T(modifier), -large, 0.782
+T(modifier), -great, 0.771
+T(modifier), -incalculable, 0.765
+T(modifier), -giant, 0.765
+T(modifier), kitties, 0.734
+
+T(head), chicken, 0.946
+T(head), cross_road, 0.917
+T(head), poultry, 0.913
+T(head), meat, 0.874
+T(head), chicken_wing, 0.859
+T(head), tasty_when_fried_or_baked, 0.847
+T(head), lay_eggs, 0.845
+T(head), lay_egg, 0.845
+
+
+Result: {"-huge": 0.809, "chicken": 0.946, "cross_road": 0.917, "poultry": 0.913, "meat": 0.874, "chicken_wing": 0.859, "@scenario_probability": 0.00012967269351862968}
+Scenario: [1, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 0, 0, 0, 0.00012967269351862968]

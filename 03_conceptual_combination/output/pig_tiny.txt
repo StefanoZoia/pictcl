@@ -1,0 +1,28 @@
+Title: pig-tiny
+
+Head Concept Name: pig
+Modifier Concept Name: tiny
+
+
+
+
+
+T(modifier), -huge, 0.809
+T(modifier), -large, 0.782
+T(modifier), -great, 0.771
+T(modifier), -incalculable, 0.765
+T(modifier), -giant, 0.765
+T(modifier), kitties, 0.734
+
+T(head), pigsty, 0.848
+T(head), find_truffles, 0.843
+T(head), find_truffle, 0.843
+T(head), -hog, 0.818
+T(head), ingot, 0.812
+T(head), live, 0.805
+T(head), pen, 0.792
+T(head), mud, 0.785
+
+
+Result: {"-huge": 0.809, "pigsty": 0.848, "find_truffles": 0.843, "find_truffle": 0.843, "-hog": 0.818, "ingot": 0.812, "@scenario_probability": 0.00020708784052717722}
+Scenario: [1, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 0, 0, 0, 0.00020708784052717722]

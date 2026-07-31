@@ -1,0 +1,26 @@
+Title: horse-textbook
+
+Head Concept Name: horse
+Modifier Concept Name: textbook
+
+
+
+
+
+T(modifier), book, 0.883
+T(modifier), learning, 0.819
+T(modifier), locker, 0.811
+T(modifier), include_glossary, 0.811
+
+T(head), riding, 0.924
+T(head), equine, 0.922
+T(head), equestrian_competition, 0.912
+T(head), horse's_foot, 0.901
+T(head), horse_racing, 0.901
+T(head), kentucky_derby, 0.891
+T(head), horsemeat, 0.889
+T(head), harness_pulling_carriage, 0.888
+
+
+Result: {"book": 0.883, "riding": 0.924, "equine": 0.922, "equestrian_competition": 0.912, "horse's_foot": 0.901, "horse_racing": 0.901, "@scenario_probability": 0.0004879526700180692}
+Scenario: [1, 0, 0, 0, 1, 1, 1, 1, 1, 0, 0, 0, 0.0004879526700180692]

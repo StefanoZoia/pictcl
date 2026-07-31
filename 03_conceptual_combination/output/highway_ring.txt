@@ -1,0 +1,30 @@
+Title: highway-ring
+
+Head Concept Name: highway
+Modifier Concept Name: ring
+
+
+
+
+
+T(modifier), bath_tub, 0.87
+T(modifier), jewelry, 0.87
+T(modifier), wearing, 0.869
+T(modifier), toroid, 0.868
+T(modifier), engage, 0.862
+T(modifier), piece_of_jewelry, 0.849
+T(modifier), doorbell, 0.846
+T(modifier), finger, 0.842
+
+T(head), motor_vehicles_to_travel_on, 0.898
+T(head), getting_from_one_place_to_another, 0.875
+T(head), driving_on, 0.869
+T(head), drive_on, 0.866
+T(head), travel, 0.863
+T(head), trucks, 0.861
+T(head), driving, 0.858
+T(head), speeding, 0.857
+
+
+Result: {"bath_tub": 0.87, "jewelry": 0.87, "wearing": 0.869, "motor_vehicles_to_travel_on": 0.898, "getting_from_one_place_to_another": 0.875, "driving_on": 0.869, "@scenario_probability": 1.5575240741685593e-07}
+Scenario: [1, 1, 1, 0, 0, 0, 0, 0, 1, 1, 1, 0, 0, 0, 0, 0, 1.5575240741685593e-07]

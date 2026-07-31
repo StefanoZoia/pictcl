@@ -1,0 +1,26 @@
+Title: textbook-2
+
+Head Concept Name: textbook
+Modifier Concept Name: 2
+
+
+
+
+
+T(modifier), two, 0.94
+T(modifier), spelled_two, 0.816
+T(modifier), number, 0.81
+T(modifier), text_messaging, 0.773
+T(modifier), prime_number, 0.746
+T(modifier), computing, 0.739
+T(modifier), higher_number_than_1, 0.735
+T(modifier), historical, 0.734
+
+T(head), book, 0.883
+T(head), learning, 0.819
+T(head), locker, 0.811
+T(head), include_glossary, 0.811
+
+
+Result: {"two": 0.94, "spelled_two": 0.816, "number": 0.81, "book": 0.883, "learning": 0.819, "locker": 0.811, "@scenario_probability": 0.0073056335908499625}
+Scenario: [1, 1, 1, 0, 0, 0, 0, 0, 1, 1, 1, 0, 0.0073056335908499625]

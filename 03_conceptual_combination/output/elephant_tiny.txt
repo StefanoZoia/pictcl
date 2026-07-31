@@ -1,0 +1,28 @@
+Title: elephant-tiny
+
+Head Concept Name: elephant
+Modifier Concept Name: tiny
+
+
+
+
+
+T(modifier), -huge, 0.809
+T(modifier), -large, 0.782
+T(modifier), -great, 0.771
+T(modifier), -incalculable, 0.765
+T(modifier), -giant, 0.765
+T(modifier), kitties, 0.734
+
+T(head), pachyderm, 0.909
+T(head), proboscidean, 0.887
+T(head), tusks, 0.878
+T(head), zoo, 0.854
+T(head), circus, 0.846
+T(head), africa, 0.845
+T(head), elephantidae, 0.836
+T(head), forget_to_go_on_paper, 0.827
+
+
+Result: {"-huge": 0.809, "pachyderm": 0.909, "proboscidean": 0.887, "tusks": 0.878, "zoo": 0.854, "circus": 0.846, "@scenario_probability": 0.00013344114529668797}
+Scenario: [1, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 0, 0, 0, 0.00013344114529668797]

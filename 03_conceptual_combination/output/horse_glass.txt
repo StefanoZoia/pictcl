@@ -1,0 +1,30 @@
+Title: horse-glass
+
+Head Concept Name: horse
+Modifier Concept Name: glass
+
+
+
+
+
+T(modifier), glass, 0.946
+T(modifier), glassware, 0.906
+T(modifier), drinking, 0.901
+T(modifier), recyclable, 0.893
+T(modifier), clear, 0.888
+T(modifier), ceramic, 0.877
+T(modifier), half_empty, 0.871
+T(modifier), very_fragile, 0.87
+
+T(head), riding, 0.924
+T(head), equine, 0.922
+T(head), equestrian_competition, 0.912
+T(head), horse's_foot, 0.901
+T(head), horse_racing, 0.901
+T(head), kentucky_derby, 0.891
+T(head), horsemeat, 0.889
+T(head), harness_pulling_carriage, 0.888
+
+
+Result: {"glass": 0.946, "glassware": 0.906, "drinking": 0.901, "riding": 0.924, "equine": 0.922, "equestrian_competition": 0.912, "@scenario_probability": 1.9697890489293664e-08}
+Scenario: [1, 1, 1, 0, 0, 0, 0, 0, 1, 1, 1, 0, 0, 0, 0, 0, 1.9697890489293664e-08]

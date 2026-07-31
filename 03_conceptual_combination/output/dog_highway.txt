@@ -1,0 +1,30 @@
+Title: dog-highway
+
+Head Concept Name: dog
+Modifier Concept Name: highway
+
+
+
+
+
+T(modifier), motor_vehicles_to_travel_on, 0.898
+T(modifier), getting_from_one_place_to_another, 0.875
+T(modifier), driving_on, 0.869
+T(modifier), drive_on, 0.866
+T(modifier), travel, 0.863
+T(modifier), trucks, 0.861
+T(modifier), driving, 0.858
+T(modifier), speeding, 0.857
+
+T(head), pet, 0.937
+T(head), canine, 0.92
+T(head), guide_blind_person, 0.917
+T(head), guide_blind, 0.917
+T(head), bark, 0.914
+T(head), kennel, 0.906
+T(head), dog_house, 0.905
+T(head), stray, 0.905
+
+
+Result: {"motor_vehicles_to_travel_on": 0.898, "pet": 0.937, "canine": 0.92, "guide_blind_person": 0.917, "guide_blind": 0.917, "bark": 0.914, "@scenario_probability": 4.282620015773605e-08}
+Scenario: [1, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 0, 0, 0, 4.282620015773605e-08]

@@ -1,0 +1,8 @@
+motor_vehicles_to_travel_on: 0.898
+getting_from_one_place_to_another: 0.875
+driving_on: 0.869
+drive_on: 0.866
+travel: 0.863
+trucks: 0.861
+driving: 0.858
+speeding: 0.857

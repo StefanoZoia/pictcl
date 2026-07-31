@@ -1,0 +1,28 @@
+Title: pizza-huge
+
+Head Concept Name: pizza
+Modifier Concept Name: huge
+
+
+
+
+
+T(modifier), -diminutive, 0.825
+T(modifier), -tiny, 0.809
+T(modifier), slang, 0.731
+T(modifier), space, 0.697
+T(modifier), -minute, 0.693
+T(modifier), buildings, 0.683
+
+T(head), baked_in_oven, 0.922
+T(head), pizza_toppings, 0.849
+T(head), pizza_sauce, 0.849
+T(head), oven, 0.844
+T(head), popular, 0.838
+T(head), dish, 0.823
+T(head), flatbread, 0.822
+T(head), disc_shaped_food_item, 0.815
+
+
+Result: {"-diminutive": 0.825, "baked_in_oven": 0.922, "pizza_toppings": 0.849, "pizza_sauce": 0.849, "oven": 0.844, "popular": 0.838, "@scenario_probability": 0.00034243458897254616}
+Scenario: [1, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 0, 0, 0, 0.00034243458897254616]

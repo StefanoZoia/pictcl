@@ -1,0 +1,30 @@
+Title: truck-3
+
+Head Concept Name: truck
+Modifier Concept Name: 3
+
+
+
+
+
+T(modifier), three, 0.898
+T(modifier), -5, 0.897
+T(modifier), spelled_three, 0.815
+T(modifier), characters, 0.8
+T(modifier), higher_number_than_2, 0.738
+T(modifier), nuber, 0.735
+T(modifier), military, 0.73
+T(modifier), locomotive, 0.725
+
+T(head), vehicle, 0.902
+T(head), automobile, 0.874
+T(head), motor_vehicle, 0.869
+T(head), wheeled_vehicle, 0.861
+T(head), stabilizer_bar, 0.854
+T(head), garage, 0.85
+T(head), transport, 0.847
+T(head), vehicle_type, 0.845
+
+
+Result: {"three": 0.898, "-5": 0.897, "vehicle": 0.902, "automobile": 0.874, "motor_vehicle": 0.869, "wheeled_vehicle": 0.861, "@scenario_probability": 4.7067623295486025e-06}
+Scenario: [1, 1, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0, 0, 0, 4.7067623295486025e-06]

@@ -50,4 +50,4 @@ if __name__ == '__main__':
     #rm_dup('all_nn.tsv') 
     #rm_dup('all_na.tsv') 
     #rm_dup('all_an.tsv') 
-    rm_dup('metanet_corpus.tsv') 
+    rm_dup('output/all_human_eval.tsv') 

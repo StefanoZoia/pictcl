@@ -1,0 +1,30 @@
+Title: zebra-4
+
+Head Concept Name: zebra
+Modifier Concept Name: 4
+
+
+
+
+
+T(modifier), four, 0.859
+T(modifier), number, 0.815
+T(modifier), equal_2_2, 0.803
+T(modifier), characters, 0.799
+T(modifier), text_messaging, 0.773
+T(modifier), slang, 0.761
+T(modifier), higher_number_than_3, 0.736
+T(modifier), locomotive, 0.735
+
+T(head), zoo, 0.867
+T(head), equine, 0.846
+T(head), animal, 0.812
+T(head), stripes, 0.802
+T(head), horse, 0.796
+T(head), herd_animal, 0.776
+T(head), mammal, 0.762
+T(head), sports, 0.754
+
+
+Result: {"four": 0.859, "number": 0.815, "equal_2_2": 0.803, "zoo": 0.867, "equine": 0.846, "animal": 0.812, "@scenario_probability": 1.3531217164538759e-05}
+Scenario: [1, 1, 1, 0, 0, 0, 0, 0, 1, 1, 1, 0, 0, 0, 0, 0, 1.3531217164538759e-05]

@@ -1,0 +1,26 @@
+Title: textbook-bottom
+
+Head Concept Name: textbook
+Modifier Concept Name: bottom
+
+
+
+
+
+T(modifier), -top, 0.875
+T(modifier), inning, 0.85
+T(modifier), cargo_ship, 0.843
+T(modifier), hit, 0.833
+T(modifier), region, 0.805
+T(modifier), cabinetwork, 0.796
+T(modifier), turn, 0.793
+T(modifier), supply, 0.785
+
+T(head), book, 0.883
+T(head), learning, 0.819
+T(head), locker, 0.811
+T(head), include_glossary, 0.811
+
+
+Result: {"-top": 0.875, "inning": 0.85, "cargo_ship": 0.843, "hit": 0.833, "book": 0.883, "learning": 0.819, "@scenario_probability": 0.0023885885856731247}
+Scenario: [1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 0, 0, 0.0023885885856731247]

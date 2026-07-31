@@ -1,0 +1,8 @@
+climb: 0.888
+climbing: 0.878
+steep: 0.878
+mound_of_earth: 0.862
+hillside: 0.854
+climb_up: 0.848
+climbing_up: 0.841
+sledding_down_in_winter: 0.837

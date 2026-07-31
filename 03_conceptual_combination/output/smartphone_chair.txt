@@ -1,0 +1,26 @@
+Title: smartphone-chair
+
+Head Concept Name: smartphone
+Modifier Concept Name: chair
+
+
+
+
+
+T(modifier), reupholstering, 0.896
+T(modifier), furniture_store, 0.889
+T(modifier), sitting, 0.879
+T(modifier), resting, 0.871
+T(modifier), sit_down, 0.853
+T(modifier), furniture_market_category, 0.851
+T(modifier), living_room, 0.847
+T(modifier), people, 0.841
+
+T(head), mobile_phone, 0.871
+T(head), cellular_telephone, 0.868
+T(head), cellular_phone, 0.864
+T(head), palmtop_computer, 0.834
+
+
+Result: {"reupholstering": 0.896, "furniture_store": 0.889, "sitting": 0.879, "resting": 0.871, "mobile_phone": 0.871, "cellular_telephone": 0.868, "@scenario_probability": 0.0005546178406341631}
+Scenario: [1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 0, 0, 0.0005546178406341631]

@@ -1,0 +1,1 @@
+A duck (id 1) is standing beside an apple (id 2), with the apple placed on the ground in front of the duck.

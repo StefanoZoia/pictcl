@@ -1,0 +1,30 @@
+Title: doll-zebra
+
+Head Concept Name: doll
+Modifier Concept Name: zebra
+
+
+
+
+
+T(modifier), zoo, 0.867
+T(modifier), equine, 0.846
+T(modifier), animal, 0.812
+T(modifier), stripes, 0.802
+T(modifier), horse, 0.796
+T(modifier), herd_animal, 0.776
+T(modifier), mammal, 0.762
+T(modifier), sports, 0.754
+
+T(head), dollshouse, 0.927
+T(head), plaything_for_cat, 0.918
+T(head), plaything_for_dog, 0.918
+T(head), toy, 0.897
+T(head), plaything, 0.883
+T(head), childs_play, 0.873
+T(head), doll_house, 0.873
+T(head), little_girls, 0.872
+
+
+Result: {"zoo": 0.867, "dollshouse": 0.927, "plaything_for_cat": 0.918, "plaything_for_dog": 0.918, "toy": 0.897, "plaything": 0.883, "@scenario_probability": 1.698590780368258e-06}
+Scenario: [1, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 0, 0, 0, 1.698590780368258e-06]

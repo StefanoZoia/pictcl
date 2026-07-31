@@ -1,0 +1,30 @@
+Title: table-spider
+
+Head Concept Name: table
+Modifier Concept Name: spider
+
+
+
+
+
+T(modifier), arachnid, 0.916
+T(modifier), web, 0.876
+T(modifier), inject_venom, 0.859
+T(modifier), spin_webs, 0.849
+T(modifier), sticking_to_wall, 0.823
+T(modifier), arthropod, 0.816
+T(modifier), spin_web, 0.805
+T(modifier), venomous_animal, 0.804
+
+T(head), drawing_on, 0.883
+T(head), dining, 0.881
+T(head), dining_room, 0.877
+T(head), eating_off_of, 0.869
+T(head), read, 0.868
+T(head), resturant, 0.862
+T(head), tabletop, 0.861
+T(head), kitchen, 0.856
+
+
+Result: {"arachnid": 0.916, "web": 0.876, "drawing_on": 0.883, "dining": 0.881, "dining_room": 0.877, "eating_off_of": 0.869, "@scenario_probability": 4.596885682383287e-07}
+Scenario: [1, 1, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0, 0, 0, 4.596885682383287e-07]

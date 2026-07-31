@@ -1,0 +1,22 @@
+Title: smartphone-impressionism
+
+Head Concept Name: smartphone
+Modifier Concept Name: impressionism
+
+
+
+
+
+T(modifier), artistic_movement, 0.828
+T(modifier), arts, 0.82
+T(modifier), poetry, 0.772
+T(modifier), music_genre, 0.771
+
+T(head), mobile_phone, 0.871
+T(head), cellular_telephone, 0.868
+T(head), cellular_phone, 0.864
+T(head), palmtop_computer, 0.834
+
+
+Result: {"artistic_movement": 0.828, "arts": 0.82, "poetry": 0.772, "mobile_phone": 0.871, "cellular_telephone": 0.868, "cellular_phone": 0.864, "@scenario_probability": 1.3015374909952337}
+Scenario: [1, 1, 1, 0, 1, 1, 1, 0, 1.3015374909952337]

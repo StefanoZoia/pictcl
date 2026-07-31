@@ -1,0 +1,5 @@
+practicality: 0.765
+philosophy: 0.7497
+-nominalism: 0.7299000000000001
+philosophical_doctrine: 0.7155
+sciences: 0.6858000000000001

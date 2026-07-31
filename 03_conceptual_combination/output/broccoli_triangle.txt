@@ -1,0 +1,30 @@
+Title: broccoli-triangle
+
+Head Concept Name: broccoli
+Modifier Concept Name: triangle
+
+
+
+
+
+T(modifier), geometry, 0.906
+T(modifier), trigonometry, 0.89
+T(modifier), polygon, 0.87
+T(modifier), draw_line_at_angle, 0.86
+T(modifier), draw_straight_line, 0.86
+T(modifier), calculate_position_on_plan, 0.859
+T(modifier), musical_instrument, 0.856
+T(modifier), geometric_figure_with_three_sides, 0.855
+
+T(head), broccoli, 0.946
+T(head), crucifer, 0.894
+T(head), cruciferous_vegetable, 0.886
+T(head), green, 0.858
+T(head), green_vegetable, 0.839
+T(head), vegetable_people_may_cook, 0.829
+T(head), very_nutritious, 0.824
+T(head), plate, 0.764
+
+
+Result: {"geometry": 0.906, "trigonometry": 0.89, "polygon": 0.87, "broccoli": 0.946, "crucifer": 0.894, "cruciferous_vegetable": 0.886, "@scenario_probability": 4.925388748556394e-07}
+Scenario: [1, 1, 1, 0, 0, 0, 0, 0, 1, 1, 1, 0, 0, 0, 0, 0, 4.925388748556394e-07]

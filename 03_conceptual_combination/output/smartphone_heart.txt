@@ -1,0 +1,26 @@
+Title: smartphone-heart
+
+Head Concept Name: smartphone
+Modifier Concept Name: heart
+
+
+
+
+
+T(modifier), circulatory_system, 0.883
+T(modifier), beat, 0.881
+T(modifier), love, 0.879
+T(modifier), pumping_blood, 0.869
+T(modifier), internal_organ, 0.863
+T(modifier), pumps_blood_around_body_by_contracton_and_relaxation_of_muscles, 0.861
+T(modifier), staying_alive, 0.857
+T(modifier), blood, 0.857
+
+T(head), mobile_phone, 0.871
+T(head), cellular_telephone, 0.868
+T(head), cellular_phone, 0.864
+T(head), palmtop_computer, 0.834
+
+
+Result: {"circulatory_system": 0.883, "beat": 0.881, "love": 0.879, "pumping_blood": 0.869, "mobile_phone": 0.871, "cellular_telephone": 0.868, "@scenario_probability": 0.00039494587521551}
+Scenario: [1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 0, 0, 0.00039494587521551]

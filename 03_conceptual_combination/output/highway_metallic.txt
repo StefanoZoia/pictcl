@@ -1,0 +1,24 @@
+Title: highway-metallic
+
+Head Concept Name: highway
+Modifier Concept Name: metallic
+
+
+
+
+
+T(modifier), fabric, 0.829
+T(modifier), thread, 0.808
+
+T(head), motor_vehicles_to_travel_on, 0.898
+T(head), getting_from_one_place_to_another, 0.875
+T(head), driving_on, 0.869
+T(head), drive_on, 0.866
+T(head), travel, 0.863
+T(head), trucks, 0.861
+T(head), driving, 0.858
+T(head), speeding, 0.857
+
+
+Result: {"fabric": 0.829, "motor_vehicles_to_travel_on": 0.898, "getting_from_one_place_to_another": 0.875, "driving_on": 0.869, "drive_on": 0.866, "travel": 0.863, "@scenario_probability": 0.02292597398317834}
+Scenario: [1, 0, 1, 1, 1, 1, 1, 0, 0, 0, 0.02292597398317834]

@@ -1,0 +1,24 @@
+Title: smartphone-tiny
+
+Head Concept Name: smartphone
+Modifier Concept Name: tiny
+
+
+
+
+
+T(modifier), -huge, 0.809
+T(modifier), -large, 0.782
+T(modifier), -great, 0.771
+T(modifier), -incalculable, 0.765
+T(modifier), -giant, 0.765
+T(modifier), kitties, 0.734
+
+T(head), mobile_phone, 0.871
+T(head), cellular_telephone, 0.868
+T(head), cellular_phone, 0.864
+T(head), palmtop_computer, 0.834
+
+
+Result: {"-huge": 0.809, "-large": 0.782, "-great": 0.771, "mobile_phone": 0.871, "cellular_telephone": 0.868, "cellular_phone": 0.864, "@scenario_probability": 0.07769386463733471}
+Scenario: [1, 1, 1, 0, 0, 0, 1, 1, 1, 0, 0.07769386463733471]

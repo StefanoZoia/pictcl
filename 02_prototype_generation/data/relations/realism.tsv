@@ -1,0 +1,8 @@
+/c/en/nominalism	Antonym	/c/en/realism	1.0	0.32993596248045826
+/c/en/realism	Antonym	/c/en/nominalism	1.0	0.32993596248045826
+/c/en/realism	HasContext	/c/en/philosophy	1.0	0.20540903174653968
+/c/en/realism	HasContext	/c/en/sciences	1.0	0.09221958132940375
+/c/en/realism	HasContext	/c/en/philosophy	2.0	0.20540903174653968
+/c/en/physicalism	IsA	/c/en/realism	1.0	0.42026671614246597
+/c/en/realism	IsA	/c/en/practicality	2.0	0.3032737797249401
+/c/en/realism	IsA	/c/en/philosophical_doctrine	2.0	0.0

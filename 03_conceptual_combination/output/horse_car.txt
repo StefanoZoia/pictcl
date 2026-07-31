@@ -1,0 +1,30 @@
+Title: horse-car
+
+Head Concept Name: horse
+Modifier Concept Name: car
+
+
+
+
+
+T(modifier), car_factory_like_toyota, 0.925
+T(modifier), car_dealership, 0.917
+T(modifier), vehicle, 0.914
+T(modifier), car_show, 0.899
+T(modifier), motor_vehicle, 0.897
+T(modifier), drive, 0.892
+T(modifier), tire, 0.875
+T(modifier), car_door, 0.875
+
+T(head), riding, 0.924
+T(head), equine, 0.922
+T(head), equestrian_competition, 0.912
+T(head), horse's_foot, 0.901
+T(head), horse_racing, 0.901
+T(head), kentucky_derby, 0.891
+T(head), horsemeat, 0.889
+T(head), harness_pulling_carriage, 0.888
+
+
+Result: {"car_factory_like_toyota": 0.925, "car_dealership": 0.917, "vehicle": 0.914, "riding": 0.924, "equine": 0.922, "equestrian_competition": 0.912, "@scenario_probability": 1.4044143661238026e-08}
+Scenario: [1, 1, 1, 0, 0, 0, 0, 0, 1, 1, 1, 0, 0, 0, 0, 0, 1.4044143661238026e-08]

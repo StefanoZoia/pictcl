@@ -1,0 +1,30 @@
+Title: volcano-circle
+
+Head Concept Name: volcano
+Modifier Concept Name: circle
+
+
+
+
+
+T(modifier), round, 0.928
+T(modifier), ellipse, 0.873
+T(modifier), shape, 0.843
+T(modifier), -square, 0.84
+T(modifier), rotating_mechanism, 0.836
+T(modifier), travel, 0.815
+T(modifier), seating, 0.814
+T(modifier), theater, 0.814
+
+T(head), volcanic_crater, 0.878
+T(head), dormant, 0.875
+T(head), extinct, 0.861
+T(head), crater, 0.86
+T(head), lava, 0.824
+T(head), land_topographical_feature, 0.755
+T(head), south_park, 0.743
+T(head), top_of_mountain, 0.736
+
+
+Result: {"round": 0.928, "ellipse": 0.873, "volcanic_crater": 0.878, "dormant": 0.875, "extinct": 0.861, "crater": 0.86, "@scenario_probability": 3.5550301956308365e-06}
+Scenario: [1, 1, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0, 0, 0, 3.5550301956308365e-06]

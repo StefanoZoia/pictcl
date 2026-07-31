@@ -1,0 +1,28 @@
+Title: screwdriver-tiny
+
+Head Concept Name: screwdriver
+Modifier Concept Name: tiny
+
+
+
+
+
+T(modifier), -huge, 0.809
+T(modifier), -large, 0.782
+T(modifier), -great, 0.771
+T(modifier), -incalculable, 0.765
+T(modifier), -giant, 0.765
+T(modifier), kitties, 0.734
+
+T(head), tool_box, 0.904
+T(head), tool_belt, 0.904
+T(head), unscrewing_screws, 0.894
+T(head), tool_box_or_junk_drawer, 0.868
+T(head), inserting_screw, 0.864
+T(head), toolbox, 0.861
+T(head), pry, 0.859
+T(head), junk_drawer, 0.842
+
+
+Result: {"-huge": 0.809, "tool_box": 0.904, "tool_belt": 0.904, "unscrewing_screws": 0.894, "tool_box_or_junk_drawer": 0.868, "inserting_screw": 0.864, "@scenario_probability": 0.00010065994899399749}
+Scenario: [1, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 0, 0, 0, 0.00010065994899399749]

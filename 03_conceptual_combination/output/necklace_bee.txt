@@ -1,0 +1,30 @@
+Title: necklace-bee
+
+Head Concept Name: necklace
+Modifier Concept Name: bee
+
+
+
+
+
+T(modifier), apiary, 0.91
+T(modifier), sting, 0.897
+T(modifier), hymenopterous_insect, 0.883
+T(modifier), swarm, 0.883
+T(modifier), bee_tree, 0.882
+T(modifier), bee_hive, 0.879
+T(modifier), hive, 0.878
+T(modifier), hive_flower_field, 0.876
+
+T(head), jewelry, 0.916
+T(head), pendant, 0.885
+T(head), wearing_around_neck, 0.884
+T(head), decoration, 0.877
+T(head), jewelry_for_neck, 0.876
+T(head), adornment, 0.864
+T(head), jewelery_store, 0.861
+T(head), decorate, 0.859
+
+
+Result: {"apiary": 0.91, "sting": 0.897, "swarm": 0.883, "jewelry": 0.916, "pendant": 0.885, "wearing_around_neck": 0.884, "@scenario_probability": 5.306643606025319e-08}
+Scenario: [1, 1, 0, 1, 0, 0, 0, 0, 1, 1, 1, 0, 0, 0, 0, 0, 5.306643606025319e-08]

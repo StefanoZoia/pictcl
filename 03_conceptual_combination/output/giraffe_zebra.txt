@@ -1,0 +1,30 @@
+Title: giraffe-zebra
+
+Head Concept Name: giraffe
+Modifier Concept Name: zebra
+
+
+
+
+
+T(modifier), zoo, 0.867
+T(modifier), equine, 0.846
+T(modifier), animal, 0.812
+T(modifier), stripes, 0.802
+T(modifier), horse, 0.796
+T(modifier), herd_animal, 0.776
+T(modifier), mammal, 0.762
+T(modifier), sports, 0.754
+
+T(head), giraffidae, 0.91
+T(head), male, 0.873
+T(head), zoo, 0.871
+T(head), ruminant, 0.853
+T(head), mammal, 0.824
+T(head), female, 0.824
+T(head), animal, 0.808
+T(head), drink_water, 0.791
+
+
+Result: {"zoo": 0.871, "equine": 0.846, "giraffidae": 0.91, "male": 0.873, "ruminant": 0.853, "@scenario_probability": 5.3591809695369395e-06}
+Scenario: [1, 1, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0, 0, 0, 5.3591809695369395e-06]

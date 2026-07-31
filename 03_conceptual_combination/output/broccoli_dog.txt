@@ -1,0 +1,30 @@
+Title: broccoli-dog
+
+Head Concept Name: broccoli
+Modifier Concept Name: dog
+
+
+
+
+
+T(modifier), pet, 0.937
+T(modifier), canine, 0.92
+T(modifier), guide_blind_person, 0.917
+T(modifier), guide_blind, 0.917
+T(modifier), bark, 0.914
+T(modifier), kennel, 0.906
+T(modifier), dog_house, 0.905
+T(modifier), stray, 0.905
+
+T(head), broccoli, 0.946
+T(head), crucifer, 0.894
+T(head), cruciferous_vegetable, 0.886
+T(head), green, 0.858
+T(head), green_vegetable, 0.839
+T(head), vegetable_people_may_cook, 0.829
+T(head), very_nutritious, 0.824
+T(head), plate, 0.764
+
+
+Result: {"pet": 0.937, "canine": 0.92, "guide_blind_person": 0.917, "guide_blind": 0.917, "bark": 0.914, "broccoli": 0.946, "@scenario_probability": 1.0433360269924056e-07}
+Scenario: [1, 1, 1, 1, 1, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 1.0433360269924056e-07]

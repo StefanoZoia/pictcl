@@ -1,0 +1,30 @@
+Title: chair-3
+
+Head Concept Name: chair
+Modifier Concept Name: 3
+
+
+
+
+
+T(modifier), three, 0.898
+T(modifier), -5, 0.897
+T(modifier), spelled_three, 0.815
+T(modifier), characters, 0.8
+T(modifier), higher_number_than_2, 0.738
+T(modifier), nuber, 0.735
+T(modifier), military, 0.73
+T(modifier), locomotive, 0.725
+
+T(head), reupholstering, 0.896
+T(head), furniture_store, 0.889
+T(head), sitting, 0.879
+T(head), resting, 0.871
+T(head), sit_down, 0.853
+T(head), furniture_market_category, 0.851
+T(head), living_room, 0.847
+T(head), people, 0.841
+
+
+Result: {"three": 0.898, "-5": 0.897, "reupholstering": 0.896, "furniture_store": 0.889, "sitting": 0.879, "resting": 0.871, "@scenario_probability": 4.992557622236528e-06}
+Scenario: [1, 1, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0, 0, 0, 4.992557622236528e-06]

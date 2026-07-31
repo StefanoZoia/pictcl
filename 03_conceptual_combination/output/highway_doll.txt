@@ -1,0 +1,30 @@
+Title: highway-doll
+
+Head Concept Name: highway
+Modifier Concept Name: doll
+
+
+
+
+
+T(modifier), dollshouse, 0.927
+T(modifier), plaything_for_cat, 0.918
+T(modifier), plaything_for_dog, 0.918
+T(modifier), toy, 0.897
+T(modifier), plaything, 0.883
+T(modifier), childs_play, 0.873
+T(modifier), doll_house, 0.873
+T(modifier), little_girls, 0.872
+
+T(head), motor_vehicles_to_travel_on, 0.898
+T(head), getting_from_one_place_to_another, 0.875
+T(head), driving_on, 0.869
+T(head), drive_on, 0.866
+T(head), travel, 0.863
+T(head), trucks, 0.861
+T(head), driving, 0.858
+T(head), speeding, 0.857
+
+
+Result: {"dollshouse": 0.927, "plaything_for_cat": 0.918, "plaything_for_dog": 0.918, "toy": 0.897, "plaything": 0.883, "motor_vehicles_to_travel_on": 0.898, "@scenario_probability": 9.733249310725963e-08}
+Scenario: [1, 1, 1, 1, 1, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 9.733249310725963e-08]

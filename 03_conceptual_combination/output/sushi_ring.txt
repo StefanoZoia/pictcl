@@ -1,0 +1,30 @@
+Title: sushi-ring
+
+Head Concept Name: sushi
+Modifier Concept Name: ring
+
+
+
+
+
+T(modifier), bath_tub, 0.87
+T(modifier), jewelry, 0.87
+T(modifier), wearing, 0.869
+T(modifier), toroid, 0.868
+T(modifier), engage, 0.862
+T(modifier), piece_of_jewelry, 0.849
+T(modifier), doorbell, 0.846
+T(modifier), finger, 0.842
+
+T(head), japan, 0.867
+T(head), eating, 0.834
+T(head), dish, 0.829
+T(head), both_beautiful_and_delicious, 0.817
+T(head), japanese_food, 0.816
+T(head), very_popular_in_asian_cuisine, 0.816
+T(head), raw_fish, 0.792
+T(head), plate, 0.777
+
+
+Result: {"bath_tub": 0.87, "jewelry": 0.87, "wearing": 0.869, "toroid": 0.868, "engage": 0.862, "japan": 0.867, "@scenario_probability": 1.2788460236092114e-06}
+Scenario: [1, 1, 1, 1, 1, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 1.2788460236092114e-06]

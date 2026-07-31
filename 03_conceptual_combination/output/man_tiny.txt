@@ -1,0 +1,28 @@
+Title: man-tiny
+
+Head Concept Name: man
+Modifier Concept Name: tiny
+
+
+
+
+
+T(modifier), -huge, 0.809
+T(modifier), -large, 0.782
+T(modifier), -great, 0.771
+T(modifier), -incalculable, 0.765
+T(modifier), -giant, 0.765
+T(modifier), kitties, 0.734
+
+T(head), -woman, 0.87
+T(head), male, 0.854
+T(head), -boy, 0.84
+T(head), lover, 0.825
+T(head), -female, 0.816
+T(head), -lady, 0.815
+T(head), subordinate, 0.811
+T(head), international_intelligence_agency, 0.807
+
+
+Result: {"-huge": 0.809, "-woman": 0.87, "male": 0.854, "-boy": 0.84, "lover": 0.825, "-female": 0.816, "@scenario_probability": 0.0001682089953665534}
+Scenario: [1, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 0, 0, 0, 0.0001682089953665534]

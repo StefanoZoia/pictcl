@@ -1,0 +1,30 @@
+Title: screwdriver-2
+
+Head Concept Name: screwdriver
+Modifier Concept Name: 2
+
+
+
+
+
+T(modifier), two, 0.94
+T(modifier), spelled_two, 0.816
+T(modifier), number, 0.81
+T(modifier), text_messaging, 0.773
+T(modifier), prime_number, 0.746
+T(modifier), computing, 0.739
+T(modifier), higher_number_than_1, 0.735
+T(modifier), historical, 0.734
+
+T(head), tool_box, 0.904
+T(head), tool_belt, 0.904
+T(head), unscrewing_screws, 0.894
+T(head), tool_box_or_junk_drawer, 0.868
+T(head), inserting_screw, 0.864
+T(head), toolbox, 0.861
+T(head), pry, 0.859
+T(head), junk_drawer, 0.842
+
+
+Result: {"two": 0.94, "tool_box": 0.904, "tool_belt": 0.904, "unscrewing_screws": 0.894, "tool_box_or_junk_drawer": 0.868, "inserting_screw": 0.864, "@scenario_probability": 5.914604597773229e-06}
+Scenario: [1, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 0, 0, 0, 5.914604597773229e-06]

@@ -1,0 +1,30 @@
+Title: cow-purple
+
+Head Concept Name: cow
+Modifier Concept Name: purple
+
+
+
+
+
+T(modifier), color, 0.882
+T(modifier), violet, 0.868
+T(modifier), discolor, 0.85
+T(modifier), colour, 0.84
+T(modifier), nobility, 0.814
+T(modifier), chromatic_color, 0.805
+T(modifier), roman_catholic, 0.799
+T(modifier), ecclesiastical_attire, 0.797
+
+T(head), county_fair, 0.928
+T(head), cattle, 0.911
+T(head), dairy_farm, 0.908
+T(head), milking, 0.889
+T(head), barnyard, 0.884
+T(head), milking_stall, 0.883
+T(head), milking_barn, 0.883
+T(head), hamburger_meat, 0.883
+
+
+Result: {"color": 0.882, "county_fair": 0.928, "cattle": 0.911, "dairy_farm": 0.908, "milking": 0.889, "barnyard": 0.884, "@scenario_probability": 3.9953720017854237e-07}
+Scenario: [1, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 0, 0, 0, 3.9953720017854237e-07]

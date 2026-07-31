@@ -341,7 +341,7 @@ def main():
         print(f'\nWorking on image {image_name}.')
 
         cocos_features = read_cocos_output(f'{cfg.COCOS_DIR}/{head}_{modifier}.txt')
-        if cfg.USE_COCOS and cocos_features is None:
+        if cfg.USE_TCL and cocos_features is None:
             print(f"skipping {image_name}: no Conceptal Combination results")
 
         else:
@@ -353,7 +353,7 @@ def main():
                 refined_info = read_or_generate(ref_config_path, refine_info, img, save_textual_data)
             print(f'Refined json info saved in {ref_config_path}.')
             
-            if cfg.USE_COCOS:
+            if cfg.USE_TCL:
                 refined_info["features"] = cocos_features
 
             # read or generate the prompt

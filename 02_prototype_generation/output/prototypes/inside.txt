@@ -1,0 +1,7 @@
+-outside: 0.898
+interior: 0.857
+surface: 0.811
+region: 0.798
+uk: 0.764
+-out: 0.764
+-find_outside: 0.69

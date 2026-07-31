@@ -1,0 +1,25 @@
+Title: sunflower-hill
+
+Head Concept Name: sunflower
+Modifier Concept Name: hill
+
+
+
+
+
+T(modifier), climb, 0.888
+T(modifier), climbing, 0.878
+T(modifier), steep, 0.878
+T(modifier), mound_of_earth, 0.862
+T(modifier), hillside, 0.854
+T(modifier), climb_up, 0.848
+T(modifier), climbing_up, 0.841
+T(modifier), sledding_down_in_winter, 0.837
+
+T(head), flower, 0.873
+T(head), flowering_plant, 0.785
+T(head), organic_chemistry, 0.732
+
+
+Result: {"climb": 0.888, "climbing": 0.878, "steep": 0.878, "mound_of_earth": 0.862, "hillside": 0.854, "flower": 0.873, "@scenario_probability": 0.009985801951167403}
+Scenario: [1, 1, 1, 1, 1, 0, 0, 0, 1, 0, 0, 0.009985801951167403]

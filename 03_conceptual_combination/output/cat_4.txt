@@ -1,0 +1,30 @@
+Title: cat-4
+
+Head Concept Name: cat
+Modifier Concept Name: 4
+
+
+
+
+
+T(modifier), four, 0.859
+T(modifier), number, 0.815
+T(modifier), equal_2_2, 0.803
+T(modifier), characters, 0.799
+T(modifier), text_messaging, 0.773
+T(modifier), slang, 0.761
+T(modifier), higher_number_than_3, 0.736
+T(modifier), locomotive, 0.735
+
+T(head), meow, 0.94
+T(head), miaow, 0.938
+T(head), pet, 0.925
+T(head), humane_society, 0.901
+T(head), humane_shelter, 0.901
+T(head), companion_to_humans, 0.888
+T(head), -dog, 0.888
+T(head), companionship, 0.887
+
+
+Result: {"four": 0.859, "meow": 0.94, "miaow": 0.938, "pet": 0.925, "humane_society": 0.901, "humane_shelter": 0.901, "@scenario_probability": 2.2414921913713674e-06}
+Scenario: [1, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 0, 0, 0, 2.2414921913713674e-06]

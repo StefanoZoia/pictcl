@@ -1,0 +1,26 @@
+Title: sushi-textbook
+
+Head Concept Name: sushi
+Modifier Concept Name: textbook
+
+
+
+
+
+T(modifier), book, 0.883
+T(modifier), learning, 0.819
+T(modifier), locker, 0.811
+T(modifier), include_glossary, 0.811
+
+T(head), japan, 0.867
+T(head), eating, 0.834
+T(head), dish, 0.829
+T(head), both_beautiful_and_delicious, 0.817
+T(head), japanese_food, 0.816
+T(head), very_popular_in_asian_cuisine, 0.816
+T(head), raw_fish, 0.792
+T(head), plate, 0.777
+
+
+Result: {"book": 0.883, "learning": 0.819, "japan": 0.867, "eating": 0.834, "dish": 0.829, "both_beautiful_and_delicious": 0.817, "@scenario_probability": 0.001986706867006666}
+Scenario: [1, 1, 0, 0, 1, 1, 1, 1, 0, 0, 0, 0, 0.001986706867006666]

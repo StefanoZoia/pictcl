@@ -1,0 +1,30 @@
+Title: rose-truck
+
+Head Concept Name: rose
+Modifier Concept Name: truck
+
+
+
+
+
+T(modifier), vehicle, 0.902
+T(modifier), automobile, 0.874
+T(modifier), motor_vehicle, 0.869
+T(modifier), wheeled_vehicle, 0.861
+T(modifier), stabilizer_bar, 0.854
+T(modifier), garage, 0.85
+T(modifier), transport, 0.847
+T(modifier), vehicle_type, 0.845
+
+T(head), pink, 0.868
+T(head), red, 0.86
+T(head), flower_room, 0.854
+T(head), thorns, 0.837
+T(head), flower, 0.827
+T(head), shrub, 0.826
+T(head), garden, 0.796
+T(head), smell_nice, 0.786
+
+
+Result: {"vehicle": 0.902, "automobile": 0.874, "motor_vehicle": 0.869, "wheeled_vehicle": 0.861, "pink": 0.868, "red": 0.86, "@scenario_probability": 7.151647013811941e-07}
+Scenario: [1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 0, 0, 0, 0, 0, 0, 7.151647013811941e-07]

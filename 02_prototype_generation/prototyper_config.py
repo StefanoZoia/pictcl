@@ -3,7 +3,7 @@
 ######################################
 
 # path to the file containing the corpus
-CORPUS_FILE = '../01_dataset_building/output/control_pairs.tsv'
+CORPUS_FILE = '../01_dataset_building/output/all_human_eval.tsv'
 
 # path to the output file of cn_rel_getter - input for prototyper
 INTERMEDIATE_FILE = 'data/cn-represented.tsv'

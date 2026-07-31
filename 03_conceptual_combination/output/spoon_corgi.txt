@@ -1,0 +1,24 @@
+Title: spoon-corgi
+
+Head Concept Name: spoon
+Modifier Concept Name: corgi
+
+
+
+
+
+T(modifier), dog, 0.879
+T(modifier), breed_of_herding_dog, 0.794
+
+T(head), silverware_drawer, 0.892
+T(head), scooping_food, 0.888
+T(head), utensil, 0.882
+T(head), stirring_coffee, 0.871
+T(head), eating, 0.869
+T(head), cutlery, 0.869
+T(head), mixing_ingredients, 0.866
+T(head), mixing_soup, 0.866
+
+
+Result: {"dog": 0.879, "silverware_drawer": 0.892, "scooping_food": 0.888, "utensil": 0.882, "stirring_coffee": 0.871, "eating": 0.869, "@scenario_probability": 0.02252274524613498}
+Scenario: [1, 0, 1, 1, 1, 1, 1, 0, 0, 0, 0.02252274524613498]

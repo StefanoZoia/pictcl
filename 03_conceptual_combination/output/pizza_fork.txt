@@ -1,0 +1,30 @@
+Title: pizza-fork
+
+Head Concept Name: pizza
+Modifier Concept Name: fork
+
+
+
+
+
+T(modifier), cutlery, 0.867
+T(modifier), picking_up_food, 0.852
+T(modifier), prongs, 0.851
+T(modifier), silverware_drawer, 0.851
+T(modifier), eating_food, 0.85
+T(modifier), road, 0.847
+T(modifier), eat_dinner, 0.847
+T(modifier), eat_meal, 0.847
+
+T(head), baked_in_oven, 0.922
+T(head), pizza_toppings, 0.849
+T(head), pizza_sauce, 0.849
+T(head), oven, 0.844
+T(head), popular, 0.838
+T(head), dish, 0.823
+T(head), flatbread, 0.822
+T(head), disc_shaped_food_item, 0.815
+
+
+Result: {"cutlery": 0.867, "picking_up_food": 0.852, "prongs": 0.851, "silverware_drawer": 0.851, "eating_food": 0.85, "baked_in_oven": 0.922, "@scenario_probability": 5.043133400050144e-07}
+Scenario: [1, 1, 1, 1, 1, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 5.043133400050144e-07]

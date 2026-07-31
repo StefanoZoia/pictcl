@@ -1,0 +1,30 @@
+Title: broccoli-novel
+
+Head Concept Name: broccoli
+Modifier Concept Name: novel
+
+
+
+
+
+T(modifier), author, 0.897
+T(modifier), fiction, 0.885
+T(modifier), book, 0.883
+T(modifier), writer, 0.878
+T(modifier), story, 0.861
+T(modifier), bookstore, 0.85
+T(modifier), read, 0.802
+T(modifier), classical_studies, 0.724
+
+T(head), broccoli, 0.946
+T(head), crucifer, 0.894
+T(head), cruciferous_vegetable, 0.886
+T(head), green, 0.858
+T(head), green_vegetable, 0.839
+T(head), vegetable_people_may_cook, 0.829
+T(head), very_nutritious, 0.824
+T(head), plate, 0.764
+
+
+Result: {"author": 0.897, "fiction": 0.885, "book": 0.883, "broccoli": 0.946, "crucifer": 0.894, "cruciferous_vegetable": 0.886, "@scenario_probability": 1.1855884460329836e-06}
+Scenario: [1, 1, 1, 0, 0, 0, 0, 0, 1, 1, 1, 0, 0, 0, 0, 0, 1.1855884460329836e-06]

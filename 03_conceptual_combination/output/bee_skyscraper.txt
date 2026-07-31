@@ -1,0 +1,30 @@
+Title: bee-skyscraper
+
+Head Concept Name: bee
+Modifier Concept Name: skyscraper
+
+
+
+
+
+T(modifier), type_of, 0.9
+T(modifier), cities, 0.888
+T(modifier), urban_areas, 0.879
+T(modifier), elevators, 0.876
+T(modifier), building, 0.87
+T(modifier), office_space, 0.865
+T(modifier), residences, 0.858
+T(modifier), tower, 0.852
+
+T(head), apiary, 0.91
+T(head), sting, 0.897
+T(head), hymenopterous_insect, 0.883
+T(head), swarm, 0.883
+T(head), bee_tree, 0.882
+T(head), bee_hive, 0.879
+T(head), hive, 0.878
+T(head), hive_flower_field, 0.876
+
+
+Result: {"type_of": 0.9, "cities": 0.888, "apiary": 0.91, "sting": 0.897, "hymenopterous_insect": 0.883, "swarm": 0.883, "@scenario_probability": 6.079863756047747e-08}
+Scenario: [1, 1, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0, 0, 0, 6.079863756047747e-08]

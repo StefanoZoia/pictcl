@@ -1,0 +1,19 @@
+Title: horse-in_front_of
+
+Head Concept Name: horse
+Modifier Concept Name: in_front_of
+
+
+
+
+
+
+T(head), riding, 0.924
+T(head), equine, 0.922
+T(head), equestrian_competition, 0.912
+T(head), horse's_foot, 0.901
+T(head), horse_racing, 0.901
+T(head), kentucky_derby, 0.891
+T(head), horsemeat, 0.889
+T(head), harness_pulling_carriage, 0.888
+

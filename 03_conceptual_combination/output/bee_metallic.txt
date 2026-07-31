@@ -1,0 +1,24 @@
+Title: bee-metallic
+
+Head Concept Name: bee
+Modifier Concept Name: metallic
+
+
+
+
+
+T(modifier), fabric, 0.829
+T(modifier), thread, 0.808
+
+T(head), apiary, 0.91
+T(head), sting, 0.897
+T(head), hymenopterous_insect, 0.883
+T(head), swarm, 0.883
+T(head), bee_tree, 0.882
+T(head), bee_hive, 0.879
+T(head), hive, 0.878
+T(head), hive_flower_field, 0.876
+
+
+Result: {"fabric": 0.829, "apiary": 0.91, "sting": 0.897, "hymenopterous_insect": 0.883, "swarm": 0.883, "bee_tree": 0.882, "@scenario_probability": 0.01635484652607105}
+Scenario: [1, 0, 1, 1, 1, 1, 1, 0, 0, 0, 0.01635484652607105]

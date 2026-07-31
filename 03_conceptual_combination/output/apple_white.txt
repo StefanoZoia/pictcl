@@ -1,0 +1,30 @@
+Title: apple-white
+
+Head Concept Name: apple
+Modifier Concept Name: white
+
+
+
+
+
+T(modifier), -black, 0.902
+T(modifier), whiteish_thing, 0.877
+T(modifier), opposite_from_black, 0.838
+T(modifier), checkers, 0.823
+T(modifier), man, 0.822
+T(modifier), chess, 0.817
+T(modifier), blood_cells, 0.813
+T(modifier), arkansas, 0.797
+
+T(head), apple, 0.946
+T(head), pome, 0.894
+T(head), apple_tree, 0.887
+T(head), green, 0.886
+T(head), red, 0.876
+T(head), fall_from_tree, 0.87
+T(head), red_or_green, 0.855
+T(head), eating, 0.851
+
+
+Result: {"-black": 0.902, "whiteish_thing": 0.877, "apple": 0.946, "pome": 0.894, "apple_tree": 0.887, "green": 0.886, "@scenario_probability": 6.492447602587955e-07}
+Scenario: [1, 1, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0, 0, 0, 6.492447602587955e-07]

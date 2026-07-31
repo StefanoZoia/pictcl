@@ -1,0 +1,30 @@
+Title: chair-triangle
+
+Head Concept Name: chair
+Modifier Concept Name: triangle
+
+
+
+
+
+T(modifier), geometry, 0.906
+T(modifier), trigonometry, 0.89
+T(modifier), polygon, 0.87
+T(modifier), draw_line_at_angle, 0.86
+T(modifier), draw_straight_line, 0.86
+T(modifier), calculate_position_on_plan, 0.859
+T(modifier), musical_instrument, 0.856
+T(modifier), geometric_figure_with_three_sides, 0.855
+
+T(head), reupholstering, 0.896
+T(head), furniture_store, 0.889
+T(head), sitting, 0.879
+T(head), resting, 0.871
+T(head), sit_down, 0.853
+T(head), furniture_market_category, 0.851
+T(head), living_room, 0.847
+T(head), people, 0.841
+
+
+Result: {"geometry": 0.906, "trigonometry": 0.89, "reupholstering": 0.896, "furniture_store": 0.889, "sitting": 0.879, "resting": 0.871, "@scenario_probability": 1.9655142372174804e-07}
+Scenario: [1, 1, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0, 0, 0, 1.9655142372174804e-07]

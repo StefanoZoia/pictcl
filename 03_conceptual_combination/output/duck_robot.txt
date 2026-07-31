@@ -1,0 +1,30 @@
+Title: duck-robot
+
+Head Concept Name: duck
+Modifier Concept Name: robot
+
+
+
+
+
+T(modifier), automaton, 0.867
+T(modifier), automation, 0.865
+T(modifier), machine, 0.862
+T(modifier), botmaster, 0.845
+T(modifier), manufacturing_plant, 0.837
+T(modifier), companionship, 0.826
+T(modifier), repetitive, 0.824
+T(modifier), walk_and_talk, 0.824
+
+T(head), duck, 0.946
+T(head), webbed_feet, 0.909
+T(head), anseriform_bird, 0.877
+T(head), anatidae, 0.869
+T(head), poultry, 0.86
+T(head), waterfowl, 0.86
+T(head), dive, 0.83
+T(head), eat, 0.83
+
+
+Result: {"automaton": 0.867, "automation": 0.865, "duck": 0.946, "webbed_feet": 0.909, "anseriform_bird": 0.877, "anatidae": 0.869, "@scenario_probability": 5.23162349345182e-07}
+Scenario: [1, 1, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0, 0, 0, 5.23162349345182e-07]

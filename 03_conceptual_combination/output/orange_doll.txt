@@ -1,0 +1,30 @@
+Title: orange-doll
+
+Head Concept Name: orange
+Modifier Concept Name: doll
+
+
+
+
+
+T(modifier), dollshouse, 0.927
+T(modifier), plaything_for_cat, 0.918
+T(modifier), plaything_for_dog, 0.918
+T(modifier), toy, 0.897
+T(modifier), plaything, 0.883
+T(modifier), childs_play, 0.873
+T(modifier), doll_house, 0.873
+T(modifier), little_girls, 0.872
+
+T(head), orange, 0.946
+T(head), citrus_fruit, 0.902
+T(head), citrus, 0.891
+T(head), orangeish_thing, 0.883
+T(head), sweet, 0.881
+T(head), color, 0.859
+T(head), colour, 0.858
+T(head), -apple, 0.844
+
+
+Result: {"dollshouse": 0.927, "plaything_for_cat": 0.918, "plaything_for_dog": 0.918, "toy": 0.897, "orange": 0.946, "citrus_fruit": 0.902, "@scenario_probability": 6.846204432145306e-08}
+Scenario: [1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 0, 0, 0, 0, 0, 0, 6.846204432145306e-08]

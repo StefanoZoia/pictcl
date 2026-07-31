@@ -1,0 +1,30 @@
+Title: butterfly-carrot
+
+Head Concept Name: butterfly
+Modifier Concept Name: carrot
+
+
+
+
+
+T(modifier), carrot, 0.946
+T(modifier), reward, 0.836
+T(modifier), root, 0.829
+T(modifier), herb, 0.821
+T(modifier), vegetable, 0.821
+T(modifier), root_vegetable, 0.807
+T(modifier), -stick, 0.752
+T(modifier), eaten, 0.707
+
+T(head), lepidopterous_insect, 0.906
+T(head), cocoon, 0.902
+T(head), fly, 0.885
+T(head), insect, 0.878
+T(head), flit, 0.851
+T(head), -related_to_piano, 0.844
+T(head), swimming_stroke, 0.815
+T(head), unfold, 0.814
+
+
+Result: {"carrot": 0.946, "lepidopterous_insect": 0.906, "cocoon": 0.902, "fly": 0.885, "insect": 0.878, "flit": 0.851, "@scenario_probability": 3.45800104254339e-06}
+Scenario: [1, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 0, 0, 0, 3.45800104254339e-06]

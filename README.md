@@ -1,6 +1,6 @@
-METCL system applied to Metaphors
+PiCTCL system: TCL logic applied to Images
 
-A Python tool for dynamic generation of knowledge in Description Logics of Typicality applied to metaphor interpretation.
+A Python tool for dynamic generation of knowledge in Description Logics of Typicality applied to text-to-image generation.
 
 This work includes data from ConceptNet 5, which was compiled by the Commonsense Computing Initiative. ConceptNet 5 is freely available under the Creative Commons Attribution-ShareAlike license (CC BY SA 4.0) from https://conceptnet.io. The included data was created by contributors to Commonsense Computing projects, contributors to Wikimedia projects, Games with a Purpose, Princeton University's WordNet, DBPedia, OpenCyc, and Umbel.
 
@@ -10,20 +10,9 @@ This work includes data from ConceptNet 5, which was compiled by the Commonsense
 
 ### Description
 
-This module features different datasets containing occurrences of metaphors presented as tsv triples (source, target, sentence).
-The abbreviation nn stands for noun-noun metaphor type.
+This module features the ConceptMix configuration files, and is used to configure the contents of the images to generate.
 
-- vuamc_nn.tsv contains manually extracted metaphors from the VUAMC corpus, excluding the occurrences where either the source or the target is a phrase and manually annotating the target and source.
-- mensa_nn.tsv contains manually extracted metaphors from the Metaphor Detection Dataset developed by Mensa et al.
-- gordon_nn.tsv contains metaphors from the "Corpus of Rich Metaphor Annotation" by Gordon et al., automatically excluding the occurrences where either the source or the target is a phrase and filtering for the different pos (by using the corpus_filter.py script).
-- nn450_corpus.tsv contains the union of all the above metaphors, for a total of 450 unique metaphors
-
-The script in remove_duplicates.py was used to remove duplicated examples if present
-
-
-### Libraries
-
-nltk library is used for tokenization and POS tagging
+The visual content of the images to be generated is represented in two formats: a full json description of the configuration and a tsv with just the two visual concepts involved.
 
 ---
 
@@ -31,18 +20,18 @@ nltk library is used for tokenization and POS tagging
 
 ### Description
 
-Generation of the prototypes involved in metaphors.
+Generation of the prototypes involved in visual generations.
 
 1. A first step involves the retrieval of relations from ConceptNet
 2. The second step builds the prototypes based on the extracted relations
 
 ### Input
 
-The tsv representation of the metaphor corpus, represented as triples (source, target, sentence).
+The tsv representation of the visual compositions, represented as pairs (concept1, concept2).
 
 ### Output
 
-Prototypes of each concept involved in some metaphor
+Prototypes of each concept involved in some visual composition
 
 ### How to run
 
@@ -67,7 +56,7 @@ nltk is used for lemmatization, requests is used to query ConceptNet
 
 ### Description
 
-Generation of the prototypes of metaphorical concepts by conceptual combination.
+Generation of the prototypes of visual concepts by conceptual combination.
 
 1. A first step preprocesses the input
 2. The second step performs the conceptual combination
@@ -75,19 +64,19 @@ Generation of the prototypes of metaphorical concepts by conceptual combination.
 ### Input
 
 1. The representation of rigid and typical properties of the concepts involved in the combination.
-2. The tsv representation of the metaphors
+2. The tsv representation of the visual composition
 
 ### Output
 
-Prototypes of the combined metaphorical concepts.
+Prototypes of the combined visual concepts.
 
 ### How to run
 
-To run the generation of the input file for METCL: python cocos_preprocessing.py
+To run the generation of the input file for TCL: python cocos_preprocessing.py
 
-- the preprocessing step writes the prototypes of each couple of concepts involved in a metaphor into a suitable file
+- the preprocessing step writes the prototypes of each couple of concepts involved in a visual composition into a suitable file
 
-To run the conceptual combination with METCL: python cocos.py
+To run the conceptual combination with TCL: python cocos.py
 
 - This runs the combination on all the files in a specified folder.
 - To run on a single file, simply call the cocos() function. The function takes the file name as the first parameter and the maximum number of properties in the resulting concept as a second (optional) parameter.
@@ -96,3 +85,45 @@ To run the conceptual combination with METCL: python cocos.py
 
 The configuration for both steps is specified in cocos_config.py.
 In particular, the configuration specifies where to search for the input
+
+---
+
+# Module 4 - Visual Combination
+
+### Description
+
+Text-to-image generation guided by the TCL conceptual combination. The same module also handles the VLM-based automatic scoring of the generated images.
+
+### Input
+
+1. the json description of the configuration of each image, defined in module 1;
+2. the prototypes of the combined visual concepts, generated by module 3.
+
+### Output
+
+The generated images.
+
+### How to run
+
+To run the text-to-image generation: python generation.py
+
+To run the VLM-based automatic scoring: python auto_score.py
+
+### Configuration
+
+The configuration is specified in generation_config.py.
+In particular, the configuration specifies where to search for the input
+
+---
+
+# Module 5 - Evaluation
+
+### Description
+
+Computes the evaluation metrics.
+
+### How to run
+
+To compute the automatic evaluation metrics: python automatic_eval.py
+
+To compute the human evaluation metrics: python human_eval.py

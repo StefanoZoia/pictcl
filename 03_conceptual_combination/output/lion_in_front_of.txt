@@ -1,0 +1,19 @@
+Title: lion-in_front_of
+
+Head Concept Name: lion
+Modifier Concept Name: in_front_of
+
+
+
+
+
+
+T(head), roar, 0.889
+T(head), feline, 0.865
+T(head), zoo_to_have_on_display, 0.848
+T(head), animal, 0.846
+T(head), veldt, 0.846
+T(head), carnivore, 0.845
+T(head), safari, 0.845
+T(head), hunt_zebras, 0.829
+

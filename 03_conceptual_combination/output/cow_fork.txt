@@ -1,0 +1,30 @@
+Title: cow-fork
+
+Head Concept Name: cow
+Modifier Concept Name: fork
+
+
+
+
+
+T(modifier), cutlery, 0.867
+T(modifier), picking_up_food, 0.852
+T(modifier), prongs, 0.851
+T(modifier), silverware_drawer, 0.851
+T(modifier), eating_food, 0.85
+T(modifier), road, 0.847
+T(modifier), eat_dinner, 0.847
+T(modifier), eat_meal, 0.847
+
+T(head), county_fair, 0.928
+T(head), cattle, 0.911
+T(head), dairy_farm, 0.908
+T(head), milking, 0.889
+T(head), barnyard, 0.884
+T(head), milking_stall, 0.883
+T(head), milking_barn, 0.883
+T(head), hamburger_meat, 0.883
+
+
+Result: {"cutlery": 0.867, "county_fair": 0.928, "cattle": 0.911, "dairy_farm": 0.908, "milking": 0.889, "barnyard": 0.884, "@scenario_probability": 1.478708993090844e-07}
+Scenario: [1, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 0, 0, 0, 1.478708993090844e-07]

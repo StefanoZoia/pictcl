@@ -1,0 +1,29 @@
+Title: ring-above
+
+Head Concept Name: ring
+Modifier Concept Name: above
+
+
+
+
+
+T(modifier), -below, 0.917
+T(modifier), -beneath, 0.851
+T(modifier), section, 0.832
+T(modifier), -under, 0.83
+T(modifier), archaic, 0.745
+T(modifier), -underneath, 0.739
+T(modifier), -sewer, 0.677
+
+T(head), bath_tub, 0.87
+T(head), jewelry, 0.87
+T(head), wearing, 0.869
+T(head), toroid, 0.868
+T(head), engage, 0.862
+T(head), piece_of_jewelry, 0.849
+T(head), doorbell, 0.846
+T(head), finger, 0.842
+
+
+Result: {"-below": 0.917, "bath_tub": 0.87, "jewelry": 0.87, "wearing": 0.869, "toroid": 0.868, "engage": 0.862, "@scenario_probability": 1.5168304731352376e-05}
+Scenario: [1, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 0, 0, 0, 1.5168304731352376e-05]

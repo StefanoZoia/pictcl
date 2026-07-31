@@ -1,0 +1,30 @@
+Title: spider-house
+
+Head Concept Name: spider
+Modifier Concept Name: house
+
+
+
+
+
+T(modifier), dwelling, 0.886
+T(modifier), shelter, 0.864
+T(modifier), residential_area, 0.856
+T(modifier), home, 0.855
+T(modifier), protection_from_elements, 0.848
+T(modifier), family, 0.847
+T(modifier), cost_lot, 0.846
+T(modifier), suburbs, 0.838
+
+T(head), arachnid, 0.916
+T(head), web, 0.876
+T(head), inject_venom, 0.859
+T(head), spin_webs, 0.849
+T(head), sticking_to_wall, 0.823
+T(head), arthropod, 0.816
+T(head), spin_web, 0.805
+T(head), venomous_animal, 0.804
+
+
+Result: {"dwelling": 0.886, "shelter": 0.864, "residential_area": 0.856, "arachnid": 0.916, "web": 0.876, "inject_venom": 0.859, "@scenario_probability": 7.141861905786539e-07}
+Scenario: [1, 1, 1, 0, 0, 0, 0, 0, 1, 1, 1, 0, 0, 0, 0, 0, 7.141861905786539e-07]

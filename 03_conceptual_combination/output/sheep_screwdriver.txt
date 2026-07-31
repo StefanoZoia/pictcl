@@ -1,0 +1,30 @@
+Title: sheep-screwdriver
+
+Head Concept Name: sheep
+Modifier Concept Name: screwdriver
+
+
+
+
+
+T(modifier), tool_box, 0.904
+T(modifier), tool_belt, 0.904
+T(modifier), unscrewing_screws, 0.894
+T(modifier), tool_box_or_junk_drawer, 0.868
+T(modifier), inserting_screw, 0.864
+T(modifier), toolbox, 0.861
+T(modifier), pry, 0.859
+T(modifier), junk_drawer, 0.842
+
+T(head), graze, 0.893
+T(head), bovid, 0.886
+T(head), shearing, 0.88
+T(head), animals, 0.862
+T(head), farm, 0.848
+T(head), farm_animals, 0.848
+T(head), meadow, 0.839
+T(head), -goat, 0.837
+
+
+Result: {"tool_box": 0.904, "tool_belt": 0.904, "unscrewing_screws": 0.894, "graze": 0.893, "bovid": 0.886, "shearing": 0.88, "@scenario_probability": 2.3660603339749965e-07}
+Scenario: [1, 1, 1, 0, 0, 0, 0, 0, 1, 1, 1, 0, 0, 0, 0, 0, 2.3660603339749965e-07]

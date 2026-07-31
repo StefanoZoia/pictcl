@@ -1,0 +1,30 @@
+Title: pig-broccoli
+
+Head Concept Name: pig
+Modifier Concept Name: broccoli
+
+
+
+
+
+T(modifier), broccoli, 0.946
+T(modifier), crucifer, 0.894
+T(modifier), cruciferous_vegetable, 0.886
+T(modifier), green, 0.858
+T(modifier), green_vegetable, 0.839
+T(modifier), vegetable_people_may_cook, 0.829
+T(modifier), very_nutritious, 0.824
+T(modifier), plate, 0.764
+
+T(head), pigsty, 0.848
+T(head), find_truffles, 0.843
+T(head), find_truffle, 0.843
+T(head), -hog, 0.818
+T(head), ingot, 0.812
+T(head), live, 0.805
+T(head), pen, 0.792
+T(head), mud, 0.785
+
+
+Result: {"broccoli": 0.946, "crucifer": 0.894, "cruciferous_vegetable": 0.886, "green": 0.858, "pigsty": 0.848, "find_truffle": 0.843, "@scenario_probability": 2.4619829723419116e-06}
+Scenario: [1, 1, 1, 1, 0, 0, 0, 0, 1, 0, 1, 0, 0, 0, 0, 0, 2.4619829723419116e-06]

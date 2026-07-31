@@ -1,0 +1,30 @@
+Title: doll-butterfly
+
+Head Concept Name: doll
+Modifier Concept Name: butterfly
+
+
+
+
+
+T(modifier), lepidopterous_insect, 0.906
+T(modifier), cocoon, 0.902
+T(modifier), fly, 0.885
+T(modifier), insect, 0.878
+T(modifier), flit, 0.851
+T(modifier), -related_to_piano, 0.844
+T(modifier), swimming_stroke, 0.815
+T(modifier), unfold, 0.814
+
+T(head), dollshouse, 0.927
+T(head), plaything_for_cat, 0.918
+T(head), plaything_for_dog, 0.918
+T(head), toy, 0.897
+T(head), plaything, 0.883
+T(head), childs_play, 0.873
+T(head), doll_house, 0.873
+T(head), little_girls, 0.872
+
+
+Result: {"lepidopterous_insect": 0.906, "cocoon": 0.902, "dollshouse": 0.927, "plaything_for_cat": 0.918, "plaything_for_dog": 0.918, "toy": 0.897, "@scenario_probability": 1.552203857971721e-07}
+Scenario: [1, 1, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0, 0, 0, 1.552203857971721e-07]

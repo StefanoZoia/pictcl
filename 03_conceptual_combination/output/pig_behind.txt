@@ -1,0 +1,30 @@
+Title: pig-behind
+
+Head Concept Name: pig
+Modifier Concept Name: behind
+
+
+
+
+
+T(modifier), -front, 0.842
+T(modifier), -in_front, 0.826
+T(modifier), -ahead, 0.826
+T(modifier), -in_front_of, 0.814
+T(modifier), -before, 0.79
+T(modifier), -fast, 0.763
+T(modifier), us, 0.76
+T(modifier), archaic, 0.751
+
+T(head), pigsty, 0.848
+T(head), find_truffles, 0.843
+T(head), find_truffle, 0.843
+T(head), -hog, 0.818
+T(head), ingot, 0.812
+T(head), live, 0.805
+T(head), pen, 0.792
+T(head), mud, 0.785
+
+
+Result: {"-front": 0.842, "-in_front": 0.826, "-ahead": 0.826, "pigsty": 0.848, "find_truffles": 0.843, "find_truffle": 0.843, "@scenario_probability": 5.714523261688341e-06}
+Scenario: [1, 1, 1, 0, 0, 0, 0, 0, 1, 1, 1, 0, 0, 0, 0, 0, 5.714523261688341e-06]

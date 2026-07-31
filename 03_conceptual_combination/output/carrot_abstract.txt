@@ -1,0 +1,30 @@
+Title: carrot-abstract
+
+Head Concept Name: carrot
+Modifier Concept Name: abstract
+
+
+
+
+
+T(modifier), summary, 0.856
+T(modifier), sum_up, 0.829
+T(modifier), see, 0.814
+T(modifier), consider, 0.809
+T(modifier), -concrete, 0.786
+T(modifier), fine_arts, 0.782
+T(modifier), patent, 0.781
+T(modifier), arts, 0.779
+
+T(head), carrot, 0.946
+T(head), reward, 0.836
+T(head), root, 0.829
+T(head), herb, 0.821
+T(head), vegetable, 0.821
+T(head), root_vegetable, 0.807
+T(head), -stick, 0.752
+T(head), eaten, 0.707
+
+
+Result: {"summary": 0.856, "sum_up": 0.829, "carrot": 0.946, "reward": 0.836, "root": 0.829, "vegetable": 0.821, "@scenario_probability": 7.691410748802238e-06}
+Scenario: [1, 1, 0, 0, 0, 0, 0, 0, 1, 1, 1, 0, 1, 0, 0, 0, 7.691410748802238e-06]

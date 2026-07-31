@@ -1,0 +1,8 @@
+-black: 0.902
+whiteish_thing: 0.877
+opposite_from_black: 0.838
+checkers: 0.823
+man: 0.822
+chess: 0.817
+blood_cells: 0.813
+arkansas: 0.797

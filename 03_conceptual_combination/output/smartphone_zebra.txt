@@ -1,0 +1,26 @@
+Title: smartphone-zebra
+
+Head Concept Name: smartphone
+Modifier Concept Name: zebra
+
+
+
+
+
+T(modifier), zoo, 0.867
+T(modifier), equine, 0.846
+T(modifier), animal, 0.812
+T(modifier), stripes, 0.802
+T(modifier), horse, 0.796
+T(modifier), herd_animal, 0.776
+T(modifier), mammal, 0.762
+T(modifier), sports, 0.754
+
+T(head), mobile_phone, 0.871
+T(head), cellular_telephone, 0.868
+T(head), cellular_phone, 0.864
+T(head), palmtop_computer, 0.834
+
+
+Result: {"zoo": 0.867, "equine": 0.846, "animal": 0.812, "mobile_phone": 0.871, "cellular_telephone": 0.868, "cellular_phone": 0.864, "@scenario_probability": 0.0034210596025791656}
+Scenario: [1, 1, 1, 0, 0, 0, 0, 0, 1, 1, 1, 0, 0.0034210596025791656]

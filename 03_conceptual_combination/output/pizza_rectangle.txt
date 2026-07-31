@@ -1,0 +1,30 @@
+Title: pizza-rectangle
+
+Head Concept Name: pizza
+Modifier Concept Name: rectangle
+
+
+
+
+
+T(modifier), parallelogram, 0.888
+T(modifier), shape, 0.859
+T(modifier), quadrangle, 0.841
+T(modifier), figure, 0.816
+T(modifier), geometry, 0.815
+T(modifier), geometric_figure, 0.807
+T(modifier), cyclic_quadrilateral, 0.765
+T(modifier), four_sided_figure, 0.749
+
+T(head), baked_in_oven, 0.922
+T(head), pizza_toppings, 0.849
+T(head), pizza_sauce, 0.849
+T(head), oven, 0.844
+T(head), popular, 0.838
+T(head), dish, 0.823
+T(head), flatbread, 0.822
+T(head), disc_shaped_food_item, 0.815
+
+
+Result: {"parallelogram": 0.888, "shape": 0.859, "baked_in_oven": 0.922, "pizza_toppings": 0.849, "pizza_sauce": 0.849, "oven": 0.844, "@scenario_probability": 2.489203814806252e-06}
+Scenario: [1, 1, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0, 0, 0, 2.489203814806252e-06]

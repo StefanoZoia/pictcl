@@ -1,0 +1,30 @@
+Title: hammer-3
+
+Head Concept Name: hammer
+Modifier Concept Name: 3
+
+
+
+
+
+T(modifier), three, 0.898
+T(modifier), -5, 0.897
+T(modifier), spelled_three, 0.815
+T(modifier), characters, 0.8
+T(modifier), higher_number_than_2, 0.738
+T(modifier), nuber, 0.735
+T(modifier), military, 0.73
+T(modifier), locomotive, 0.725
+
+T(head), hammer, 0.974
+T(head), tool_box, 0.894
+T(head), whack, 0.889
+T(head), pounding_nails, 0.884
+T(head), hard, 0.882
+T(head), strike, 0.874
+T(head), tool, 0.87
+T(head), hit_nail, 0.867
+
+
+Result: {"three": 0.898, "-5": 0.897, "hammer": 0.974, "tool_box": 0.894, "whack": 0.889, "pounding_nails": 0.884, "@scenario_probability": 2.7027891969407724e-06}
+Scenario: [1, 1, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0, 0, 0, 2.7027891969407724e-06]

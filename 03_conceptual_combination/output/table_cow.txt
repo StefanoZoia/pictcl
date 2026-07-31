@@ -1,0 +1,30 @@
+Title: table-cow
+
+Head Concept Name: table
+Modifier Concept Name: cow
+
+
+
+
+
+T(modifier), county_fair, 0.928
+T(modifier), cattle, 0.911
+T(modifier), dairy_farm, 0.908
+T(modifier), milking, 0.889
+T(modifier), barnyard, 0.884
+T(modifier), milking_stall, 0.883
+T(modifier), milking_barn, 0.883
+T(modifier), hamburger_meat, 0.883
+
+T(head), drawing_on, 0.883
+T(head), dining, 0.881
+T(head), dining_room, 0.877
+T(head), eating_off_of, 0.869
+T(head), read, 0.868
+T(head), resturant, 0.862
+T(head), tabletop, 0.861
+T(head), kitchen, 0.856
+
+
+Result: {"county_fair": 0.928, "cattle": 0.911, "dairy_farm": 0.908, "milking": 0.889, "barnyard": 0.884, "drawing_on": 0.883, "@scenario_probability": 5.964557023385719e-08}
+Scenario: [1, 1, 1, 1, 1, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 5.964557023385719e-08]

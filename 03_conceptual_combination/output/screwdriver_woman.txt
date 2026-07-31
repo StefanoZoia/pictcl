@@ -1,0 +1,30 @@
+Title: screwdriver-woman
+
+Head Concept Name: screwdriver
+Modifier Concept Name: woman
+
+
+
+
+
+T(modifier), -men, 0.856
+T(modifier), adult, 0.84
+T(modifier), female, 0.83
+T(modifier), -male, 0.782
+T(modifier), female_person, 0.772
+T(modifier), -lass, 0.762
+T(modifier), adult_female_body, 0.76
+T(modifier), -girl, 0.756
+
+T(head), tool_box, 0.904
+T(head), tool_belt, 0.904
+T(head), unscrewing_screws, 0.894
+T(head), tool_box_or_junk_drawer, 0.868
+T(head), inserting_screw, 0.864
+T(head), toolbox, 0.861
+T(head), pry, 0.859
+T(head), junk_drawer, 0.842
+
+
+Result: {"-men": 0.856, "tool_box": 0.904, "tool_belt": 0.904, "unscrewing_screws": 0.894, "tool_box_or_junk_drawer": 0.868, "inserting_screw": 0.864, "@scenario_probability": 2.7365972215553175e-06}
+Scenario: [1, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 0, 0, 0, 2.7365972215553175e-06]

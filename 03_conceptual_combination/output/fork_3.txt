@@ -1,0 +1,30 @@
+Title: fork-3
+
+Head Concept Name: fork
+Modifier Concept Name: 3
+
+
+
+
+
+T(modifier), three, 0.898
+T(modifier), -5, 0.897
+T(modifier), spelled_three, 0.815
+T(modifier), characters, 0.8
+T(modifier), higher_number_than_2, 0.738
+T(modifier), nuber, 0.735
+T(modifier), military, 0.73
+T(modifier), locomotive, 0.725
+
+T(head), cutlery, 0.867
+T(head), picking_up_food, 0.852
+T(head), prongs, 0.851
+T(head), silverware_drawer, 0.851
+T(head), eating_food, 0.85
+T(head), road, 0.847
+T(head), eat_dinner, 0.847
+T(head), eat_meal, 0.847
+
+
+Result: {"three": 0.898, "-5": 0.897, "cutlery": 0.867, "picking_up_food": 0.852, "prongs": 0.851, "silverware_drawer": 0.851, "@scenario_probability": 4.415678962699096e-06}
+Scenario: [1, 1, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0, 0, 0, 4.415678962699096e-06]

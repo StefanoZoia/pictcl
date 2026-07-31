@@ -1,0 +1,24 @@
+Title: cow-metallic
+
+Head Concept Name: cow
+Modifier Concept Name: metallic
+
+
+
+
+
+T(modifier), fabric, 0.829
+T(modifier), thread, 0.808
+
+T(head), county_fair, 0.928
+T(head), cattle, 0.911
+T(head), dairy_farm, 0.908
+T(head), milking, 0.889
+T(head), barnyard, 0.884
+T(head), milking_stall, 0.883
+T(head), milking_barn, 0.883
+T(head), hamburger_meat, 0.883
+
+
+Result: {"fabric": 0.829, "county_fair": 0.928, "cattle": 0.911, "dairy_farm": 0.908, "milking": 0.889, "barnyard": 0.884, "@scenario_probability": 0.015378698129285549}
+Scenario: [1, 0, 1, 1, 1, 1, 1, 0, 0, 0, 0.015378698129285549]

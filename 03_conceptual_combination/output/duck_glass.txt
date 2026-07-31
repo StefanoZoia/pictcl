@@ -1,0 +1,30 @@
+Title: duck-glass
+
+Head Concept Name: duck
+Modifier Concept Name: glass
+
+
+
+
+
+T(modifier), glass, 0.946
+T(modifier), glassware, 0.906
+T(modifier), drinking, 0.901
+T(modifier), recyclable, 0.893
+T(modifier), clear, 0.888
+T(modifier), ceramic, 0.877
+T(modifier), half_empty, 0.871
+T(modifier), very_fragile, 0.87
+
+T(head), duck, 0.946
+T(head), webbed_feet, 0.909
+T(head), anseriform_bird, 0.877
+T(head), anatidae, 0.869
+T(head), poultry, 0.86
+T(head), waterfowl, 0.86
+T(head), dive, 0.83
+T(head), eat, 0.83
+
+
+Result: {"glass": 0.946, "glassware": 0.906, "drinking": 0.901, "recyclable": 0.893, "duck": 0.946, "webbed_feet": 0.909, "@scenario_probability": 1.25036590117368e-07}
+Scenario: [1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 0, 0, 0, 0, 0, 0, 1.25036590117368e-07]

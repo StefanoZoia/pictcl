@@ -3,13 +3,13 @@ import json
 import numpy as np
 from infer_ci import bootstrap_ci
 
-BASELINE_IMAGE_DIR = "../04_visual_combination/output/images"
-BASELINE_SCORE_DIR = "../04_visual_combination/output/scores"
+BASELINE_IMAGE_DIR = "../04_visual_combination/output/baseline_images"
+BASELINE_SCORE_DIR = "../04_visual_combination/output/baseline_scores"
 
-COCOS_IMAGE_DIR = "../04_visual_combination/output/cocos_images"
-COCOS_SCORE_DIR = "../04_visual_combination/output/cocos_scores"
+PICTCL_IMAGE_DIR = "../04_visual_combination/output/pictcl_images"
+PICTCL_SCORE_DIR = "../04_visual_combination/output/pictcl_scores"
 
-USE_COCOS = False
+USE_TCL = True
 
 # check that the call to LLM has already been done and return its result
 def read_json_file(path):
@@ -32,26 +32,28 @@ def list_images(path):
 def main():
 
     baseline_images = list_images(BASELINE_IMAGE_DIR)
-    cocos_images = list_images(COCOS_IMAGE_DIR)
+    pictcl_images = list_images(PICTCL_IMAGE_DIR)
 
     full_mark_score = list()    #images having all correct answers
     concept_fraction_score = list()
 
-    # for each generated image
+    # for each generated image (ignoring object-object combinations)
     for filename in baseline_images:
 
         image_name = filename.split(".")[0]
 
-        score_dir = COCOS_SCORE_DIR if (USE_COCOS and filename in cocos_images) else BASELINE_SCORE_DIR
+        if "ooc_" not in image_name:
 
-        # load score
-        score_path = f"{score_dir}/{image_name}.json"
-        img_info = read_json_file(score_path)
+            score_dir = PICTCL_SCORE_DIR if (USE_TCL and filename in pictcl_images) else BASELINE_SCORE_DIR
 
-        if img_info:
-            # add image's individual question scores to the lists
-            concept_fraction_score.extend(img_info["scores"])
-            full_mark_score.append(np.min(img_info["scores"]))
+            # load score
+            score_path = f"{score_dir}/{image_name}.json"
+            img_info = read_json_file(score_path)
+
+            if img_info:
+                # add image's individual question scores to the lists
+                concept_fraction_score.extend(img_info["scores"])
+                full_mark_score.append(np.min(img_info["scores"]))
         
     # compute overall scores with CI
     print(f"Evaluated images: {len(full_mark_score)}")
@@ -66,8 +68,8 @@ def main():
         random_state = 322026
     )
     plus_minus = (ci[1][1] - ci[1][0]) / 2 
-    print(f"Perfect-scoring images: {np.sum(full_mark_score):.4f} / {len(full_mark_score)}")
-    print(f"Proportion of perfect-scoring images: {np.mean(full_mark_score):.4f} ±{plus_minus:.4f}")
+    print(f"Perfect-scoring images: {np.sum(full_mark_score)} / {len(full_mark_score)}")
+    print(f"Full-mark score: {np.mean(full_mark_score):.2f} ±{plus_minus:.2f}")
 
     ci = bootstrap_ci(
         y_true = np.ones(len(concept_fraction_score)),
@@ -78,8 +80,8 @@ def main():
         random_state = 322026
     )
     plus_minus = (ci[1][1] - ci[1][0]) / 2 
-    print(f"Perfect-scoring images: {np.sum(concept_fraction_score):.4f} / {len(concept_fraction_score)}")
-    print(f"Average score per image: {np.mean(concept_fraction_score):.4f} ±{plus_minus:.4f}")
+    print(f"Correctly depicted concepts: {np.sum(concept_fraction_score)} / {len(concept_fraction_score)}")
+    print(f"Conceptual fraction score: {np.mean(concept_fraction_score):.2f} ±{plus_minus:.2f}")
 
 
 

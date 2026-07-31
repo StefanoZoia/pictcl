@@ -1,0 +1,26 @@
+Title: pig-textbook
+
+Head Concept Name: pig
+Modifier Concept Name: textbook
+
+
+
+
+
+T(modifier), book, 0.883
+T(modifier), learning, 0.819
+T(modifier), locker, 0.811
+T(modifier), include_glossary, 0.811
+
+T(head), pigsty, 0.848
+T(head), find_truffles, 0.843
+T(head), find_truffle, 0.843
+T(head), -hog, 0.818
+T(head), ingot, 0.812
+T(head), live, 0.805
+T(head), pen, 0.792
+T(head), mud, 0.785
+
+
+Result: {"book": 0.883, "learning": 0.819, "pigsty": 0.848, "find_truffles": 0.843, "find_truffle": 0.843, "-hog": 0.818, "@scenario_probability": 0.0020876936697799314}
+Scenario: [1, 1, 0, 0, 1, 1, 1, 1, 0, 0, 0, 0, 0.0020876936697799314]

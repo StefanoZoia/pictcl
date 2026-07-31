@@ -1,0 +1,1 @@
+A zebra (id 1) stands on the left side of the image, and a giraffe (id 2) stands on the right side of the image, with open space between them.

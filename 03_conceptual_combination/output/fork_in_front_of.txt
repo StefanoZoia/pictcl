@@ -1,0 +1,19 @@
+Title: fork-in_front_of
+
+Head Concept Name: fork
+Modifier Concept Name: in_front_of
+
+
+
+
+
+
+T(head), cutlery, 0.867
+T(head), picking_up_food, 0.852
+T(head), prongs, 0.851
+T(head), silverware_drawer, 0.851
+T(head), eating_food, 0.85
+T(head), road, 0.847
+T(head), eat_dinner, 0.847
+T(head), eat_meal, 0.847
+

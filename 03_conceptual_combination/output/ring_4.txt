@@ -1,0 +1,30 @@
+Title: ring-4
+
+Head Concept Name: ring
+Modifier Concept Name: 4
+
+
+
+
+
+T(modifier), four, 0.859
+T(modifier), number, 0.815
+T(modifier), equal_2_2, 0.803
+T(modifier), characters, 0.799
+T(modifier), text_messaging, 0.773
+T(modifier), slang, 0.761
+T(modifier), higher_number_than_3, 0.736
+T(modifier), locomotive, 0.735
+
+T(head), bath_tub, 0.87
+T(head), jewelry, 0.87
+T(head), wearing, 0.869
+T(head), toroid, 0.868
+T(head), engage, 0.862
+T(head), piece_of_jewelry, 0.849
+T(head), doorbell, 0.846
+T(head), finger, 0.842
+
+
+Result: {"four": 0.859, "bath_tub": 0.87, "jewelry": 0.87, "wearing": 0.869, "toroid": 0.868, "engage": 0.862, "@scenario_probability": 4.318577945514099e-06}
+Scenario: [1, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 0, 0, 0, 4.318577945514099e-06]

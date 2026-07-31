@@ -1,0 +1,30 @@
+Title: giraffe-lion
+
+Head Concept Name: giraffe
+Modifier Concept Name: lion
+
+
+
+
+
+T(modifier), roar, 0.889
+T(modifier), feline, 0.865
+T(modifier), zoo_to_have_on_display, 0.848
+T(modifier), animal, 0.846
+T(modifier), veldt, 0.846
+T(modifier), carnivore, 0.845
+T(modifier), safari, 0.845
+T(modifier), hunt_zebras, 0.829
+
+T(head), giraffidae, 0.91
+T(head), male, 0.873
+T(head), zoo, 0.871
+T(head), ruminant, 0.853
+T(head), mammal, 0.824
+T(head), female, 0.824
+T(head), animal, 0.808
+T(head), drink_water, 0.791
+
+
+Result: {"roar": 0.889, "feline": 0.865, "giraffidae": 0.91, "male": 0.873, "zoo": 0.871, "ruminant": 0.853, "@scenario_probability": 8.355223611273731e-07}
+Scenario: [1, 1, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0, 0, 0, 8.355223611273731e-07]

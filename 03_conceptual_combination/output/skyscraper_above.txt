@@ -1,0 +1,29 @@
+Title: skyscraper-above
+
+Head Concept Name: skyscraper
+Modifier Concept Name: above
+
+
+
+
+
+T(modifier), -below, 0.917
+T(modifier), -beneath, 0.851
+T(modifier), section, 0.832
+T(modifier), -under, 0.83
+T(modifier), archaic, 0.745
+T(modifier), -underneath, 0.739
+T(modifier), -sewer, 0.677
+
+T(head), type_of, 0.9
+T(head), cities, 0.888
+T(head), urban_areas, 0.879
+T(head), elevators, 0.876
+T(head), building, 0.87
+T(head), office_space, 0.865
+T(head), residences, 0.858
+T(head), tower, 0.852
+
+
+Result: {"-below": 0.917, "type_of": 0.9, "cities": 0.888, "urban_areas": 0.879, "elevators": 0.876, "building": 0.87, "@scenario_probability": 1.2742321386290237e-05}
+Scenario: [1, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 0, 0, 0, 1.2742321386290237e-05]

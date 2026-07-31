@@ -1,0 +1,30 @@
+Title: orange-spoon
+
+Head Concept Name: orange
+Modifier Concept Name: spoon
+
+
+
+
+
+T(modifier), silverware_drawer, 0.892
+T(modifier), scooping_food, 0.888
+T(modifier), utensil, 0.882
+T(modifier), stirring_coffee, 0.871
+T(modifier), eating, 0.869
+T(modifier), cutlery, 0.869
+T(modifier), mixing_ingredients, 0.866
+T(modifier), mixing_soup, 0.866
+
+T(head), orange, 0.946
+T(head), citrus_fruit, 0.902
+T(head), citrus, 0.891
+T(head), orangeish_thing, 0.883
+T(head), sweet, 0.881
+T(head), color, 0.859
+T(head), colour, 0.858
+T(head), -apple, 0.844
+
+
+Result: {"silverware_drawer": 0.892, "scooping_food": 0.888, "orange": 0.946, "citrus_fruit": 0.902, "citrus": 0.891, "orangeish_thing": 0.883, "@scenario_probability": 9.270791718522341e-08}
+Scenario: [1, 1, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0, 0, 0, 9.270791718522341e-08]

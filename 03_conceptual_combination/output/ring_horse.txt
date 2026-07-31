@@ -1,0 +1,30 @@
+Title: ring-horse
+
+Head Concept Name: ring
+Modifier Concept Name: horse
+
+
+
+
+
+T(modifier), riding, 0.924
+T(modifier), equine, 0.922
+T(modifier), equestrian_competition, 0.912
+T(modifier), horse's_foot, 0.901
+T(modifier), horse_racing, 0.901
+T(modifier), kentucky_derby, 0.891
+T(modifier), horsemeat, 0.889
+T(modifier), harness_pulling_carriage, 0.888
+
+T(head), bath_tub, 0.87
+T(head), jewelry, 0.87
+T(head), wearing, 0.869
+T(head), toroid, 0.868
+T(head), engage, 0.862
+T(head), piece_of_jewelry, 0.849
+T(head), doorbell, 0.846
+T(head), finger, 0.842
+
+
+Result: {"riding": 0.924, "equine": 0.922, "equestrian_competition": 0.912, "horse's_foot": 0.901, "horse_racing": 0.901, "jewelry": 0.87, "@scenario_probability": 8.475327426000602e-08}
+Scenario: [1, 1, 1, 1, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 8.475327426000602e-08]

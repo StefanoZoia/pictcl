@@ -1,0 +1,26 @@
+Title: doll-impressionism
+
+Head Concept Name: doll
+Modifier Concept Name: impressionism
+
+
+
+
+
+T(modifier), artistic_movement, 0.828
+T(modifier), arts, 0.82
+T(modifier), poetry, 0.772
+T(modifier), music_genre, 0.771
+
+T(head), dollshouse, 0.927
+T(head), plaything_for_cat, 0.918
+T(head), plaything_for_dog, 0.918
+T(head), toy, 0.897
+T(head), plaything, 0.883
+T(head), childs_play, 0.873
+T(head), doll_house, 0.873
+T(head), little_girls, 0.872
+
+
+Result: {"artistic_movement": 0.828, "dollshouse": 0.927, "plaything_for_cat": 0.918, "plaything_for_dog": 0.918, "toy": 0.897, "plaything": 0.883, "@scenario_probability": 0.0009940513648861783}
+Scenario: [1, 0, 0, 0, 1, 1, 1, 1, 1, 0, 0, 0, 0.0009940513648861783]

@@ -1,0 +1,30 @@
+Title: spider-purple
+
+Head Concept Name: spider
+Modifier Concept Name: purple
+
+
+
+
+
+T(modifier), color, 0.882
+T(modifier), violet, 0.868
+T(modifier), discolor, 0.85
+T(modifier), colour, 0.84
+T(modifier), nobility, 0.814
+T(modifier), chromatic_color, 0.805
+T(modifier), roman_catholic, 0.799
+T(modifier), ecclesiastical_attire, 0.797
+
+T(head), arachnid, 0.916
+T(head), web, 0.876
+T(head), inject_venom, 0.859
+T(head), spin_webs, 0.849
+T(head), sticking_to_wall, 0.823
+T(head), arthropod, 0.816
+T(head), spin_web, 0.805
+T(head), venomous_animal, 0.804
+
+
+Result: {"color": 0.882, "violet": 0.868, "discolor": 0.85, "arachnid": 0.916, "web": 0.876, "inject_venom": 0.859, "@scenario_probability": 1.9962656443551657e-06}
+Scenario: [1, 1, 1, 0, 0, 0, 0, 0, 1, 1, 1, 0, 0, 0, 0, 0, 1.9962656443551657e-06]

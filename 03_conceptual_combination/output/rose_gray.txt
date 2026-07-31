@@ -1,0 +1,30 @@
+Title: rose-gray
+
+Head Concept Name: rose
+Modifier Concept Name: gray
+
+
+
+
+
+T(modifier), achromatic_color, 0.858
+T(modifier), discolor, 0.845
+T(modifier), grayish_thing, 0.84
+T(modifier), clothing, 0.801
+T(modifier), organization, 0.798
+T(modifier), saddle_horse, 0.79
+T(modifier), -black, 0.763
+T(modifier), demography, 0.761
+
+T(head), pink, 0.868
+T(head), red, 0.86
+T(head), flower_room, 0.854
+T(head), thorns, 0.837
+T(head), flower, 0.827
+T(head), shrub, 0.826
+T(head), garden, 0.796
+T(head), smell_nice, 0.786
+
+
+Result: {"achromatic_color": 0.858, "discolor": 0.845, "grayish_thing": 0.84, "pink": 0.868, "red": 0.86, "flower_room": 0.854, "@scenario_probability": 3.976456300481575e-06}
+Scenario: [1, 1, 1, 0, 0, 0, 0, 0, 1, 1, 1, 0, 0, 0, 0, 0, 3.976456300481575e-06]

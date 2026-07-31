@@ -1,0 +1,30 @@
+Title: cat-doll
+
+Head Concept Name: cat
+Modifier Concept Name: doll
+
+
+
+
+
+T(modifier), dollshouse, 0.927
+T(modifier), plaything_for_cat, 0.918
+T(modifier), plaything_for_dog, 0.918
+T(modifier), toy, 0.897
+T(modifier), plaything, 0.883
+T(modifier), childs_play, 0.873
+T(modifier), doll_house, 0.873
+T(modifier), little_girls, 0.872
+
+T(head), meow, 0.94
+T(head), miaow, 0.938
+T(head), pet, 0.925
+T(head), humane_society, 0.901
+T(head), humane_shelter, 0.901
+T(head), companion_to_humans, 0.888
+T(head), -dog, 0.888
+T(head), companionship, 0.887
+
+
+Result: {"dollshouse": 0.927, "plaything_for_cat": 0.918, "plaything_for_dog": 0.918, "meow": 0.94, "miaow": 0.938, "pet": 0.925, "@scenario_probability": 2.202231129537797e-08}
+Scenario: [1, 1, 1, 0, 0, 0, 0, 0, 1, 1, 1, 0, 0, 0, 0, 0, 2.202231129537797e-08]

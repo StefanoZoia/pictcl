@@ -1,0 +1,30 @@
+Title: house-outside
+
+Head Concept Name: house
+Modifier Concept Name: outside
+
+
+
+
+
+T(modifier), -inside, 0.918
+T(modifier), -within, 0.837
+T(modifier), surface, 0.819
+T(modifier), baseball, 0.805
+T(modifier), region, 0.8
+T(modifier), uk, 0.771
+T(modifier), countryside, 0.762
+T(modifier), slang, 0.754
+
+T(head), dwelling, 0.886
+T(head), shelter, 0.864
+T(head), residential_area, 0.856
+T(head), home, 0.855
+T(head), protection_from_elements, 0.848
+T(head), family, 0.847
+T(head), cost_lot, 0.846
+T(head), suburbs, 0.838
+
+
+Result: {"-inside": 0.918, "dwelling": 0.886, "shelter": 0.864, "residential_area": 0.856, "home": 0.855, "protection_from_elements": 0.848, "@scenario_probability": 2.5682149883261983e-06}
+Scenario: [1, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 0, 0, 0, 2.5682149883261983e-06]

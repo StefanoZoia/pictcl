@@ -1,0 +1,29 @@
+Title: truck-inside
+
+Head Concept Name: truck
+Modifier Concept Name: inside
+
+
+
+
+
+T(modifier), -outside, 0.898
+T(modifier), interior, 0.857
+T(modifier), surface, 0.811
+T(modifier), region, 0.798
+T(modifier), uk, 0.764
+T(modifier), -out, 0.764
+T(modifier), -find_outside, 0.69
+
+T(head), vehicle, 0.902
+T(head), automobile, 0.874
+T(head), motor_vehicle, 0.869
+T(head), wheeled_vehicle, 0.861
+T(head), stabilizer_bar, 0.854
+T(head), garage, 0.85
+T(head), transport, 0.847
+T(head), vehicle_type, 0.845
+
+
+Result: {"-outside": 0.898, "interior": 0.857, "vehicle": 0.902, "automobile": 0.874, "motor_vehicle": 0.869, "wheeled_vehicle": 0.861, "@scenario_probability": 1.554047088000579e-05}
+Scenario: [1, 1, 0, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0, 0, 0, 1.554047088000579e-05]

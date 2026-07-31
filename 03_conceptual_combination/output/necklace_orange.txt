@@ -1,0 +1,30 @@
+Title: necklace-orange
+
+Head Concept Name: necklace
+Modifier Concept Name: orange
+
+
+
+
+
+T(modifier), orange, 0.946
+T(modifier), citrus_fruit, 0.902
+T(modifier), citrus, 0.891
+T(modifier), orangeish_thing, 0.883
+T(modifier), sweet, 0.881
+T(modifier), color, 0.859
+T(modifier), colour, 0.858
+T(modifier), -apple, 0.844
+
+T(head), jewelry, 0.916
+T(head), pendant, 0.885
+T(head), wearing_around_neck, 0.884
+T(head), decoration, 0.877
+T(head), jewelry_for_neck, 0.876
+T(head), adornment, 0.864
+T(head), jewelery_store, 0.861
+T(head), decorate, 0.859
+
+
+Result: {"orange": 0.946, "citrus_fruit": 0.902, "citrus": 0.891, "jewelry": 0.916, "pendant": 0.885, "wearing_around_neck": 0.884, "@scenario_probability": 9.632319594343788e-08}
+Scenario: [1, 1, 1, 0, 0, 0, 0, 0, 1, 1, 1, 0, 0, 0, 0, 0, 9.632319594343788e-08]

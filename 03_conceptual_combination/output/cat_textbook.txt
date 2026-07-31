@@ -1,0 +1,26 @@
+Title: cat-textbook
+
+Head Concept Name: cat
+Modifier Concept Name: textbook
+
+
+
+
+
+T(modifier), book, 0.883
+T(modifier), learning, 0.819
+T(modifier), locker, 0.811
+T(modifier), include_glossary, 0.811
+
+T(head), meow, 0.94
+T(head), miaow, 0.938
+T(head), pet, 0.925
+T(head), humane_society, 0.901
+T(head), humane_shelter, 0.901
+T(head), companion_to_humans, 0.888
+T(head), -dog, 0.888
+T(head), companionship, 0.887
+
+
+Result: {"book": 0.883, "meow": 0.94, "miaow": 0.938, "pet": 0.925, "humane_society": 0.901, "humane_shelter": 0.901, "@scenario_probability": 0.0005357958954379446}
+Scenario: [1, 0, 0, 0, 1, 1, 1, 1, 1, 0, 0, 0, 0.0005357958954379446]

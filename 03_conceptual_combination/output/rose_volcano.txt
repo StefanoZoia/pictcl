@@ -1,0 +1,30 @@
+Title: rose-volcano
+
+Head Concept Name: rose
+Modifier Concept Name: volcano
+
+
+
+
+
+T(modifier), volcanic_crater, 0.878
+T(modifier), dormant, 0.875
+T(modifier), extinct, 0.861
+T(modifier), crater, 0.86
+T(modifier), lava, 0.824
+T(modifier), land_topographical_feature, 0.755
+T(modifier), south_park, 0.743
+T(modifier), top_of_mountain, 0.736
+
+T(head), pink, 0.868
+T(head), red, 0.86
+T(head), flower_room, 0.854
+T(head), thorns, 0.837
+T(head), flower, 0.827
+T(head), shrub, 0.826
+T(head), garden, 0.796
+T(head), smell_nice, 0.786
+
+
+Result: {"volcanic_crater": 0.878, "dormant": 0.875, "extinct": 0.861, "crater": 0.86, "pink": 0.868, "red": 0.86, "@scenario_probability": 3.885240460628864e-06}
+Scenario: [1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 0, 0, 0, 0, 0, 0, 3.885240460628864e-06]

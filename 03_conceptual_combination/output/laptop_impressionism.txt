@@ -1,0 +1,23 @@
+Title: laptop-impressionism
+
+Head Concept Name: laptop
+Modifier Concept Name: impressionism
+
+
+
+
+
+T(modifier), artistic_movement, 0.828
+T(modifier), arts, 0.82
+T(modifier), poetry, 0.772
+T(modifier), music_genre, 0.771
+
+T(head), computing, 0.822
+T(head), portable_computer, 0.814
+T(head), desk, 0.81
+T(head), internet_cafe, 0.746
+T(head), going_on_internet, 0.673
+
+
+Result: {"artistic_movement": 0.828, "arts": 0.82, "poetry": 0.772, "computing": 0.822, "portable_computer": 0.814, "desk": 0.81, "@scenario_probability": 0.5403307483454042}
+Scenario: [1, 1, 1, 0, 1, 1, 1, 0, 0, 0.5403307483454042]

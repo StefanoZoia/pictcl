@@ -1,0 +1,27 @@
+Title: laptop-pizza
+
+Head Concept Name: laptop
+Modifier Concept Name: pizza
+
+
+
+
+
+T(modifier), baked_in_oven, 0.922
+T(modifier), pizza_toppings, 0.849
+T(modifier), pizza_sauce, 0.849
+T(modifier), oven, 0.844
+T(modifier), popular, 0.838
+T(modifier), dish, 0.823
+T(modifier), flatbread, 0.822
+T(modifier), disc_shaped_food_item, 0.815
+
+T(head), computing, 0.822
+T(head), portable_computer, 0.814
+T(head), desk, 0.81
+T(head), internet_cafe, 0.746
+T(head), going_on_internet, 0.673
+
+
+Result: {"baked_in_oven": 0.922, "pizza_toppings": 0.849, "pizza_sauce": 0.849, "oven": 0.844, "popular": 0.838, "computing": 0.822, "@scenario_probability": 0.0006610245601625295}
+Scenario: [1, 1, 1, 1, 1, 0, 0, 0, 1, 0, 0, 0, 0, 0.0006610245601625295]

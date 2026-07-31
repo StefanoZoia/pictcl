@@ -1,0 +1,29 @@
+Title: zebra-graffiti
+
+Head Concept Name: zebra
+Modifier Concept Name: graffiti
+
+
+
+
+
+T(modifier), written_character_sequence, 0.783
+T(modifier), -art, 0.772
+T(modifier), archaeology, 0.759
+T(modifier), italian_word, 0.75
+T(modifier), bridge, 0.748
+T(modifier), hand_written_document, 0.746
+T(modifier), bus_stop, 0.746
+
+T(head), zoo, 0.867
+T(head), equine, 0.846
+T(head), animal, 0.812
+T(head), stripes, 0.802
+T(head), horse, 0.796
+T(head), herd_animal, 0.776
+T(head), mammal, 0.762
+T(head), sports, 0.754
+
+
+Result: {"written_character_sequence": 0.783, "zoo": 0.867, "equine": 0.846, "animal": 0.812, "stripes": 0.802, "horse": 0.796, "@scenario_probability": 8.719963008706917e-05}
+Scenario: [1, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 0, 0, 0, 8.719963008706917e-05]

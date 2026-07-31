@@ -1,0 +1,25 @@
+Title: sunflower-2
+
+Head Concept Name: sunflower
+Modifier Concept Name: 2
+
+
+
+
+
+T(modifier), two, 0.94
+T(modifier), spelled_two, 0.816
+T(modifier), number, 0.81
+T(modifier), text_messaging, 0.773
+T(modifier), prime_number, 0.746
+T(modifier), computing, 0.739
+T(modifier), higher_number_than_1, 0.735
+T(modifier), historical, 0.734
+
+T(head), flower, 0.873
+T(head), flowering_plant, 0.785
+T(head), organic_chemistry, 0.732
+
+
+Result: {"two": 0.94, "spelled_two": 0.816, "number": 0.81, "text_messaging": 0.773, "flower": 0.873, "flowering_plant": 0.785, "@scenario_probability": 0.04121952228063063}
+Scenario: [1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 0, 0.04121952228063063]

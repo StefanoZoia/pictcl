@@ -1,0 +1,30 @@
+Title: highway-rose
+
+Head Concept Name: highway
+Modifier Concept Name: rose
+
+
+
+
+
+T(modifier), pink, 0.868
+T(modifier), red, 0.86
+T(modifier), flower_room, 0.854
+T(modifier), thorns, 0.837
+T(modifier), flower, 0.827
+T(modifier), shrub, 0.826
+T(modifier), garden, 0.796
+T(modifier), smell_nice, 0.786
+
+T(head), motor_vehicles_to_travel_on, 0.898
+T(head), getting_from_one_place_to_another, 0.875
+T(head), driving_on, 0.869
+T(head), drive_on, 0.866
+T(head), travel, 0.863
+T(head), trucks, 0.861
+T(head), driving, 0.858
+T(head), speeding, 0.857
+
+
+Result: {"pink": 0.868, "motor_vehicles_to_travel_on": 0.898, "getting_from_one_place_to_another": 0.875, "driving_on": 0.869, "drive_on": 0.866, "travel": 0.863, "@scenario_probability": 5.473933904803842e-07}
+Scenario: [1, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 0, 0, 0, 5.473933904803842e-07]

@@ -1,0 +1,30 @@
+Title: chair-pig
+
+Head Concept Name: chair
+Modifier Concept Name: pig
+
+
+
+
+
+T(modifier), pigsty, 0.848
+T(modifier), find_truffles, 0.843
+T(modifier), find_truffle, 0.843
+T(modifier), -hog, 0.818
+T(modifier), ingot, 0.812
+T(modifier), live, 0.805
+T(modifier), pen, 0.792
+T(modifier), mud, 0.785
+
+T(head), reupholstering, 0.896
+T(head), furniture_store, 0.889
+T(head), sitting, 0.879
+T(head), resting, 0.871
+T(head), sit_down, 0.853
+T(head), furniture_market_category, 0.851
+T(head), living_room, 0.847
+T(head), people, 0.841
+
+
+Result: {"pigsty": 0.848, "reupholstering": 0.896, "furniture_store": 0.889, "sitting": 0.879, "resting": 0.871, "sit_down": 0.853, "@scenario_probability": 1.1759841166114973e-06}
+Scenario: [1, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 0, 0, 0, 1.1759841166114973e-06]

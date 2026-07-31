@@ -1,0 +1,26 @@
+Title: bee-smartphone
+
+Head Concept Name: bee
+Modifier Concept Name: smartphone
+
+
+
+
+
+T(modifier), mobile_phone, 0.871
+T(modifier), cellular_telephone, 0.868
+T(modifier), cellular_phone, 0.864
+T(modifier), palmtop_computer, 0.834
+
+T(head), apiary, 0.91
+T(head), sting, 0.897
+T(head), hymenopterous_insect, 0.883
+T(head), swarm, 0.883
+T(head), bee_tree, 0.882
+T(head), bee_hive, 0.879
+T(head), hive, 0.878
+T(head), hive_flower_field, 0.876
+
+
+Result: {"mobile_phone": 0.871, "apiary": 0.91, "sting": 0.897, "hymenopterous_insect": 0.883, "swarm": 0.883, "bee_tree": 0.882, "@scenario_probability": 0.00026670416408085734}
+Scenario: [1, 0, 0, 0, 1, 1, 1, 1, 1, 0, 0, 0, 0.00026670416408085734]

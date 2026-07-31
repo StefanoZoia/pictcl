@@ -1,0 +1,30 @@
+Title: giraffe-pig
+
+Head Concept Name: giraffe
+Modifier Concept Name: pig
+
+
+
+
+
+T(modifier), pigsty, 0.848
+T(modifier), find_truffles, 0.843
+T(modifier), find_truffle, 0.843
+T(modifier), -hog, 0.818
+T(modifier), ingot, 0.812
+T(modifier), live, 0.805
+T(modifier), pen, 0.792
+T(modifier), mud, 0.785
+
+T(head), giraffidae, 0.91
+T(head), male, 0.873
+T(head), zoo, 0.871
+T(head), ruminant, 0.853
+T(head), mammal, 0.824
+T(head), female, 0.824
+T(head), animal, 0.808
+T(head), drink_water, 0.791
+
+
+Result: {"pigsty": 0.848, "find_truffle": 0.843, "giraffidae": 0.91, "male": 0.873, "zoo": 0.871, "ruminant": 0.853, "@scenario_probability": 2.4568825481440917e-06}
+Scenario: [1, 0, 1, 0, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0, 0, 0, 2.4568825481440917e-06]

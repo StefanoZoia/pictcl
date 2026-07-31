@@ -1,0 +1,24 @@
+Title: elephant-fluffy
+
+Head Concept Name: elephant
+Modifier Concept Name: fluffy
+
+
+
+
+
+T(modifier), nz, 0.75
+T(modifier), clouds, 0.745
+
+T(head), pachyderm, 0.909
+T(head), proboscidean, 0.887
+T(head), tusks, 0.878
+T(head), zoo, 0.854
+T(head), circus, 0.846
+T(head), africa, 0.845
+T(head), elephantidae, 0.836
+T(head), forget_to_go_on_paper, 0.827
+
+
+Result: {"nz": 0.75, "pachyderm": 0.909, "proboscidean": 0.887, "tusks": 0.878, "zoo": 0.854, "circus": 0.846, "@scenario_probability": 0.04301632907746374}
+Scenario: [1, 0, 1, 1, 1, 1, 1, 0, 0, 0, 0.04301632907746374]

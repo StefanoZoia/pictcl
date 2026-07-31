@@ -1,0 +1,29 @@
+Title: robot-watercolor
+
+Head Concept Name: robot
+Modifier Concept Name: watercolor
+
+
+
+
+
+T(modifier), painting, 0.899
+T(modifier), art_supply, 0.853
+T(modifier), pigment, 0.848
+T(modifier), paint, 0.838
+T(modifier), water_base_paint, 0.833
+T(modifier), arts, 0.798
+T(modifier), aqua_medium_artists_use, 0.756
+
+T(head), automaton, 0.867
+T(head), automation, 0.865
+T(head), machine, 0.862
+T(head), botmaster, 0.845
+T(head), manufacturing_plant, 0.837
+T(head), companionship, 0.826
+T(head), repetitive, 0.824
+T(head), walk_and_talk, 0.824
+
+
+Result: {"painting": 0.899, "art_supply": 0.853, "pigment": 0.848, "automaton": 0.867, "automation": 0.865, "machine": 0.862, "@scenario_probability": 7.633322546066426e-06}
+Scenario: [1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 0, 0, 0, 0, 0, 7.633322546066426e-06]

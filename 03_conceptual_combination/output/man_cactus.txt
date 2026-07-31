@@ -1,0 +1,30 @@
+Title: man-cactus
+
+Head Concept Name: man
+Modifier Concept Name: cactus
+
+
+
+
+
+T(modifier), desert, 0.885
+T(modifier), succulent, 0.866
+T(modifier), prickly_plant, 0.865
+T(modifier), survive_with_little_water, 0.82
+T(modifier), botany, 0.784
+T(modifier), holding_water, 0.782
+T(modifier), needle_person, 0.782
+T(modifier), australia, 0.758
+
+T(head), -woman, 0.87
+T(head), male, 0.854
+T(head), -boy, 0.84
+T(head), lover, 0.825
+T(head), -female, 0.816
+T(head), -lady, 0.815
+T(head), subordinate, 0.811
+T(head), international_intelligence_agency, 0.807
+
+
+Result: {"desert": 0.885, "succulent": 0.866, "prickly_plant": 0.865, "-woman": 0.87, "male": 0.854, "-boy": 0.84, "@scenario_probability": 4.020082838053412e-06}
+Scenario: [1, 1, 1, 0, 0, 0, 0, 0, 1, 1, 1, 0, 0, 0, 0, 0, 4.020082838053412e-06]

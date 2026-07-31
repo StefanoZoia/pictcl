@@ -1,0 +1,28 @@
+Title: fork-tiny
+
+Head Concept Name: fork
+Modifier Concept Name: tiny
+
+
+
+
+
+T(modifier), -huge, 0.809
+T(modifier), -large, 0.782
+T(modifier), -great, 0.771
+T(modifier), -incalculable, 0.765
+T(modifier), -giant, 0.765
+T(modifier), kitties, 0.734
+
+T(head), cutlery, 0.867
+T(head), picking_up_food, 0.852
+T(head), prongs, 0.851
+T(head), silverware_drawer, 0.851
+T(head), eating_food, 0.85
+T(head), road, 0.847
+T(head), eat_dinner, 0.847
+T(head), eat_meal, 0.847
+
+
+Result: {"-huge": 0.809, "cutlery": 0.867, "picking_up_food": 0.852, "prongs": 0.851, "silverware_drawer": 0.851, "eating_food": 0.85, "@scenario_probability": 9.66204129515062e-05}
+Scenario: [1, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 0, 0, 0, 9.66204129515062e-05]

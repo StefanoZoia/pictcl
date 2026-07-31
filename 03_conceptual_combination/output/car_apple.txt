@@ -1,0 +1,30 @@
+Title: car-apple
+
+Head Concept Name: car
+Modifier Concept Name: apple
+
+
+
+
+
+T(modifier), apple, 0.946
+T(modifier), pome, 0.894
+T(modifier), apple_tree, 0.887
+T(modifier), green, 0.886
+T(modifier), red, 0.876
+T(modifier), fall_from_tree, 0.87
+T(modifier), red_or_green, 0.855
+T(modifier), eating, 0.851
+
+T(head), car_factory_like_toyota, 0.925
+T(head), car_dealership, 0.917
+T(head), vehicle, 0.914
+T(head), car_show, 0.899
+T(head), motor_vehicle, 0.897
+T(head), drive, 0.892
+T(head), tire, 0.875
+T(head), car_door, 0.875
+
+
+Result: {"apple": 0.946, "car_factory_like_toyota": 0.925, "car_dealership": 0.917, "vehicle": 0.914, "car_show": 0.899, "motor_vehicle": 0.897, "@scenario_probability": 4.7462737685300885e-08}
+Scenario: [1, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 0, 0, 0, 4.7462737685300885e-08]

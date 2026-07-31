@@ -1,0 +1,30 @@
+Title: table-carrot
+
+Head Concept Name: table
+Modifier Concept Name: carrot
+
+
+
+
+
+T(modifier), carrot, 0.946
+T(modifier), reward, 0.836
+T(modifier), root, 0.829
+T(modifier), herb, 0.821
+T(modifier), vegetable, 0.821
+T(modifier), root_vegetable, 0.807
+T(modifier), -stick, 0.752
+T(modifier), eaten, 0.707
+
+T(head), drawing_on, 0.883
+T(head), dining, 0.881
+T(head), dining_room, 0.877
+T(head), eating_off_of, 0.869
+T(head), read, 0.868
+T(head), resturant, 0.862
+T(head), tabletop, 0.861
+T(head), kitchen, 0.856
+
+
+Result: {"carrot": 0.946, "drawing_on": 0.883, "dining": 0.881, "dining_room": 0.877, "eating_off_of": 0.869, "read": 0.868, "@scenario_probability": 1.6945166977231386e-06}
+Scenario: [1, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 0, 0, 0, 1.6945166977231386e-06]

@@ -1,0 +1,30 @@
+Title: highway-expressionism
+
+Head Concept Name: highway
+Modifier Concept Name: expressionism
+
+
+
+
+
+T(modifier), artistic_movement, 0.835
+T(modifier), countenance, 0.77
+T(modifier), dark, 0.746
+T(modifier), movement, 0.742
+T(modifier), demonstration, 0.741
+T(modifier), genetics, 0.739
+T(modifier), squeeze, 0.735
+T(modifier), subexpression, 0.731
+
+T(head), motor_vehicles_to_travel_on, 0.898
+T(head), getting_from_one_place_to_another, 0.875
+T(head), driving_on, 0.869
+T(head), drive_on, 0.866
+T(head), travel, 0.863
+T(head), trucks, 0.861
+T(head), driving, 0.858
+T(head), speeding, 0.857
+
+
+Result: {"artistic_movement": 0.835, "motor_vehicles_to_travel_on": 0.898, "getting_from_one_place_to_another": 0.875, "driving_on": 0.869, "drive_on": 0.866, "travel": 0.863, "@scenario_probability": 8.735307455919041e-06}
+Scenario: [1, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 0, 0, 0, 8.735307455919041e-06]

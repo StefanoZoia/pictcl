@@ -1,0 +1,28 @@
+Title: ring-huge
+
+Head Concept Name: ring
+Modifier Concept Name: huge
+
+
+
+
+
+T(modifier), -diminutive, 0.825
+T(modifier), -tiny, 0.809
+T(modifier), slang, 0.731
+T(modifier), space, 0.697
+T(modifier), -minute, 0.693
+T(modifier), buildings, 0.683
+
+T(head), bath_tub, 0.87
+T(head), jewelry, 0.87
+T(head), wearing, 0.869
+T(head), toroid, 0.868
+T(head), engage, 0.862
+T(head), piece_of_jewelry, 0.849
+T(head), doorbell, 0.846
+T(head), finger, 0.842
+
+
+Result: {"-diminutive": 0.825, "bath_tub": 0.87, "jewelry": 0.87, "wearing": 0.869, "toroid": 0.868, "engage": 0.862, "@scenario_probability": 0.0002260059588011928}
+Scenario: [1, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 0, 0, 0, 0.0002260059588011928]

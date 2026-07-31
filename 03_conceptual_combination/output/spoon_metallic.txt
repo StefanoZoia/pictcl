@@ -1,0 +1,24 @@
+Title: spoon-metallic
+
+Head Concept Name: spoon
+Modifier Concept Name: metallic
+
+
+
+
+
+T(modifier), fabric, 0.829
+T(modifier), thread, 0.808
+
+T(head), silverware_drawer, 0.892
+T(head), scooping_food, 0.888
+T(head), utensil, 0.882
+T(head), stirring_coffee, 0.871
+T(head), eating, 0.869
+T(head), cutlery, 0.869
+T(head), mixing_ingredients, 0.866
+T(head), mixing_soup, 0.866
+
+
+Result: {"fabric": 0.829, "silverware_drawer": 0.892, "scooping_food": 0.888, "utensil": 0.882, "stirring_coffee": 0.871, "cutlery": 0.869, "@scenario_probability": 0.019797984886492884}
+Scenario: [1, 0, 1, 1, 1, 1, 0, 1, 0, 0, 0.019797984886492884]

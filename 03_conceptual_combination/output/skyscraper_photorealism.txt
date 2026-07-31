@@ -1,0 +1,27 @@
+Title: skyscraper-photorealism
+
+Head Concept Name: skyscraper
+Modifier Concept Name: photorealism
+
+
+
+
+
+T(modifier), practicality, 0.765
+T(modifier), philosophy, 0.75
+T(modifier), -nominalism, 0.73
+T(modifier), philosophical_doctrine, 0.716
+T(modifier), sciences, 0.686
+
+T(head), type_of, 0.9
+T(head), cities, 0.888
+T(head), urban_areas, 0.879
+T(head), elevators, 0.876
+T(head), building, 0.87
+T(head), office_space, 0.865
+T(head), residences, 0.858
+T(head), tower, 0.852
+
+
+Result: {"practicality": 0.765, "type_of": 0.9, "cities": 0.888, "urban_areas": 0.879, "elevators": 0.876, "building": 0.87, "@scenario_probability": 0.0006994629794008716}
+Scenario: [1, 0, 0, 0, 0, 1, 1, 1, 1, 1, 0, 0, 0, 0.0006994629794008716]

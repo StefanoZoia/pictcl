@@ -1,0 +1,24 @@
+Title: cat-surrealism
+
+Head Concept Name: cat
+Modifier Concept Name: surrealism
+
+
+
+
+
+T(modifier), artistic_movement, 0.824
+T(modifier), -reality, 0.725
+
+T(head), meow, 0.94
+T(head), miaow, 0.938
+T(head), pet, 0.925
+T(head), humane_society, 0.901
+T(head), humane_shelter, 0.901
+T(head), companion_to_humans, 0.888
+T(head), -dog, 0.888
+T(head), companionship, 0.887
+
+
+Result: {"artistic_movement": 0.824, "meow": 0.94, "miaow": 0.938, "pet": 0.925, "humane_society": 0.901, "humane_shelter": 0.901, "@scenario_probability": 0.021266518637234562}
+Scenario: [1, 0, 1, 1, 1, 1, 1, 0, 0, 0, 0.021266518637234562]

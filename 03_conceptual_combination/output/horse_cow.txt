@@ -1,0 +1,30 @@
+Title: horse-cow
+
+Head Concept Name: horse
+Modifier Concept Name: cow
+
+
+
+
+
+T(modifier), county_fair, 0.928
+T(modifier), cattle, 0.911
+T(modifier), dairy_farm, 0.908
+T(modifier), milking, 0.889
+T(modifier), barnyard, 0.884
+T(modifier), milking_stall, 0.883
+T(modifier), milking_barn, 0.883
+T(modifier), hamburger_meat, 0.883
+
+T(head), riding, 0.924
+T(head), equine, 0.922
+T(head), equestrian_competition, 0.912
+T(head), horse's_foot, 0.901
+T(head), horse_racing, 0.901
+T(head), kentucky_derby, 0.891
+T(head), horsemeat, 0.889
+T(head), harness_pulling_carriage, 0.888
+
+
+Result: {"county_fair": 0.928, "cattle": 0.911, "dairy_farm": 0.908, "riding": 0.924, "equine": 0.922, "equestrian_competition": 0.912, "@scenario_probability": 1.6335272143449544e-08}
+Scenario: [1, 1, 1, 0, 0, 0, 0, 0, 1, 1, 1, 0, 0, 0, 0, 0, 1.6335272143449544e-08]

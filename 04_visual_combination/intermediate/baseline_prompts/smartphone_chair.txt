@@ -1,0 +1,1 @@
+A smartphone (id 1) is lying face up on the seat of a chair (id 2).

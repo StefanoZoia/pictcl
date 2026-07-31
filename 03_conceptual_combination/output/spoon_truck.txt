@@ -1,0 +1,30 @@
+Title: spoon-truck
+
+Head Concept Name: spoon
+Modifier Concept Name: truck
+
+
+
+
+
+T(modifier), vehicle, 0.902
+T(modifier), automobile, 0.874
+T(modifier), motor_vehicle, 0.869
+T(modifier), wheeled_vehicle, 0.861
+T(modifier), stabilizer_bar, 0.854
+T(modifier), garage, 0.85
+T(modifier), transport, 0.847
+T(modifier), vehicle_type, 0.845
+
+T(head), silverware_drawer, 0.892
+T(head), scooping_food, 0.888
+T(head), utensil, 0.882
+T(head), stirring_coffee, 0.871
+T(head), eating, 0.869
+T(head), cutlery, 0.869
+T(head), mixing_ingredients, 0.866
+T(head), mixing_soup, 0.866
+
+
+Result: {"vehicle": 0.902, "automobile": 0.874, "silverware_drawer": 0.892, "scooping_food": 0.888, "utensil": 0.882, "stirring_coffee": 0.871, "@scenario_probability": 1.3979384758246617e-07}
+Scenario: [1, 1, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0, 0, 0, 1.3979384758246617e-07]

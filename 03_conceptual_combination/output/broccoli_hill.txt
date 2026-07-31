@@ -1,0 +1,30 @@
+Title: broccoli-hill
+
+Head Concept Name: broccoli
+Modifier Concept Name: hill
+
+
+
+
+
+T(modifier), climb, 0.888
+T(modifier), climbing, 0.878
+T(modifier), steep, 0.878
+T(modifier), mound_of_earth, 0.862
+T(modifier), hillside, 0.854
+T(modifier), climb_up, 0.848
+T(modifier), climbing_up, 0.841
+T(modifier), sledding_down_in_winter, 0.837
+
+T(head), broccoli, 0.946
+T(head), crucifer, 0.894
+T(head), cruciferous_vegetable, 0.886
+T(head), green, 0.858
+T(head), green_vegetable, 0.839
+T(head), vegetable_people_may_cook, 0.829
+T(head), very_nutritious, 0.824
+T(head), plate, 0.764
+
+
+Result: {"climb": 0.888, "climbing": 0.878, "steep": 0.878, "broccoli": 0.946, "crucifer": 0.894, "cruciferous_vegetable": 0.886, "@scenario_probability": 6.610885497576554e-07}
+Scenario: [1, 1, 1, 0, 0, 0, 0, 0, 1, 1, 1, 0, 0, 0, 0, 0, 6.610885497576554e-07]

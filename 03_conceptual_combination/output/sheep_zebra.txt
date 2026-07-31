@@ -1,0 +1,30 @@
+Title: sheep-zebra
+
+Head Concept Name: sheep
+Modifier Concept Name: zebra
+
+
+
+
+
+T(modifier), zoo, 0.867
+T(modifier), equine, 0.846
+T(modifier), animal, 0.812
+T(modifier), stripes, 0.802
+T(modifier), horse, 0.796
+T(modifier), herd_animal, 0.776
+T(modifier), mammal, 0.762
+T(modifier), sports, 0.754
+
+T(head), graze, 0.893
+T(head), bovid, 0.886
+T(head), shearing, 0.88
+T(head), animals, 0.862
+T(head), farm, 0.848
+T(head), farm_animals, 0.848
+T(head), meadow, 0.839
+T(head), -goat, 0.837
+
+
+Result: {"zoo": 0.867, "graze": 0.893, "bovid": 0.886, "shearing": 0.88, "animals": 0.862, "farm_animals": 0.848, "@scenario_probability": 2.6994864205520868e-06}
+Scenario: [1, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 0, 1, 0, 0, 2.6994864205520868e-06]

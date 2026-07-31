@@ -1,0 +1,30 @@
+Title: car-carrot
+
+Head Concept Name: car
+Modifier Concept Name: carrot
+
+
+
+
+
+T(modifier), carrot, 0.946
+T(modifier), reward, 0.836
+T(modifier), root, 0.829
+T(modifier), herb, 0.821
+T(modifier), vegetable, 0.821
+T(modifier), root_vegetable, 0.807
+T(modifier), -stick, 0.752
+T(modifier), eaten, 0.707
+
+T(head), car_factory_like_toyota, 0.925
+T(head), car_dealership, 0.917
+T(head), vehicle, 0.914
+T(head), car_show, 0.899
+T(head), motor_vehicle, 0.897
+T(head), drive, 0.892
+T(head), tire, 0.875
+T(head), car_door, 0.875
+
+
+Result: {"carrot": 0.946, "car_factory_like_toyota": 0.925, "car_dealership": 0.917, "vehicle": 0.914, "car_show": 0.899, "motor_vehicle": 0.897, "@scenario_probability": 1.257670712025379e-06}
+Scenario: [1, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 0, 0, 0, 1.257670712025379e-06]

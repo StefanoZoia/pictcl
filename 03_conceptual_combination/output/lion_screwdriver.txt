@@ -1,0 +1,30 @@
+Title: lion-screwdriver
+
+Head Concept Name: lion
+Modifier Concept Name: screwdriver
+
+
+
+
+
+T(modifier), tool_box, 0.904
+T(modifier), tool_belt, 0.904
+T(modifier), unscrewing_screws, 0.894
+T(modifier), tool_box_or_junk_drawer, 0.868
+T(modifier), inserting_screw, 0.864
+T(modifier), toolbox, 0.861
+T(modifier), pry, 0.859
+T(modifier), junk_drawer, 0.842
+
+T(head), roar, 0.889
+T(head), feline, 0.865
+T(head), zoo_to_have_on_display, 0.848
+T(head), animal, 0.846
+T(head), veldt, 0.846
+T(head), carnivore, 0.845
+T(head), safari, 0.845
+T(head), hunt_zebras, 0.829
+
+
+Result: {"tool_box": 0.904, "tool_belt": 0.904, "unscrewing_screws": 0.894, "tool_box_or_junk_drawer": 0.868, "roar": 0.889, "feline": 0.865, "@scenario_probability": 3.041490175375235e-07}
+Scenario: [1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 0, 0, 0, 0, 0, 0, 3.041490175375235e-07]

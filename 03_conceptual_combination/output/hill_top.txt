@@ -1,0 +1,30 @@
+Title: hill-top
+
+Head Concept Name: hill
+Modifier Concept Name: top
+
+
+
+
+
+T(modifier), -bottom, 0.875
+T(modifier), complete, 0.823
+T(modifier), hit, 0.817
+T(modifier), reach, 0.815
+T(modifier), inning, 0.815
+T(modifier), covering, 0.815
+T(modifier), spin, 0.81
+T(modifier), turn, 0.809
+
+T(head), climb, 0.888
+T(head), climbing, 0.878
+T(head), steep, 0.878
+T(head), mound_of_earth, 0.862
+T(head), hillside, 0.854
+T(head), climb_up, 0.848
+T(head), climbing_up, 0.841
+T(head), sledding_down_in_winter, 0.837
+
+
+Result: {"-bottom": 0.875, "climb": 0.888, "climbing": 0.878, "steep": 0.878, "mound_of_earth": 0.862, "hillside": 0.854, "@scenario_probability": 1.292796040491101e-06}
+Scenario: [1, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 0, 0, 0, 1.292796040491101e-06]

@@ -1,0 +1,30 @@
+Title: doll-ring
+
+Head Concept Name: doll
+Modifier Concept Name: ring
+
+
+
+
+
+T(modifier), bath_tub, 0.87
+T(modifier), jewelry, 0.87
+T(modifier), wearing, 0.869
+T(modifier), toroid, 0.868
+T(modifier), engage, 0.862
+T(modifier), piece_of_jewelry, 0.849
+T(modifier), doorbell, 0.846
+T(modifier), finger, 0.842
+
+T(head), dollshouse, 0.927
+T(head), plaything_for_cat, 0.918
+T(head), plaything_for_dog, 0.918
+T(head), toy, 0.897
+T(head), plaything, 0.883
+T(head), childs_play, 0.873
+T(head), doll_house, 0.873
+T(head), little_girls, 0.872
+
+
+Result: {"jewelry": 0.87, "dollshouse": 0.927, "plaything_for_cat": 0.918, "plaything_for_dog": 0.918, "toy": 0.897, "plaything": 0.883, "@scenario_probability": 1.2667103760073274e-07}
+Scenario: [0, 1, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 0, 0, 0, 1.2667103760073274e-07]

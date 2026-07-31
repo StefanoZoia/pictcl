@@ -1,0 +1,30 @@
+Title: skyscraper-3
+
+Head Concept Name: skyscraper
+Modifier Concept Name: 3
+
+
+
+
+
+T(modifier), three, 0.898
+T(modifier), -5, 0.897
+T(modifier), spelled_three, 0.815
+T(modifier), characters, 0.8
+T(modifier), higher_number_than_2, 0.738
+T(modifier), nuber, 0.735
+T(modifier), military, 0.73
+T(modifier), locomotive, 0.725
+
+T(head), type_of, 0.9
+T(head), cities, 0.888
+T(head), urban_areas, 0.879
+T(head), elevators, 0.876
+T(head), building, 0.87
+T(head), office_space, 0.865
+T(head), residences, 0.858
+T(head), tower, 0.852
+
+
+Result: {"three": 0.898, "-5": 0.897, "type_of": 0.9, "cities": 0.888, "urban_areas": 0.879, "elevators": 0.876, "@scenario_probability": 3.487303647726217e-06}
+Scenario: [1, 1, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0, 0, 0, 3.487303647726217e-06]

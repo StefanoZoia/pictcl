@@ -1,0 +1,30 @@
+Title: orange-sushi
+
+Head Concept Name: orange
+Modifier Concept Name: sushi
+
+
+
+
+
+T(modifier), japan, 0.867
+T(modifier), eating, 0.834
+T(modifier), dish, 0.829
+T(modifier), both_beautiful_and_delicious, 0.817
+T(modifier), japanese_food, 0.816
+T(modifier), very_popular_in_asian_cuisine, 0.816
+T(modifier), raw_fish, 0.792
+T(modifier), plate, 0.777
+
+T(head), orange, 0.946
+T(head), citrus_fruit, 0.902
+T(head), citrus, 0.891
+T(head), orangeish_thing, 0.883
+T(head), sweet, 0.881
+T(head), color, 0.859
+T(head), colour, 0.858
+T(head), -apple, 0.844
+
+
+Result: {"japan": 0.867, "orange": 0.946, "citrus_fruit": 0.902, "citrus": 0.891, "orangeish_thing": 0.883, "sweet": 0.881, "@scenario_probability": 1.3065386905774885e-06}
+Scenario: [1, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 0, 0, 0, 1.3065386905774885e-06]

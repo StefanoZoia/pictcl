@@ -1,0 +1,25 @@
+Title: sunflower-abstract
+
+Head Concept Name: sunflower
+Modifier Concept Name: abstract
+
+
+
+
+
+T(modifier), summary, 0.856
+T(modifier), sum_up, 0.829
+T(modifier), see, 0.814
+T(modifier), consider, 0.809
+T(modifier), -concrete, 0.786
+T(modifier), fine_arts, 0.782
+T(modifier), patent, 0.781
+T(modifier), arts, 0.779
+
+T(head), flower, 0.873
+T(head), flowering_plant, 0.785
+T(head), organic_chemistry, 0.732
+
+
+Result: {"summary": 0.856, "sum_up": 0.829, "see": 0.814, "consider": 0.809, "-concrete": 0.786, "flower": 0.873, "@scenario_probability": 0.019494143001109396}
+Scenario: [1, 1, 1, 1, 1, 0, 0, 0, 1, 0, 0, 0.019494143001109396]

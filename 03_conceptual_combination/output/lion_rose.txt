@@ -1,0 +1,30 @@
+Title: lion-rose
+
+Head Concept Name: lion
+Modifier Concept Name: rose
+
+
+
+
+
+T(modifier), pink, 0.868
+T(modifier), red, 0.86
+T(modifier), flower_room, 0.854
+T(modifier), thorns, 0.837
+T(modifier), flower, 0.827
+T(modifier), shrub, 0.826
+T(modifier), garden, 0.796
+T(modifier), smell_nice, 0.786
+
+T(head), roar, 0.889
+T(head), feline, 0.865
+T(head), zoo_to_have_on_display, 0.848
+T(head), animal, 0.846
+T(head), veldt, 0.846
+T(head), carnivore, 0.845
+T(head), safari, 0.845
+T(head), hunt_zebras, 0.829
+
+
+Result: {"pink": 0.868, "red": 0.86, "flower_room": 0.854, "roar": 0.889, "feline": 0.865, "zoo_to_have_on_display": 0.848, "@scenario_probability": 8.675961433142718e-07}
+Scenario: [1, 1, 1, 0, 0, 0, 0, 0, 1, 1, 1, 0, 0, 0, 0, 0, 8.675961433142718e-07]

@@ -1,0 +1,30 @@
+Title: sheep-behind
+
+Head Concept Name: sheep
+Modifier Concept Name: behind
+
+
+
+
+
+T(modifier), -front, 0.842
+T(modifier), -in_front, 0.826
+T(modifier), -ahead, 0.826
+T(modifier), -in_front_of, 0.814
+T(modifier), -before, 0.79
+T(modifier), -fast, 0.763
+T(modifier), us, 0.76
+T(modifier), archaic, 0.751
+
+T(head), graze, 0.893
+T(head), bovid, 0.886
+T(head), shearing, 0.88
+T(head), animals, 0.862
+T(head), farm, 0.848
+T(head), farm_animals, 0.848
+T(head), meadow, 0.839
+T(head), -goat, 0.837
+
+
+Result: {"-front": 0.842, "graze": 0.893, "bovid": 0.886, "shearing": 0.88, "animals": 0.862, "farm_animals": 0.848, "@scenario_probability": 2.8630557265841854e-06}
+Scenario: [1, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 0, 1, 0, 0, 2.8630557265841854e-06]

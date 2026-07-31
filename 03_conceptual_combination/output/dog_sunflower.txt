@@ -1,0 +1,25 @@
+Title: dog-sunflower
+
+Head Concept Name: dog
+Modifier Concept Name: sunflower
+
+
+
+
+
+T(modifier), flower, 0.873
+T(modifier), flowering_plant, 0.785
+T(modifier), organic_chemistry, 0.732
+
+T(head), pet, 0.937
+T(head), canine, 0.92
+T(head), guide_blind_person, 0.917
+T(head), guide_blind, 0.917
+T(head), bark, 0.914
+T(head), kennel, 0.906
+T(head), dog_house, 0.905
+T(head), stray, 0.905
+
+
+Result: {"flower": 0.873, "pet": 0.937, "canine": 0.92, "guide_blind_person": 0.917, "guide_blind": 0.917, "bark": 0.914, "@scenario_probability": 0.0028273192305739315}
+Scenario: [1, 0, 0, 1, 1, 1, 1, 1, 0, 0, 0, 0.0028273192305739315]

@@ -1,0 +1,30 @@
+Title: carrot-spider
+
+Head Concept Name: carrot
+Modifier Concept Name: spider
+
+
+
+
+
+T(modifier), arachnid, 0.916
+T(modifier), web, 0.876
+T(modifier), inject_venom, 0.859
+T(modifier), spin_webs, 0.849
+T(modifier), sticking_to_wall, 0.823
+T(modifier), arthropod, 0.816
+T(modifier), spin_web, 0.805
+T(modifier), venomous_animal, 0.804
+
+T(head), carrot, 0.946
+T(head), reward, 0.836
+T(head), root, 0.829
+T(head), herb, 0.821
+T(head), vegetable, 0.821
+T(head), root_vegetable, 0.807
+T(head), -stick, 0.752
+T(head), eaten, 0.707
+
+
+Result: {"arachnid": 0.916, "web": 0.876, "inject_venom": 0.859, "spin_webs": 0.849, "carrot": 0.946, "reward": 0.836, "@scenario_probability": 4.426478940799703e-06}
+Scenario: [1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 0, 0, 0, 0, 0, 0, 4.426478940799703e-06]

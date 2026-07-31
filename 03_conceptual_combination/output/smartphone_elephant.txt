@@ -1,0 +1,26 @@
+Title: smartphone-elephant
+
+Head Concept Name: smartphone
+Modifier Concept Name: elephant
+
+
+
+
+
+T(modifier), pachyderm, 0.909
+T(modifier), proboscidean, 0.887
+T(modifier), tusks, 0.878
+T(modifier), zoo, 0.854
+T(modifier), circus, 0.846
+T(modifier), africa, 0.845
+T(modifier), elephantidae, 0.836
+T(modifier), forget_to_go_on_paper, 0.827
+
+T(head), mobile_phone, 0.871
+T(head), cellular_telephone, 0.868
+T(head), cellular_phone, 0.864
+T(head), palmtop_computer, 0.834
+
+
+Result: {"pachyderm": 0.909, "proboscidean": 0.887, "tusks": 0.878, "mobile_phone": 0.871, "cellular_telephone": 0.868, "cellular_phone": 0.864, "@scenario_probability": 0.0007589915758525507}
+Scenario: [1, 1, 1, 0, 0, 0, 0, 0, 1, 1, 1, 0, 0.0007589915758525507]

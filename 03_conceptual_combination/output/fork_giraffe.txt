@@ -1,0 +1,30 @@
+Title: fork-giraffe
+
+Head Concept Name: fork
+Modifier Concept Name: giraffe
+
+
+
+
+
+T(modifier), giraffidae, 0.91
+T(modifier), male, 0.873
+T(modifier), zoo, 0.871
+T(modifier), ruminant, 0.853
+T(modifier), mammal, 0.824
+T(modifier), female, 0.824
+T(modifier), animal, 0.808
+T(modifier), drink_water, 0.791
+
+T(head), cutlery, 0.867
+T(head), picking_up_food, 0.852
+T(head), prongs, 0.851
+T(head), silverware_drawer, 0.851
+T(head), eating_food, 0.85
+T(head), road, 0.847
+T(head), eat_dinner, 0.847
+T(head), eat_meal, 0.847
+
+
+Result: {"giraffidae": 0.91, "male": 0.873, "zoo": 0.871, "ruminant": 0.853, "cutlery": 0.867, "picking_up_food": 0.852, "@scenario_probability": 6.463867615735504e-07}
+Scenario: [1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 0, 0, 0, 0, 0, 0, 6.463867615735504e-07]

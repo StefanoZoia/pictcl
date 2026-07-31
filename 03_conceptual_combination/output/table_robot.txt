@@ -1,0 +1,30 @@
+Title: table-robot
+
+Head Concept Name: table
+Modifier Concept Name: robot
+
+
+
+
+
+T(modifier), automaton, 0.867
+T(modifier), automation, 0.865
+T(modifier), machine, 0.862
+T(modifier), botmaster, 0.845
+T(modifier), manufacturing_plant, 0.837
+T(modifier), companionship, 0.826
+T(modifier), repetitive, 0.824
+T(modifier), walk_and_talk, 0.824
+
+T(head), drawing_on, 0.883
+T(head), dining, 0.881
+T(head), dining_room, 0.877
+T(head), eating_off_of, 0.869
+T(head), read, 0.868
+T(head), resturant, 0.862
+T(head), tabletop, 0.861
+T(head), kitchen, 0.856
+
+
+Result: {"automaton": 0.867, "drawing_on": 0.883, "dining": 0.881, "dining_room": 0.877, "eating_off_of": 0.869, "read": 0.868, "@scenario_probability": 3.126496339814794e-07}
+Scenario: [1, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 0, 0, 0, 3.126496339814794e-07]

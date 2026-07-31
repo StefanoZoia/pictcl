@@ -1,0 +1,30 @@
+Title: pizza-circle
+
+Head Concept Name: pizza
+Modifier Concept Name: circle
+
+
+
+
+
+T(modifier), round, 0.928
+T(modifier), ellipse, 0.873
+T(modifier), shape, 0.843
+T(modifier), -square, 0.84
+T(modifier), rotating_mechanism, 0.836
+T(modifier), travel, 0.815
+T(modifier), seating, 0.814
+T(modifier), theater, 0.814
+
+T(head), baked_in_oven, 0.922
+T(head), pizza_toppings, 0.849
+T(head), pizza_sauce, 0.849
+T(head), oven, 0.844
+T(head), popular, 0.838
+T(head), dish, 0.823
+T(head), flatbread, 0.822
+T(head), disc_shaped_food_item, 0.815
+
+
+Result: {"round": 0.928, "ellipse": 0.873, "baked_in_oven": 0.922, "pizza_toppings": 0.849, "pizza_sauce": 0.849, "oven": 0.844, "@scenario_probability": 1.1313372314429302e-06}
+Scenario: [1, 1, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0, 0, 0, 1.1313372314429302e-06]

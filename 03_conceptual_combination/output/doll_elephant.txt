@@ -1,0 +1,30 @@
+Title: doll-elephant
+
+Head Concept Name: doll
+Modifier Concept Name: elephant
+
+
+
+
+
+T(modifier), pachyderm, 0.909
+T(modifier), proboscidean, 0.887
+T(modifier), tusks, 0.878
+T(modifier), zoo, 0.854
+T(modifier), circus, 0.846
+T(modifier), africa, 0.845
+T(modifier), elephantidae, 0.836
+T(modifier), forget_to_go_on_paper, 0.827
+
+T(head), dollshouse, 0.927
+T(head), plaything_for_cat, 0.918
+T(head), plaything_for_dog, 0.918
+T(head), toy, 0.897
+T(head), plaything, 0.883
+T(head), childs_play, 0.873
+T(head), doll_house, 0.873
+T(head), little_girls, 0.872
+
+
+Result: {"pachyderm": 0.909, "proboscidean": 0.887, "dollshouse": 0.927, "plaything_for_cat": 0.918, "plaything_for_dog": 0.918, "toy": 0.897, "@scenario_probability": 1.6462787507570734e-07}
+Scenario: [1, 1, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0, 0, 0, 1.6462787507570734e-07]

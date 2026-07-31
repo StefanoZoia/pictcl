@@ -1,0 +1,1 @@
+In a zoo pen, a giraffe (id 1) stands on the left, and a zebra (id 2) stands on the right, facing the giraffe.

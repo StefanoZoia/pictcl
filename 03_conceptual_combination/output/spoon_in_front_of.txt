@@ -1,0 +1,19 @@
+Title: spoon-in_front_of
+
+Head Concept Name: spoon
+Modifier Concept Name: in_front_of
+
+
+
+
+
+
+T(head), silverware_drawer, 0.892
+T(head), scooping_food, 0.888
+T(head), utensil, 0.882
+T(head), stirring_coffee, 0.871
+T(head), eating, 0.869
+T(head), cutlery, 0.869
+T(head), mixing_ingredients, 0.866
+T(head), mixing_soup, 0.866
+

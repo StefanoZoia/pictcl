@@ -1,0 +1,30 @@
+Title: spoon-expressionism
+
+Head Concept Name: spoon
+Modifier Concept Name: expressionism
+
+
+
+
+
+T(modifier), artistic_movement, 0.835
+T(modifier), countenance, 0.77
+T(modifier), dark, 0.746
+T(modifier), movement, 0.742
+T(modifier), demonstration, 0.741
+T(modifier), genetics, 0.739
+T(modifier), squeeze, 0.735
+T(modifier), subexpression, 0.731
+
+T(head), silverware_drawer, 0.892
+T(head), scooping_food, 0.888
+T(head), utensil, 0.882
+T(head), stirring_coffee, 0.871
+T(head), eating, 0.869
+T(head), cutlery, 0.869
+T(head), mixing_ingredients, 0.866
+T(head), mixing_soup, 0.866
+
+
+Result: {"artistic_movement": 0.835, "silverware_drawer": 0.892, "scooping_food": 0.888, "utensil": 0.882, "stirring_coffee": 0.871, "cutlery": 0.869, "@scenario_probability": 7.543473839674053e-06}
+Scenario: [1, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 0, 1, 0, 0, 7.543473839674053e-06]

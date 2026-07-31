@@ -1,0 +1,30 @@
+Title: volcano-2
+
+Head Concept Name: volcano
+Modifier Concept Name: 2
+
+
+
+
+
+T(modifier), two, 0.94
+T(modifier), spelled_two, 0.816
+T(modifier), number, 0.81
+T(modifier), text_messaging, 0.773
+T(modifier), prime_number, 0.746
+T(modifier), computing, 0.739
+T(modifier), higher_number_than_1, 0.735
+T(modifier), historical, 0.734
+
+T(head), volcanic_crater, 0.878
+T(head), dormant, 0.875
+T(head), extinct, 0.861
+T(head), crater, 0.86
+T(head), lava, 0.824
+T(head), land_topographical_feature, 0.755
+T(head), south_park, 0.743
+T(head), top_of_mountain, 0.736
+
+
+Result: {"two": 0.94, "volcanic_crater": 0.878, "dormant": 0.875, "extinct": 0.861, "crater": 0.86, "lava": 0.824, "@scenario_probability": 2.716197762786824e-05}
+Scenario: [1, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 0, 0, 0, 2.716197762786824e-05]

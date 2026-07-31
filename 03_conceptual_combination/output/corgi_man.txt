@@ -1,0 +1,24 @@
+Title: corgi-man
+
+Head Concept Name: corgi
+Modifier Concept Name: man
+
+
+
+
+
+T(modifier), -woman, 0.87
+T(modifier), male, 0.854
+T(modifier), -boy, 0.84
+T(modifier), lover, 0.825
+T(modifier), -female, 0.816
+T(modifier), -lady, 0.815
+T(modifier), subordinate, 0.811
+T(modifier), international_intelligence_agency, 0.807
+
+T(head), dog, 0.879
+T(head), breed_of_herding_dog, 0.794
+
+
+Result: {"-woman": 0.87, "male": 0.854, "-boy": 0.84, "lover": 0.825, "-female": 0.816, "dog": 0.879, "@scenario_probability": 0.05133900574875622}
+Scenario: [1, 1, 1, 1, 1, 0, 0, 0, 1, 0, 0.05133900574875622]

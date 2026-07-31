@@ -1,0 +1,30 @@
+Title: novel-gray
+
+Head Concept Name: novel
+Modifier Concept Name: gray
+
+
+
+
+
+T(modifier), achromatic_color, 0.858
+T(modifier), discolor, 0.845
+T(modifier), grayish_thing, 0.84
+T(modifier), clothing, 0.801
+T(modifier), organization, 0.798
+T(modifier), saddle_horse, 0.79
+T(modifier), -black, 0.763
+T(modifier), demography, 0.761
+
+T(head), author, 0.897
+T(head), fiction, 0.885
+T(head), book, 0.883
+T(head), writer, 0.878
+T(head), story, 0.861
+T(head), bookstore, 0.85
+T(head), read, 0.802
+T(head), classical_studies, 0.724
+
+
+Result: {"achromatic_color": 0.858, "author": 0.897, "fiction": 0.885, "book": 0.883, "writer": 0.878, "story": 0.861, "@scenario_probability": 4.419453535882376e-06}
+Scenario: [1, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 0, 0, 0, 4.419453535882376e-06]

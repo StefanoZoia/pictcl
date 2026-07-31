@@ -1,0 +1,30 @@
+Title: spoon-heart
+
+Head Concept Name: spoon
+Modifier Concept Name: heart
+
+
+
+
+
+T(modifier), circulatory_system, 0.883
+T(modifier), beat, 0.881
+T(modifier), love, 0.879
+T(modifier), pumping_blood, 0.869
+T(modifier), internal_organ, 0.863
+T(modifier), pumps_blood_around_body_by_contracton_and_relaxation_of_muscles, 0.861
+T(modifier), staying_alive, 0.857
+T(modifier), blood, 0.857
+
+T(head), silverware_drawer, 0.892
+T(head), scooping_food, 0.888
+T(head), utensil, 0.882
+T(head), stirring_coffee, 0.871
+T(head), eating, 0.869
+T(head), cutlery, 0.869
+T(head), mixing_ingredients, 0.866
+T(head), mixing_soup, 0.866
+
+
+Result: {"circulatory_system": 0.883, "beat": 0.881, "love": 0.879, "silverware_drawer": 0.892, "scooping_food": 0.888, "utensil": 0.882, "@scenario_probability": 9.687072022452908e-08}
+Scenario: [1, 1, 1, 0, 0, 0, 0, 0, 1, 1, 1, 0, 0, 0, 0, 0, 9.687072022452908e-08]

@@ -1,0 +1,30 @@
+Title: car-hammer
+
+Head Concept Name: car
+Modifier Concept Name: hammer
+
+
+
+
+
+T(modifier), hammer, 0.974
+T(modifier), tool_box, 0.894
+T(modifier), whack, 0.889
+T(modifier), pounding_nails, 0.884
+T(modifier), hard, 0.882
+T(modifier), strike, 0.874
+T(modifier), tool, 0.87
+T(modifier), hit_nail, 0.867
+
+T(head), car_factory_like_toyota, 0.925
+T(head), car_dealership, 0.917
+T(head), vehicle, 0.914
+T(head), car_show, 0.899
+T(head), motor_vehicle, 0.897
+T(head), drive, 0.892
+T(head), tire, 0.875
+T(head), car_door, 0.875
+
+
+Result: {"hammer": 0.974, "car_factory_like_toyota": 0.925, "car_dealership": 0.917, "vehicle": 0.914, "car_show": 0.899, "motor_vehicle": 0.897, "@scenario_probability": 3.605342401997671e-08}
+Scenario: [1, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 0, 0, 0, 3.605342401997671e-08]

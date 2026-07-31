@@ -1,0 +1,27 @@
+Title: sheep-laptop
+
+Head Concept Name: sheep
+Modifier Concept Name: laptop
+
+
+
+
+
+T(modifier), computing, 0.822
+T(modifier), portable_computer, 0.814
+T(modifier), desk, 0.81
+T(modifier), internet_cafe, 0.746
+T(modifier), going_on_internet, 0.673
+
+T(head), graze, 0.893
+T(head), bovid, 0.886
+T(head), shearing, 0.88
+T(head), animals, 0.862
+T(head), farm, 0.848
+T(head), farm_animals, 0.848
+T(head), meadow, 0.839
+T(head), -goat, 0.837
+
+
+Result: {"computing": 0.822, "graze": 0.893, "bovid": 0.886, "shearing": 0.88, "animals": 0.862, "farm": 0.848, "@scenario_probability": 0.0004898328096460903}
+Scenario: [1, 0, 0, 0, 0, 1, 1, 1, 1, 1, 0, 0, 0, 0.0004898328096460903]

@@ -1,0 +1,30 @@
+Title: car-volcano
+
+Head Concept Name: car
+Modifier Concept Name: volcano
+
+
+
+
+
+T(modifier), volcanic_crater, 0.878
+T(modifier), dormant, 0.875
+T(modifier), extinct, 0.861
+T(modifier), crater, 0.86
+T(modifier), lava, 0.824
+T(modifier), land_topographical_feature, 0.755
+T(modifier), south_park, 0.743
+T(modifier), top_of_mountain, 0.736
+
+T(head), car_factory_like_toyota, 0.925
+T(head), car_dealership, 0.917
+T(head), vehicle, 0.914
+T(head), car_show, 0.899
+T(head), motor_vehicle, 0.897
+T(head), drive, 0.892
+T(head), tire, 0.875
+T(head), car_door, 0.875
+
+
+Result: {"volcanic_crater": 0.878, "car_factory_like_toyota": 0.925, "car_dealership": 0.917, "vehicle": 0.914, "car_show": 0.899, "motor_vehicle": 0.897, "@scenario_probability": 6.591987082389811e-07}
+Scenario: [1, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 0, 0, 0, 6.591987082389811e-07]

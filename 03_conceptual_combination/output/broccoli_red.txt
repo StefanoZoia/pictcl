@@ -1,0 +1,30 @@
+Title: broccoli-red
+
+Head Concept Name: broccoli
+Modifier Concept Name: red
+
+
+
+
+
+T(modifier), primary_colour, 0.924
+T(modifier), primary_color, 0.915
+T(modifier), -blue, 0.911
+T(modifier), color, 0.876
+T(modifier), colour, 0.875
+T(modifier), -yellow, 0.867
+T(modifier), oxygenated_blood, 0.835
+T(modifier), -green, 0.828
+
+T(head), broccoli, 0.946
+T(head), crucifer, 0.894
+T(head), cruciferous_vegetable, 0.886
+T(head), green, 0.858
+T(head), green_vegetable, 0.839
+T(head), vegetable_people_may_cook, 0.829
+T(head), very_nutritious, 0.824
+T(head), plate, 0.764
+
+
+Result: {"primary_colour": 0.924, "primary_color": 0.915, "-blue": 0.911, "broccoli": 0.946, "crucifer": 0.894, "cruciferous_vegetable": 0.886, "@scenario_probability": 5.482827106262825e-07}
+Scenario: [1, 1, 1, 0, 0, 0, 0, 0, 1, 1, 1, 0, 0, 0, 0, 0, 5.482827106262825e-07]

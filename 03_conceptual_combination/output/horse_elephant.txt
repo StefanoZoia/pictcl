@@ -1,0 +1,30 @@
+Title: horse-elephant
+
+Head Concept Name: horse
+Modifier Concept Name: elephant
+
+
+
+
+
+T(modifier), pachyderm, 0.909
+T(modifier), proboscidean, 0.887
+T(modifier), tusks, 0.878
+T(modifier), zoo, 0.854
+T(modifier), circus, 0.846
+T(modifier), africa, 0.845
+T(modifier), elephantidae, 0.836
+T(modifier), forget_to_go_on_paper, 0.827
+
+T(head), riding, 0.924
+T(head), equine, 0.922
+T(head), equestrian_competition, 0.912
+T(head), horse's_foot, 0.901
+T(head), horse_racing, 0.901
+T(head), kentucky_derby, 0.891
+T(head), horsemeat, 0.889
+T(head), harness_pulling_carriage, 0.888
+
+
+Result: {"pachyderm": 0.909, "riding": 0.924, "equine": 0.922, "equestrian_competition": 0.912, "horse's_foot": 0.901, "horse_racing": 0.901, "@scenario_probability": 1.0590395892576283e-07}
+Scenario: [1, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 0, 0, 0, 1.0590395892576283e-07]

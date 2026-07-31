@@ -1,0 +1,26 @@
+Title: orange-textbook
+
+Head Concept Name: orange
+Modifier Concept Name: textbook
+
+
+
+
+
+T(modifier), book, 0.883
+T(modifier), learning, 0.819
+T(modifier), locker, 0.811
+T(modifier), include_glossary, 0.811
+
+T(head), orange, 0.946
+T(head), citrus_fruit, 0.902
+T(head), citrus, 0.891
+T(head), orangeish_thing, 0.883
+T(head), sweet, 0.881
+T(head), color, 0.859
+T(head), colour, 0.858
+T(head), -apple, 0.844
+
+
+Result: {"book": 0.883, "orange": 0.946, "citrus_fruit": 0.902, "citrus": 0.891, "orangeish_thing": 0.883, "sweet": 0.881, "@scenario_probability": 0.0010546465399067161}
+Scenario: [1, 0, 0, 0, 1, 1, 1, 1, 1, 0, 0, 0, 0.0010546465399067161]

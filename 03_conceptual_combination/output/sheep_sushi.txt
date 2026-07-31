@@ -1,0 +1,30 @@
+Title: sheep-sushi
+
+Head Concept Name: sheep
+Modifier Concept Name: sushi
+
+
+
+
+
+T(modifier), japan, 0.867
+T(modifier), eating, 0.834
+T(modifier), dish, 0.829
+T(modifier), both_beautiful_and_delicious, 0.817
+T(modifier), japanese_food, 0.816
+T(modifier), very_popular_in_asian_cuisine, 0.816
+T(modifier), raw_fish, 0.792
+T(modifier), plate, 0.777
+
+T(head), graze, 0.893
+T(head), bovid, 0.886
+T(head), shearing, 0.88
+T(head), animals, 0.862
+T(head), farm, 0.848
+T(head), farm_animals, 0.848
+T(head), meadow, 0.839
+T(head), -goat, 0.837
+
+
+Result: {"japan": 0.867, "graze": 0.893, "bovid": 0.886, "shearing": 0.88, "animals": 0.862, "farm_animals": 0.848, "@scenario_probability": 1.435840731331214e-06}
+Scenario: [1, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 0, 1, 0, 0, 1.435840731331214e-06]

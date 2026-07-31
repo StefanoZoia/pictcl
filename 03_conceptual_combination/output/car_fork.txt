@@ -1,0 +1,30 @@
+Title: car-fork
+
+Head Concept Name: car
+Modifier Concept Name: fork
+
+
+
+
+
+T(modifier), cutlery, 0.867
+T(modifier), picking_up_food, 0.852
+T(modifier), prongs, 0.851
+T(modifier), silverware_drawer, 0.851
+T(modifier), eating_food, 0.85
+T(modifier), road, 0.847
+T(modifier), eat_dinner, 0.847
+T(modifier), eat_meal, 0.847
+
+T(head), car_factory_like_toyota, 0.925
+T(head), car_dealership, 0.917
+T(head), vehicle, 0.914
+T(head), car_show, 0.899
+T(head), motor_vehicle, 0.897
+T(head), drive, 0.892
+T(head), tire, 0.875
+T(head), car_door, 0.875
+
+
+Result: {"cutlery": 0.867, "car_factory_like_toyota": 0.925, "car_dealership": 0.917, "vehicle": 0.914, "car_show": 0.899, "motor_vehicle": 0.897, "@scenario_probability": 1.6146265207410734e-07}
+Scenario: [1, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 0, 0, 0, 1.6146265207410734e-07]

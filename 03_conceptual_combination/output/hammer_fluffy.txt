@@ -1,0 +1,24 @@
+Title: hammer-fluffy
+
+Head Concept Name: hammer
+Modifier Concept Name: fluffy
+
+
+
+
+
+T(modifier), nz, 0.75
+T(modifier), clouds, 0.745
+
+T(head), hammer, 0.974
+T(head), tool_box, 0.894
+T(head), whack, 0.889
+T(head), pounding_nails, 0.884
+T(head), hard, 0.882
+T(head), strike, 0.874
+T(head), tool, 0.87
+T(head), hit_nail, 0.867
+
+
+Result: {"nz": 0.75, "hammer": 0.974, "tool_box": 0.894, "whack": 0.889, "pounding_nails": 0.884, "hard": 0.882, "@scenario_probability": 0.02514699346943224}
+Scenario: [1, 0, 1, 1, 1, 1, 1, 0, 0, 0, 0.02514699346943224]

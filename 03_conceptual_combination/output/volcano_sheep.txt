@@ -1,0 +1,30 @@
+Title: volcano-sheep
+
+Head Concept Name: volcano
+Modifier Concept Name: sheep
+
+
+
+
+
+T(modifier), graze, 0.893
+T(modifier), bovid, 0.886
+T(modifier), shearing, 0.88
+T(modifier), animals, 0.862
+T(modifier), farm, 0.848
+T(modifier), farm_animals, 0.848
+T(modifier), meadow, 0.839
+T(modifier), -goat, 0.837
+
+T(head), volcanic_crater, 0.878
+T(head), dormant, 0.875
+T(head), extinct, 0.861
+T(head), crater, 0.86
+T(head), lava, 0.824
+T(head), land_topographical_feature, 0.755
+T(head), south_park, 0.743
+T(head), top_of_mountain, 0.736
+
+
+Result: {"graze": 0.893, "bovid": 0.886, "shearing": 0.88, "animals": 0.862, "volcanic_crater": 0.878, "dormant": 0.875, "@scenario_probability": 1.591611184413011e-06}
+Scenario: [1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 0, 0, 0, 0, 0, 0, 1.591611184413011e-06]

@@ -1,0 +1,30 @@
+Title: cow-4
+
+Head Concept Name: cow
+Modifier Concept Name: 4
+
+
+
+
+
+T(modifier), four, 0.859
+T(modifier), number, 0.815
+T(modifier), equal_2_2, 0.803
+T(modifier), characters, 0.799
+T(modifier), text_messaging, 0.773
+T(modifier), slang, 0.761
+T(modifier), higher_number_than_3, 0.736
+T(modifier), locomotive, 0.735
+
+T(head), county_fair, 0.928
+T(head), cattle, 0.911
+T(head), dairy_farm, 0.908
+T(head), milking, 0.889
+T(head), barnyard, 0.884
+T(head), milking_stall, 0.883
+T(head), milking_barn, 0.883
+T(head), hamburger_meat, 0.883
+
+
+Result: {"four": 0.859, "county_fair": 0.928, "cattle": 0.911, "dairy_farm": 0.908, "milking": 0.889, "barnyard": 0.884, "@scenario_probability": 2.3076213464023994e-06}
+Scenario: [1, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 0, 0, 0, 2.3076213464023994e-06]

@@ -1,0 +1,1 @@
+A giraffe (id 1) stands next to a zebra (id 2), with both animals fully visible and facing the same direction.

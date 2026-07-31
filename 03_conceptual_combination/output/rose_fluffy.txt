@@ -1,0 +1,24 @@
+Title: rose-fluffy
+
+Head Concept Name: rose
+Modifier Concept Name: fluffy
+
+
+
+
+
+T(modifier), nz, 0.75
+T(modifier), clouds, 0.745
+
+T(head), pink, 0.868
+T(head), red, 0.86
+T(head), flower_room, 0.854
+T(head), thorns, 0.837
+T(head), flower, 0.827
+T(head), shrub, 0.826
+T(head), garden, 0.796
+T(head), smell_nice, 0.786
+
+
+Result: {"nz": 0.75, "pink": 0.868, "red": 0.86, "flower_room": 0.854, "thorns": 0.837, "flower": 0.827, "@scenario_probability": 0.06410643815560038}
+Scenario: [1, 0, 1, 1, 1, 1, 1, 0, 0, 0, 0.06410643815560038]

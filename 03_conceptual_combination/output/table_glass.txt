@@ -1,0 +1,30 @@
+Title: table-glass
+
+Head Concept Name: table
+Modifier Concept Name: glass
+
+
+
+
+
+T(modifier), glass, 0.946
+T(modifier), glassware, 0.906
+T(modifier), drinking, 0.901
+T(modifier), recyclable, 0.893
+T(modifier), clear, 0.888
+T(modifier), ceramic, 0.877
+T(modifier), half_empty, 0.871
+T(modifier), very_fragile, 0.87
+
+T(head), drawing_on, 0.883
+T(head), dining, 0.881
+T(head), dining_room, 0.877
+T(head), eating_off_of, 0.869
+T(head), read, 0.868
+T(head), resturant, 0.862
+T(head), tabletop, 0.861
+T(head), kitchen, 0.856
+
+
+Result: {"glass": 0.946, "glassware": 0.906, "drinking": 0.901, "recyclable": 0.893, "clear": 0.888, "drawing_on": 0.883, "@scenario_probability": 7.797602742309296e-08}
+Scenario: [1, 1, 1, 1, 1, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 7.797602742309296e-08]

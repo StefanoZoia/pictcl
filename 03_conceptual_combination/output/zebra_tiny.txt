@@ -1,0 +1,28 @@
+Title: zebra-tiny
+
+Head Concept Name: zebra
+Modifier Concept Name: tiny
+
+
+
+
+
+T(modifier), -huge, 0.809
+T(modifier), -large, 0.782
+T(modifier), -great, 0.771
+T(modifier), -incalculable, 0.765
+T(modifier), -giant, 0.765
+T(modifier), kitties, 0.734
+
+T(head), zoo, 0.867
+T(head), equine, 0.846
+T(head), animal, 0.812
+T(head), stripes, 0.802
+T(head), horse, 0.796
+T(head), herd_animal, 0.776
+T(head), mammal, 0.762
+T(head), sports, 0.754
+
+
+Result: {"-huge": 0.809, "zoo": 0.867, "equine": 0.846, "animal": 0.812, "stripes": 0.802, "horse": 0.796, "@scenario_probability": 0.0002958358945839368}
+Scenario: [1, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 0, 0, 0, 0.0002958358945839368]

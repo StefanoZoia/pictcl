@@ -1,0 +1,30 @@
+Title: carrot-square
+
+Head Concept Name: carrot
+Modifier Concept Name: square
+
+
+
+
+
+T(modifier), rectangle, 0.886
+T(modifier), checkerboard, 0.842
+T(modifier), -circle, 0.84
+T(modifier), geometry, 0.836
+T(modifier), quadrilateral, 0.833
+T(modifier), shape, 0.832
+T(modifier), measuring_wood, 0.824
+T(modifier), form, 0.822
+
+T(head), carrot, 0.946
+T(head), reward, 0.836
+T(head), root, 0.829
+T(head), herb, 0.821
+T(head), vegetable, 0.821
+T(head), root_vegetable, 0.807
+T(head), -stick, 0.752
+T(head), eaten, 0.707
+
+
+Result: {"rectangle": 0.886, "checkerboard": 0.842, "-circle": 0.84, "geometry": 0.836, "carrot": 0.946, "reward": 0.836, "@scenario_probability": 2.7981178131720274e-06}
+Scenario: [1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 0, 0, 0, 0, 0, 0, 2.7981178131720274e-06]

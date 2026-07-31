@@ -1,0 +1,30 @@
+Title: horse-sushi
+
+Head Concept Name: horse
+Modifier Concept Name: sushi
+
+
+
+
+
+T(modifier), japan, 0.867
+T(modifier), eating, 0.834
+T(modifier), dish, 0.829
+T(modifier), both_beautiful_and_delicious, 0.817
+T(modifier), japanese_food, 0.816
+T(modifier), very_popular_in_asian_cuisine, 0.816
+T(modifier), raw_fish, 0.792
+T(modifier), plate, 0.777
+
+T(head), riding, 0.924
+T(head), equine, 0.922
+T(head), equestrian_competition, 0.912
+T(head), horse's_foot, 0.901
+T(head), horse_racing, 0.901
+T(head), kentucky_derby, 0.891
+T(head), horsemeat, 0.889
+T(head), harness_pulling_carriage, 0.888
+
+
+Result: {"japan": 0.867, "riding": 0.924, "equine": 0.922, "equestrian_competition": 0.912, "horse's_foot": 0.901, "horse_racing": 0.901, "@scenario_probability": 6.044954574122882e-07}
+Scenario: [1, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 0, 0, 0, 6.044954574122882e-07]

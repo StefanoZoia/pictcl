@@ -1,0 +1,30 @@
+Title: table-man
+
+Head Concept Name: table
+Modifier Concept Name: man
+
+
+
+
+
+T(modifier), -woman, 0.87
+T(modifier), male, 0.854
+T(modifier), -boy, 0.84
+T(modifier), lover, 0.825
+T(modifier), -female, 0.816
+T(modifier), -lady, 0.815
+T(modifier), subordinate, 0.811
+T(modifier), international_intelligence_agency, 0.807
+
+T(head), drawing_on, 0.883
+T(head), dining, 0.881
+T(head), dining_room, 0.877
+T(head), eating_off_of, 0.869
+T(head), read, 0.868
+T(head), resturant, 0.862
+T(head), tabletop, 0.861
+T(head), kitchen, 0.856
+
+
+Result: {"-woman": 0.87, "drawing_on": 0.883, "dining": 0.881, "dining_room": 0.877, "eating_off_of": 0.869, "read": 0.868, "@scenario_probability": 6.277271170781689e-07}
+Scenario: [1, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 0, 0, 0, 6.277271170781689e-07]

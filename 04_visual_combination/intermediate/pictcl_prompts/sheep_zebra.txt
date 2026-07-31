@@ -1,0 +1,1 @@
+In a zoo pen, one sheep (id 1) is grazing on short grass on the left, and one zebra (id 2) is standing on the right, facing the sheep.

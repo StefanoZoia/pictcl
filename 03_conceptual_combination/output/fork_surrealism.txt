@@ -1,0 +1,24 @@
+Title: fork-surrealism
+
+Head Concept Name: fork
+Modifier Concept Name: surrealism
+
+
+
+
+
+T(modifier), artistic_movement, 0.824
+T(modifier), -reality, 0.725
+
+T(head), cutlery, 0.867
+T(head), picking_up_food, 0.852
+T(head), prongs, 0.851
+T(head), silverware_drawer, 0.851
+T(head), eating_food, 0.85
+T(head), road, 0.847
+T(head), eat_dinner, 0.847
+T(head), eat_meal, 0.847
+
+
+Result: {"artistic_movement": 0.824, "cutlery": 0.867, "picking_up_food": 0.852, "prongs": 0.851, "silverware_drawer": 0.851, "eating_food": 0.85, "@scenario_probability": 0.03690378709729219}
+Scenario: [1, 0, 1, 1, 1, 1, 1, 0, 0, 0, 0.03690378709729219]

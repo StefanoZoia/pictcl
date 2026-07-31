@@ -1,0 +1,30 @@
+Title: man-left
+
+Head Concept Name: man
+Modifier Concept Name: left
+
+
+
+
+
+T(modifier), -right, 0.849
+T(modifier), hand, 0.837
+T(modifier), -rightward, 0.834
+T(modifier), turn, 0.818
+T(modifier), faction, 0.818
+T(modifier), position, 0.804
+T(modifier), politics, 0.789
+T(modifier), political_party, 0.756
+
+T(head), -woman, 0.87
+T(head), male, 0.854
+T(head), -boy, 0.84
+T(head), lover, 0.825
+T(head), -female, 0.816
+T(head), -lady, 0.815
+T(head), subordinate, 0.811
+T(head), international_intelligence_agency, 0.807
+
+
+Result: {"-right": 0.849, "hand": 0.837, "-rightward": 0.834, "-woman": 0.87, "male": 0.854, "-boy": 0.84, "@scenario_probability": 2.6864171448203986e-06}
+Scenario: [1, 1, 1, 0, 0, 0, 0, 0, 1, 1, 1, 0, 0, 0, 0, 0, 2.6864171448203986e-06]

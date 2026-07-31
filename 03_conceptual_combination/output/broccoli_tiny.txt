@@ -1,0 +1,28 @@
+Title: broccoli-tiny
+
+Head Concept Name: broccoli
+Modifier Concept Name: tiny
+
+
+
+
+
+T(modifier), -huge, 0.809
+T(modifier), -large, 0.782
+T(modifier), -great, 0.771
+T(modifier), -incalculable, 0.765
+T(modifier), -giant, 0.765
+T(modifier), kitties, 0.734
+
+T(head), broccoli, 0.946
+T(head), crucifer, 0.894
+T(head), cruciferous_vegetable, 0.886
+T(head), green, 0.858
+T(head), green_vegetable, 0.839
+T(head), vegetable_people_may_cook, 0.829
+T(head), very_nutritious, 0.824
+T(head), plate, 0.764
+
+
+Result: {"-huge": 0.809, "broccoli": 0.946, "crucifer": 0.894, "cruciferous_vegetable": 0.886, "green": 0.858, "green_vegetable": 0.839, "@scenario_probability": 0.0002272952006493213}
+Scenario: [1, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 0, 0, 0, 0.0002272952006493213]

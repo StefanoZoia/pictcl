@@ -1,0 +1,28 @@
+Title: sushi-huge
+
+Head Concept Name: sushi
+Modifier Concept Name: huge
+
+
+
+
+
+T(modifier), -diminutive, 0.825
+T(modifier), -tiny, 0.809
+T(modifier), slang, 0.731
+T(modifier), space, 0.697
+T(modifier), -minute, 0.693
+T(modifier), buildings, 0.683
+
+T(head), japan, 0.867
+T(head), eating, 0.834
+T(head), dish, 0.829
+T(head), both_beautiful_and_delicious, 0.817
+T(head), japanese_food, 0.816
+T(head), very_popular_in_asian_cuisine, 0.816
+T(head), raw_fish, 0.792
+T(head), plate, 0.777
+
+
+Result: {"-diminutive": 0.825, "japan": 0.867, "eating": 0.834, "dish": 0.829, "both_beautiful_and_delicious": 0.817, "very_popular_in_asian_cuisine": 0.816, "@scenario_probability": 0.00042630239933287925}
+Scenario: [1, 0, 0, 0, 0, 0, 1, 1, 1, 1, 0, 1, 0, 0, 0.00042630239933287925]

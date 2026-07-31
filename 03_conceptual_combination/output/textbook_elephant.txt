@@ -1,0 +1,26 @@
+Title: textbook-elephant
+
+Head Concept Name: textbook
+Modifier Concept Name: elephant
+
+
+
+
+
+T(modifier), pachyderm, 0.909
+T(modifier), proboscidean, 0.887
+T(modifier), tusks, 0.878
+T(modifier), zoo, 0.854
+T(modifier), circus, 0.846
+T(modifier), africa, 0.845
+T(modifier), elephantidae, 0.836
+T(modifier), forget_to_go_on_paper, 0.827
+
+T(head), book, 0.883
+T(head), learning, 0.819
+T(head), locker, 0.811
+T(head), include_glossary, 0.811
+
+
+Result: {"pachyderm": 0.909, "proboscidean": 0.887, "tusks": 0.878, "zoo": 0.854, "circus": 0.846, "book": 0.883, "@scenario_probability": 0.0012840880040923945}
+Scenario: [1, 1, 1, 1, 1, 0, 0, 0, 1, 0, 0, 0, 0.0012840880040923945]

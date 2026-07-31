@@ -1,0 +1,30 @@
+Title: pizza-outside
+
+Head Concept Name: pizza
+Modifier Concept Name: outside
+
+
+
+
+
+T(modifier), -inside, 0.918
+T(modifier), -within, 0.837
+T(modifier), surface, 0.819
+T(modifier), baseball, 0.805
+T(modifier), region, 0.8
+T(modifier), uk, 0.771
+T(modifier), countryside, 0.762
+T(modifier), slang, 0.754
+
+T(head), baked_in_oven, 0.922
+T(head), pizza_toppings, 0.849
+T(head), pizza_sauce, 0.849
+T(head), oven, 0.844
+T(head), popular, 0.838
+T(head), dish, 0.823
+T(head), flatbread, 0.822
+T(head), disc_shaped_food_item, 0.815
+
+
+Result: {"-inside": 0.918, "baked_in_oven": 0.922, "pizza_toppings": 0.849, "pizza_sauce": 0.849, "oven": 0.844, "popular": 0.838, "@scenario_probability": 3.879884326382203e-06}
+Scenario: [1, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 0, 0, 0, 3.879884326382203e-06]

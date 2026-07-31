@@ -1,0 +1,30 @@
+Title: robot-man
+
+Head Concept Name: robot
+Modifier Concept Name: man
+
+
+
+
+
+T(modifier), -woman, 0.87
+T(modifier), male, 0.854
+T(modifier), -boy, 0.84
+T(modifier), lover, 0.825
+T(modifier), -female, 0.816
+T(modifier), -lady, 0.815
+T(modifier), subordinate, 0.811
+T(modifier), international_intelligence_agency, 0.807
+
+T(head), automaton, 0.867
+T(head), automation, 0.865
+T(head), machine, 0.862
+T(head), botmaster, 0.845
+T(head), manufacturing_plant, 0.837
+T(head), companionship, 0.826
+T(head), repetitive, 0.824
+T(head), walk_and_talk, 0.824
+
+
+Result: {"-woman": 0.87, "male": 0.854, "automaton": 0.867, "automation": 0.865, "machine": 0.862, "botmaster": 0.845, "@scenario_probability": 1.2396674191949078e-06}
+Scenario: [1, 1, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0, 0, 0, 1.2396674191949078e-06]

@@ -1,0 +1,30 @@
+Title: doll-sheep
+
+Head Concept Name: doll
+Modifier Concept Name: sheep
+
+
+
+
+
+T(modifier), graze, 0.893
+T(modifier), bovid, 0.886
+T(modifier), shearing, 0.88
+T(modifier), animals, 0.862
+T(modifier), farm, 0.848
+T(modifier), farm_animals, 0.848
+T(modifier), meadow, 0.839
+T(modifier), -goat, 0.837
+
+T(head), dollshouse, 0.927
+T(head), plaything_for_cat, 0.918
+T(head), plaything_for_dog, 0.918
+T(head), toy, 0.897
+T(head), plaything, 0.883
+T(head), childs_play, 0.873
+T(head), doll_house, 0.873
+T(head), little_girls, 0.872
+
+
+Result: {"graze": 0.893, "bovid": 0.886, "dollshouse": 0.927, "plaything_for_cat": 0.918, "plaything_for_dog": 0.918, "toy": 0.897, "@scenario_probability": 1.344642960097212e-07}
+Scenario: [1, 1, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0, 0, 0, 1.344642960097212e-07]

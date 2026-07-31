@@ -1,0 +1,24 @@
+Title: broccoli-fluffy
+
+Head Concept Name: broccoli
+Modifier Concept Name: fluffy
+
+
+
+
+
+T(modifier), nz, 0.75
+T(modifier), clouds, 0.745
+
+T(head), broccoli, 0.946
+T(head), crucifer, 0.894
+T(head), cruciferous_vegetable, 0.886
+T(head), green, 0.858
+T(head), green_vegetable, 0.839
+T(head), vegetable_people_may_cook, 0.829
+T(head), very_nutritious, 0.824
+T(head), plate, 0.764
+
+
+Result: {"nz": 0.75, "broccoli": 0.946, "crucifer": 0.894, "cruciferous_vegetable": 0.886, "green": 0.858, "green_vegetable": 0.839, "@scenario_probability": 0.07327129220242114}
+Scenario: [1, 0, 1, 1, 1, 1, 1, 0, 0, 0, 0.07327129220242114]

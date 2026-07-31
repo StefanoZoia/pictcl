@@ -1,0 +1,24 @@
+Title: horse-fluffy
+
+Head Concept Name: horse
+Modifier Concept Name: fluffy
+
+
+
+
+
+T(modifier), nz, 0.75
+T(modifier), clouds, 0.745
+
+T(head), riding, 0.924
+T(head), equine, 0.922
+T(head), equestrian_competition, 0.912
+T(head), horse's_foot, 0.901
+T(head), horse_racing, 0.901
+T(head), kentucky_derby, 0.891
+T(head), horsemeat, 0.889
+T(head), harness_pulling_carriage, 0.888
+
+
+Result: {"nz": 0.75, "riding": 0.924, "equine": 0.922, "equestrian_competition": 0.912, "horse's_foot": 0.901, "horse_racing": 0.901, "@scenario_probability": 0.01634617920331733}
+Scenario: [1, 0, 1, 1, 1, 1, 1, 0, 0, 0, 0.01634617920331733]

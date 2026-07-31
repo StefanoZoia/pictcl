@@ -1,0 +1,30 @@
+Title: robot-giraffe
+
+Head Concept Name: robot
+Modifier Concept Name: giraffe
+
+
+
+
+
+T(modifier), giraffidae, 0.91
+T(modifier), male, 0.873
+T(modifier), zoo, 0.871
+T(modifier), ruminant, 0.853
+T(modifier), mammal, 0.824
+T(modifier), female, 0.824
+T(modifier), animal, 0.808
+T(modifier), drink_water, 0.791
+
+T(head), automaton, 0.867
+T(head), automation, 0.865
+T(head), machine, 0.862
+T(head), botmaster, 0.845
+T(head), manufacturing_plant, 0.837
+T(head), companionship, 0.826
+T(head), repetitive, 0.824
+T(head), walk_and_talk, 0.824
+
+
+Result: {"giraffidae": 0.91, "male": 0.873, "zoo": 0.871, "automaton": 0.867, "automation": 0.865, "machine": 0.862, "@scenario_probability": 1.1130132474370773e-06}
+Scenario: [1, 1, 1, 0, 0, 0, 0, 0, 1, 1, 1, 0, 0, 0, 0, 0, 1.1130132474370773e-06]

@@ -1,0 +1,30 @@
+Title: spider-elephant
+
+Head Concept Name: spider
+Modifier Concept Name: elephant
+
+
+
+
+
+T(modifier), pachyderm, 0.909
+T(modifier), proboscidean, 0.887
+T(modifier), tusks, 0.878
+T(modifier), zoo, 0.854
+T(modifier), circus, 0.846
+T(modifier), africa, 0.845
+T(modifier), elephantidae, 0.836
+T(modifier), forget_to_go_on_paper, 0.827
+
+T(head), arachnid, 0.916
+T(head), web, 0.876
+T(head), inject_venom, 0.859
+T(head), spin_webs, 0.849
+T(head), sticking_to_wall, 0.823
+T(head), arthropod, 0.816
+T(head), spin_web, 0.805
+T(head), venomous_animal, 0.804
+
+
+Result: {"pachyderm": 0.909, "proboscidean": 0.887, "tusks": 0.878, "arachnid": 0.916, "web": 0.876, "inject_venom": 0.859, "@scenario_probability": 9.068359067799812e-07}
+Scenario: [1, 1, 1, 0, 0, 0, 0, 0, 1, 1, 1, 0, 0, 0, 0, 0, 9.068359067799812e-07]

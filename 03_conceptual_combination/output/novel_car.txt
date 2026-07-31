@@ -1,0 +1,30 @@
+Title: novel-car
+
+Head Concept Name: novel
+Modifier Concept Name: car
+
+
+
+
+
+T(modifier), car_factory_like_toyota, 0.925
+T(modifier), car_dealership, 0.917
+T(modifier), vehicle, 0.914
+T(modifier), car_show, 0.899
+T(modifier), motor_vehicle, 0.897
+T(modifier), drive, 0.892
+T(modifier), tire, 0.875
+T(modifier), car_door, 0.875
+
+T(head), author, 0.897
+T(head), fiction, 0.885
+T(head), book, 0.883
+T(head), writer, 0.878
+T(head), story, 0.861
+T(head), bookstore, 0.85
+T(head), read, 0.802
+T(head), classical_studies, 0.724
+
+
+Result: {"car_factory_like_toyota": 0.925, "car_dealership": 0.917, "vehicle": 0.914, "car_show": 0.899, "motor_vehicle": 0.897, "author": 0.897, "@scenario_probability": 1.769984600572187e-07}
+Scenario: [1, 1, 1, 1, 1, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 1.769984600572187e-07]

@@ -1,0 +1,30 @@
+Title: pizza-zebra
+
+Head Concept Name: pizza
+Modifier Concept Name: zebra
+
+
+
+
+
+T(modifier), zoo, 0.867
+T(modifier), equine, 0.846
+T(modifier), animal, 0.812
+T(modifier), stripes, 0.802
+T(modifier), horse, 0.796
+T(modifier), herd_animal, 0.776
+T(modifier), mammal, 0.762
+T(modifier), sports, 0.754
+
+T(head), baked_in_oven, 0.922
+T(head), pizza_toppings, 0.849
+T(head), pizza_sauce, 0.849
+T(head), oven, 0.844
+T(head), popular, 0.838
+T(head), dish, 0.823
+T(head), flatbread, 0.822
+T(head), disc_shaped_food_item, 0.815
+
+
+Result: {"zoo": 0.867, "equine": 0.846, "baked_in_oven": 0.922, "pizza_toppings": 0.849, "pizza_sauce": 0.849, "oven": 0.844, "@scenario_probability": 3.8687575129403465e-06}
+Scenario: [1, 1, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0, 0, 0, 3.8687575129403465e-06]

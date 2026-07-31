@@ -1,0 +1,30 @@
+Title: house-chicken
+
+Head Concept Name: house
+Modifier Concept Name: chicken
+
+
+
+
+
+T(modifier), chicken, 0.946
+T(modifier), cross_road, 0.917
+T(modifier), poultry, 0.913
+T(modifier), meat, 0.874
+T(modifier), chicken_wing, 0.859
+T(modifier), tasty_when_fried_or_baked, 0.847
+T(modifier), lay_eggs, 0.845
+T(modifier), lay_egg, 0.845
+
+T(head), dwelling, 0.886
+T(head), shelter, 0.864
+T(head), residential_area, 0.856
+T(head), home, 0.855
+T(head), protection_from_elements, 0.848
+T(head), family, 0.847
+T(head), cost_lot, 0.846
+T(head), suburbs, 0.838
+
+
+Result: {"chicken": 0.946, "cross_road": 0.917, "poultry": 0.913, "meat": 0.874, "dwelling": 0.886, "shelter": 0.864, "@scenario_probability": 3.3270960207823324e-07}
+Scenario: [1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 0, 0, 0, 0, 0, 0, 3.3270960207823324e-07]

@@ -1,0 +1,8 @@
+-right: 0.849
+hand: 0.837
+-rightward: 0.834
+turn: 0.818
+faction: 0.818
+position: 0.804
+politics: 0.789
+political_party: 0.756

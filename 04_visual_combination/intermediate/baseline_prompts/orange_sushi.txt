@@ -1,0 +1,1 @@
+A single orange (id 1) is placed next to a single sushi (id 2) on a plain surface.

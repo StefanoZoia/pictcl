@@ -1,0 +1,30 @@
+Title: spoon-purple
+
+Head Concept Name: spoon
+Modifier Concept Name: purple
+
+
+
+
+
+T(modifier), color, 0.882
+T(modifier), violet, 0.868
+T(modifier), discolor, 0.85
+T(modifier), colour, 0.84
+T(modifier), nobility, 0.814
+T(modifier), chromatic_color, 0.805
+T(modifier), roman_catholic, 0.799
+T(modifier), ecclesiastical_attire, 0.797
+
+T(head), silverware_drawer, 0.892
+T(head), scooping_food, 0.888
+T(head), utensil, 0.882
+T(head), stirring_coffee, 0.871
+T(head), eating, 0.869
+T(head), cutlery, 0.869
+T(head), mixing_ingredients, 0.866
+T(head), mixing_soup, 0.866
+
+
+Result: {"color": 0.882, "silverware_drawer": 0.892, "scooping_food": 0.888, "utensil": 0.882, "stirring_coffee": 0.871, "cutlery": 0.869, "@scenario_probability": 5.143498743670275e-07}
+Scenario: [1, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 0, 1, 0, 0, 5.143498743670275e-07]

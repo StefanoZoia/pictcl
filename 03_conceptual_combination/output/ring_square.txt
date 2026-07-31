@@ -1,0 +1,30 @@
+Title: ring-square
+
+Head Concept Name: ring
+Modifier Concept Name: square
+
+
+
+
+
+T(modifier), rectangle, 0.886
+T(modifier), checkerboard, 0.842
+T(modifier), -circle, 0.84
+T(modifier), geometry, 0.836
+T(modifier), quadrilateral, 0.833
+T(modifier), shape, 0.832
+T(modifier), measuring_wood, 0.824
+T(modifier), form, 0.822
+
+T(head), bath_tub, 0.87
+T(head), jewelry, 0.87
+T(head), wearing, 0.869
+T(head), toroid, 0.868
+T(head), engage, 0.862
+T(head), piece_of_jewelry, 0.849
+T(head), doorbell, 0.846
+T(head), finger, 0.842
+
+
+Result: {"rectangle": 0.886, "bath_tub": 0.87, "jewelry": 0.87, "wearing": 0.869, "toroid": 0.868, "engage": 0.862, "@scenario_probability": 5.837852129902918e-07}
+Scenario: [1, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 0, 0, 0, 5.837852129902918e-07]

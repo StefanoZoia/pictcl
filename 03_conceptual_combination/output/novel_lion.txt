@@ -1,0 +1,30 @@
+Title: novel-lion
+
+Head Concept Name: novel
+Modifier Concept Name: lion
+
+
+
+
+
+T(modifier), roar, 0.889
+T(modifier), feline, 0.865
+T(modifier), zoo_to_have_on_display, 0.848
+T(modifier), animal, 0.846
+T(modifier), veldt, 0.846
+T(modifier), carnivore, 0.845
+T(modifier), safari, 0.845
+T(modifier), hunt_zebras, 0.829
+
+T(head), author, 0.897
+T(head), fiction, 0.885
+T(head), book, 0.883
+T(head), writer, 0.878
+T(head), story, 0.861
+T(head), bookstore, 0.85
+T(head), read, 0.802
+T(head), classical_studies, 0.724
+
+
+Result: {"roar": 0.889, "feline": 0.865, "author": 0.897, "fiction": 0.885, "book": 0.883, "writer": 0.878, "@scenario_probability": 7.986080243699973e-07}
+Scenario: [1, 1, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0, 0, 0, 7.986080243699973e-07]

@@ -1,0 +1,24 @@
+Title: zebra-metallic
+
+Head Concept Name: zebra
+Modifier Concept Name: metallic
+
+
+
+
+
+T(modifier), fabric, 0.829
+T(modifier), thread, 0.808
+
+T(head), zoo, 0.867
+T(head), equine, 0.846
+T(head), animal, 0.812
+T(head), stripes, 0.802
+T(head), horse, 0.796
+T(head), herd_animal, 0.776
+T(head), mammal, 0.762
+T(head), sports, 0.754
+
+
+Result: {"fabric": 0.829, "thread": 0.808, "zoo": 0.867, "equine": 0.846, "animal": 0.812, "stripes": 0.802, "@scenario_probability": 0.08560044044528471}
+Scenario: [1, 1, 1, 1, 1, 1, 0, 0, 0, 0, 0.08560044044528471]

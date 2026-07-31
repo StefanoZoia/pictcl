@@ -1,0 +1,30 @@
+Title: pig-3
+
+Head Concept Name: pig
+Modifier Concept Name: 3
+
+
+
+
+
+T(modifier), three, 0.898
+T(modifier), -5, 0.897
+T(modifier), spelled_three, 0.815
+T(modifier), characters, 0.8
+T(modifier), higher_number_than_2, 0.738
+T(modifier), nuber, 0.735
+T(modifier), military, 0.73
+T(modifier), locomotive, 0.725
+
+T(head), pigsty, 0.848
+T(head), find_truffles, 0.843
+T(head), find_truffle, 0.843
+T(head), -hog, 0.818
+T(head), ingot, 0.812
+T(head), live, 0.805
+T(head), pen, 0.792
+T(head), mud, 0.785
+
+
+Result: {"three": 0.898, "-5": 0.897, "pigsty": 0.848, "find_truffles": 0.843, "find_truffle": 0.843, "-hog": 0.818, "@scenario_probability": 1.2416885824026125e-05}
+Scenario: [1, 1, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0, 0, 0, 1.2416885824026125e-05]

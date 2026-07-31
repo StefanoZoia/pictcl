@@ -1,0 +1,30 @@
+Title: volcano-black
+
+Head Concept Name: volcano
+Modifier Concept Name: black
+
+
+
+
+
+T(modifier), -white, 0.922
+T(modifier), achromatic_color, 0.859
+T(modifier), considered_timeless_color, 0.826
+T(modifier), man, 0.823
+T(modifier), chess, 0.811
+T(modifier), darker_color_than_white, 0.802
+T(modifier), become_white, 0.799
+T(modifier), clothing, 0.798
+
+T(head), volcanic_crater, 0.878
+T(head), dormant, 0.875
+T(head), extinct, 0.861
+T(head), crater, 0.86
+T(head), lava, 0.824
+T(head), land_topographical_feature, 0.755
+T(head), south_park, 0.743
+T(head), top_of_mountain, 0.736
+
+
+Result: {"-white": 0.922, "achromatic_color": 0.859, "volcanic_crater": 0.878, "dormant": 0.875, "extinct": 0.861, "crater": 0.86, "@scenario_probability": 6.1679521353537826e-06}
+Scenario: [1, 1, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0, 0, 0, 6.1679521353537826e-06]

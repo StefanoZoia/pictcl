@@ -1,0 +1,30 @@
+Title: giraffe-horse
+
+Head Concept Name: giraffe
+Modifier Concept Name: horse
+
+
+
+
+
+T(modifier), riding, 0.924
+T(modifier), equine, 0.922
+T(modifier), equestrian_competition, 0.912
+T(modifier), horse's_foot, 0.901
+T(modifier), horse_racing, 0.901
+T(modifier), kentucky_derby, 0.891
+T(modifier), horsemeat, 0.889
+T(modifier), harness_pulling_carriage, 0.888
+
+T(head), giraffidae, 0.91
+T(head), male, 0.873
+T(head), zoo, 0.871
+T(head), ruminant, 0.853
+T(head), mammal, 0.824
+T(head), female, 0.824
+T(head), animal, 0.808
+T(head), drink_water, 0.791
+
+
+Result: {"riding": 0.924, "equine": 0.922, "equestrian_competition": 0.912, "horse's_foot": 0.901, "horse_racing": 0.901, "giraffidae": 0.91, "@scenario_probability": 2.3283047315546522e-07}
+Scenario: [1, 1, 1, 1, 1, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 2.3283047315546522e-07]

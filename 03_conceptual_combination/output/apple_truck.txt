@@ -1,0 +1,30 @@
+Title: apple-truck
+
+Head Concept Name: apple
+Modifier Concept Name: truck
+
+
+
+
+
+T(modifier), vehicle, 0.902
+T(modifier), automobile, 0.874
+T(modifier), motor_vehicle, 0.869
+T(modifier), wheeled_vehicle, 0.861
+T(modifier), stabilizer_bar, 0.854
+T(modifier), garage, 0.85
+T(modifier), transport, 0.847
+T(modifier), vehicle_type, 0.845
+
+T(head), apple, 0.946
+T(head), pome, 0.894
+T(head), apple_tree, 0.887
+T(head), green, 0.886
+T(head), red, 0.876
+T(head), fall_from_tree, 0.87
+T(head), red_or_green, 0.855
+T(head), eating, 0.851
+
+
+Result: {"vehicle": 0.902, "apple": 0.946, "pome": 0.894, "apple_tree": 0.887, "green": 0.886, "red": 0.876, "@scenario_probability": 1.7575923289789844e-07}
+Scenario: [1, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 0, 0, 0, 1.7575923289789844e-07]

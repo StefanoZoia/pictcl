@@ -1,0 +1,1 @@
+A sheep (id 1) stands next to a zebra (id 2) on flat ground, with the sheep on the left and the zebra on the right.

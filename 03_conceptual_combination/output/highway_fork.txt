@@ -1,0 +1,30 @@
+Title: highway-fork
+
+Head Concept Name: highway
+Modifier Concept Name: fork
+
+
+
+
+
+T(modifier), cutlery, 0.867
+T(modifier), picking_up_food, 0.852
+T(modifier), prongs, 0.851
+T(modifier), silverware_drawer, 0.851
+T(modifier), eating_food, 0.85
+T(modifier), road, 0.847
+T(modifier), eat_dinner, 0.847
+T(modifier), eat_meal, 0.847
+
+T(head), motor_vehicles_to_travel_on, 0.898
+T(head), getting_from_one_place_to_another, 0.875
+T(head), driving_on, 0.869
+T(head), drive_on, 0.866
+T(head), travel, 0.863
+T(head), trucks, 0.861
+T(head), driving, 0.858
+T(head), speeding, 0.857
+
+
+Result: {"cutlery": 0.867, "motor_vehicles_to_travel_on": 0.898, "getting_from_one_place_to_another": 0.875, "driving_on": 0.869, "drive_on": 0.866, "travel": 0.863, "@scenario_probability": 2.204402714670326e-07}
+Scenario: [1, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 0, 0, 0, 2.204402714670326e-07]

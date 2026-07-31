@@ -1,0 +1,30 @@
+Title: dog-pink
+
+Head Concept Name: dog
+Modifier Concept Name: pink
+
+
+
+
+
+T(modifier), pinkish_thing, 0.875
+T(modifier), color, 0.871
+T(modifier), flower, 0.846
+T(modifier), pastel_color, 0.829
+T(modifier), flowers, 0.809
+T(modifier), colour, 0.803
+T(modifier), cut, 0.8
+T(modifier), chromatic_color, 0.79
+
+T(head), pet, 0.937
+T(head), canine, 0.92
+T(head), guide_blind_person, 0.917
+T(head), guide_blind, 0.917
+T(head), bark, 0.914
+T(head), kennel, 0.906
+T(head), dog_house, 0.905
+T(head), stray, 0.905
+
+
+Result: {"pinkish_thing": 0.875, "pet": 0.937, "canine": 0.92, "guide_blind_person": 0.917, "guide_blind": 0.917, "bark": 0.914, "@scenario_probability": 2.640285118180699e-07}
+Scenario: [1, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 0, 0, 0, 2.640285118180699e-07]

@@ -1,0 +1,30 @@
+Title: bee-lion
+
+Head Concept Name: bee
+Modifier Concept Name: lion
+
+
+
+
+
+T(modifier), roar, 0.889
+T(modifier), feline, 0.865
+T(modifier), zoo_to_have_on_display, 0.848
+T(modifier), animal, 0.846
+T(modifier), veldt, 0.846
+T(modifier), carnivore, 0.845
+T(modifier), safari, 0.845
+T(modifier), hunt_zebras, 0.829
+
+T(head), apiary, 0.91
+T(head), sting, 0.897
+T(head), hymenopterous_insect, 0.883
+T(head), swarm, 0.883
+T(head), bee_tree, 0.882
+T(head), bee_hive, 0.879
+T(head), hive, 0.878
+T(head), hive_flower_field, 0.876
+
+
+Result: {"roar": 0.889, "apiary": 0.91, "sting": 0.897, "hymenopterous_insect": 0.883, "swarm": 0.883, "bee_tree": 0.882, "@scenario_probability": 1.8262943671567471e-07}
+Scenario: [1, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 0, 0, 0, 1.8262943671567471e-07]

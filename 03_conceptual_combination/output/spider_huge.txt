@@ -1,0 +1,28 @@
+Title: spider-huge
+
+Head Concept Name: spider
+Modifier Concept Name: huge
+
+
+
+
+
+T(modifier), -diminutive, 0.825
+T(modifier), -tiny, 0.809
+T(modifier), slang, 0.731
+T(modifier), space, 0.697
+T(modifier), -minute, 0.693
+T(modifier), buildings, 0.683
+
+T(head), arachnid, 0.916
+T(head), web, 0.876
+T(head), inject_venom, 0.859
+T(head), spin_webs, 0.849
+T(head), sticking_to_wall, 0.823
+T(head), arthropod, 0.816
+T(head), spin_web, 0.805
+T(head), venomous_animal, 0.804
+
+
+Result: {"-diminutive": 0.825, "arachnid": 0.916, "web": 0.876, "inject_venom": 0.859, "spin_webs": 0.849, "sticking_to_wall": 0.823, "@scenario_probability": 0.00042333934824904007}
+Scenario: [1, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 0, 0, 0, 0.00042333934824904007]

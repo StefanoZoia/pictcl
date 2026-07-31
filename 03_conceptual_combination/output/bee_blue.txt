@@ -1,0 +1,30 @@
+Title: bee-blue
+
+Head Concept Name: bee
+Modifier Concept Name: blue
+
+
+
+
+
+T(modifier), primary_color, 0.921
+T(modifier), -red, 0.911
+T(modifier), primary_colour, 0.888
+T(modifier), color, 0.876
+T(modifier), colour, 0.873
+T(modifier), -yellow, 0.858
+T(modifier), -green, 0.85
+T(modifier), discolor, 0.848
+
+T(head), apiary, 0.91
+T(head), sting, 0.897
+T(head), hymenopterous_insect, 0.883
+T(head), swarm, 0.883
+T(head), bee_tree, 0.882
+T(head), bee_hive, 0.879
+T(head), hive, 0.878
+T(head), hive_flower_field, 0.876
+
+
+Result: {"primary_color": 0.921, "-red": 0.911, "primary_colour": 0.888, "apiary": 0.91, "sting": 0.897, "swarm": 0.883, "@scenario_probability": 6.919406809004842e-08}
+Scenario: [1, 1, 1, 0, 0, 0, 0, 0, 1, 1, 0, 1, 0, 0, 0, 0, 6.919406809004842e-08]

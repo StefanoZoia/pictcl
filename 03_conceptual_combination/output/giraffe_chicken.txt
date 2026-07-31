@@ -1,0 +1,30 @@
+Title: giraffe-chicken
+
+Head Concept Name: giraffe
+Modifier Concept Name: chicken
+
+
+
+
+
+T(modifier), chicken, 0.946
+T(modifier), cross_road, 0.917
+T(modifier), poultry, 0.913
+T(modifier), meat, 0.874
+T(modifier), chicken_wing, 0.859
+T(modifier), tasty_when_fried_or_baked, 0.847
+T(modifier), lay_eggs, 0.845
+T(modifier), lay_egg, 0.845
+
+T(head), giraffidae, 0.91
+T(head), male, 0.873
+T(head), zoo, 0.871
+T(head), ruminant, 0.853
+T(head), mammal, 0.824
+T(head), female, 0.824
+T(head), animal, 0.808
+T(head), drink_water, 0.791
+
+
+Result: {"chicken": 0.946, "cross_road": 0.917, "poultry": 0.913, "meat": 0.874, "giraffidae": 0.91, "male": 0.873, "@scenario_probability": 6.718188011032757e-07}
+Scenario: [1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 0, 0, 0, 0, 0, 0, 6.718188011032757e-07]

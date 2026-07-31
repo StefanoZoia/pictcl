@@ -1,0 +1,1 @@
+On a table, one orange (id 1) is placed next to one sushi (id 2).

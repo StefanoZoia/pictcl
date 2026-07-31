@@ -1,0 +1,30 @@
+Title: man-white
+
+Head Concept Name: man
+Modifier Concept Name: white
+
+
+
+
+
+T(modifier), -black, 0.902
+T(modifier), whiteish_thing, 0.877
+T(modifier), opposite_from_black, 0.838
+T(modifier), checkers, 0.823
+T(modifier), man, 0.822
+T(modifier), chess, 0.817
+T(modifier), blood_cells, 0.813
+T(modifier), arkansas, 0.797
+
+T(head), -woman, 0.87
+T(head), male, 0.854
+T(head), -boy, 0.84
+T(head), lover, 0.825
+T(head), -female, 0.816
+T(head), -lady, 0.815
+T(head), subordinate, 0.811
+T(head), international_intelligence_agency, 0.807
+
+
+Result: {"-black": 0.902, "whiteish_thing": 0.877, "opposite_from_black": 0.838, "-woman": 0.87, "male": 0.854, "-boy": 0.84, "@scenario_probability": 1.9675930281555272e-06}
+Scenario: [1, 1, 1, 0, 0, 0, 0, 0, 1, 1, 1, 0, 0, 0, 0, 0, 1.9675930281555272e-06]

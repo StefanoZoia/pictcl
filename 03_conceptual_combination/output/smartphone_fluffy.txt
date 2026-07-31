@@ -1,0 +1,20 @@
+Title: smartphone-fluffy
+
+Head Concept Name: smartphone
+Modifier Concept Name: fluffy
+
+
+
+
+
+T(modifier), nz, 0.75
+T(modifier), clouds, 0.745
+
+T(head), mobile_phone, 0.871
+T(head), cellular_telephone, 0.868
+T(head), cellular_phone, 0.864
+T(head), palmtop_computer, 0.834
+
+
+Result: {"nz": 0.75, "clouds": 0.745, "mobile_phone": 0.871, "cellular_telephone": 0.868, "cellular_phone": 0.864, "@scenario_probability": 6.058669282848001}
+Scenario: [1, 1, 1, 1, 1, 0, 6.058669282848001]

@@ -1,0 +1,30 @@
+Title: bee-duck
+
+Head Concept Name: bee
+Modifier Concept Name: duck
+
+
+
+
+
+T(modifier), duck, 0.946
+T(modifier), webbed_feet, 0.909
+T(modifier), anseriform_bird, 0.877
+T(modifier), anatidae, 0.869
+T(modifier), poultry, 0.86
+T(modifier), waterfowl, 0.86
+T(modifier), dive, 0.83
+T(modifier), eat, 0.83
+
+T(head), apiary, 0.91
+T(head), sting, 0.897
+T(head), hymenopterous_insect, 0.883
+T(head), swarm, 0.883
+T(head), bee_tree, 0.882
+T(head), bee_hive, 0.879
+T(head), hive, 0.878
+T(head), hive_flower_field, 0.876
+
+
+Result: {"duck": 0.946, "webbed_feet": 0.909, "apiary": 0.91, "sting": 0.897, "hymenopterous_insect": 0.883, "swarm": 0.883, "@scenario_probability": 1.0789205790889336e-07}
+Scenario: [1, 1, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0, 0, 0, 1.0789205790889336e-07]

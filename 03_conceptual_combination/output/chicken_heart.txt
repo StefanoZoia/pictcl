@@ -1,0 +1,30 @@
+Title: chicken-heart
+
+Head Concept Name: chicken
+Modifier Concept Name: heart
+
+
+
+
+
+T(modifier), circulatory_system, 0.883
+T(modifier), beat, 0.881
+T(modifier), love, 0.879
+T(modifier), pumping_blood, 0.869
+T(modifier), internal_organ, 0.863
+T(modifier), pumps_blood_around_body_by_contracton_and_relaxation_of_muscles, 0.861
+T(modifier), staying_alive, 0.857
+T(modifier), blood, 0.857
+
+T(head), chicken, 0.946
+T(head), cross_road, 0.917
+T(head), poultry, 0.913
+T(head), meat, 0.874
+T(head), chicken_wing, 0.859
+T(head), tasty_when_fried_or_baked, 0.847
+T(head), lay_eggs, 0.845
+T(head), lay_egg, 0.845
+
+
+Result: {"circulatory_system": 0.883, "beat": 0.881, "love": 0.879, "chicken": 0.946, "cross_road": 0.917, "poultry": 0.913, "@scenario_probability": 1.8041803963202655e-07}
+Scenario: [1, 1, 1, 0, 0, 0, 0, 0, 1, 1, 1, 0, 0, 0, 0, 0, 1.8041803963202655e-07]

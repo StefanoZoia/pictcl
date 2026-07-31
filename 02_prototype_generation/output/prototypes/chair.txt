@@ -1,0 +1,8 @@
+reupholstering: 0.896
+furniture_store: 0.889
+sitting: 0.879
+resting: 0.871
+sit_down: 0.853
+furniture_market_category: 0.851
+living_room: 0.847
+people: 0.841

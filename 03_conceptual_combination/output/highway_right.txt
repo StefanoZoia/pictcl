@@ -1,0 +1,30 @@
+Title: highway-right
+
+Head Concept Name: highway
+Modifier Concept Name: right
+
+
+
+
+
+T(modifier), opposite_of_left, 0.856
+T(modifier), right_wrong, 0.854
+T(modifier), -left, 0.849
+T(modifier), entering_into_contract, 0.846
+T(modifier), -wrong, 0.838
+T(modifier), hand, 0.834
+T(modifier), common, 0.831
+T(modifier), turn, 0.83
+
+T(head), motor_vehicles_to_travel_on, 0.898
+T(head), getting_from_one_place_to_another, 0.875
+T(head), driving_on, 0.869
+T(head), drive_on, 0.866
+T(head), travel, 0.863
+T(head), trucks, 0.861
+T(head), driving, 0.858
+T(head), speeding, 0.857
+
+
+Result: {"opposite_of_left": 0.856, "motor_vehicles_to_travel_on": 0.898, "getting_from_one_place_to_another": 0.875, "driving_on": 0.869, "drive_on": 0.866, "travel": 0.863, "@scenario_probability": 3.234111980097828e-07}
+Scenario: [1, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 0, 0, 0, 3.234111980097828e-07]

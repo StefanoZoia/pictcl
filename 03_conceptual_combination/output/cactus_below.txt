@@ -1,0 +1,30 @@
+Title: cactus-below
+
+Head Concept Name: cactus
+Modifier Concept Name: below
+
+
+
+
+
+T(modifier), -above, 0.917
+T(modifier), -upwards, 0.818
+T(modifier), -beneath, 0.808
+T(modifier), -aloft, 0.806
+T(modifier), -over, 0.804
+T(modifier), -under, 0.786
+T(modifier), -upstairs, 0.783
+T(modifier), -upstream, 0.779
+
+T(head), desert, 0.885
+T(head), succulent, 0.866
+T(head), prickly_plant, 0.865
+T(head), survive_with_little_water, 0.82
+T(head), botany, 0.784
+T(head), holding_water, 0.782
+T(head), needle_person, 0.782
+T(head), australia, 0.758
+
+
+Result: {"-above": 0.917, "-upwards": 0.818, "desert": 0.885, "succulent": 0.866, "prickly_plant": 0.865, "survive_with_little_water": 0.82, "@scenario_probability": 7.589631273634458e-06}
+Scenario: [1, 1, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0, 0, 0, 7.589631273634458e-06]

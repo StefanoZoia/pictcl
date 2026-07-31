@@ -1,0 +1,30 @@
+Title: hammer-pink
+
+Head Concept Name: hammer
+Modifier Concept Name: pink
+
+
+
+
+
+T(modifier), pinkish_thing, 0.875
+T(modifier), color, 0.871
+T(modifier), flower, 0.846
+T(modifier), pastel_color, 0.829
+T(modifier), flowers, 0.809
+T(modifier), colour, 0.803
+T(modifier), cut, 0.8
+T(modifier), chromatic_color, 0.79
+
+T(head), hammer, 0.974
+T(head), tool_box, 0.894
+T(head), whack, 0.889
+T(head), pounding_nails, 0.884
+T(head), hard, 0.882
+T(head), strike, 0.874
+T(head), tool, 0.87
+T(head), hit_nail, 0.867
+
+
+Result: {"pinkish_thing": 0.875, "hammer": 0.974, "tool_box": 0.894, "whack": 0.889, "pounding_nails": 0.884, "hard": 0.882, "@scenario_probability": 6.176580465040866e-07}
+Scenario: [1, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 0, 0, 0, 6.176580465040866e-07]

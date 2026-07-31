@@ -1,0 +1,4 @@
+mobile_phone: 0.871
+cellular_telephone: 0.868
+cellular_phone: 0.864
+palmtop_computer: 0.834

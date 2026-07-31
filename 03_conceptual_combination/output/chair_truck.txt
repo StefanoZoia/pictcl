@@ -1,0 +1,30 @@
+Title: chair-truck
+
+Head Concept Name: chair
+Modifier Concept Name: truck
+
+
+
+
+
+T(modifier), vehicle, 0.902
+T(modifier), automobile, 0.874
+T(modifier), motor_vehicle, 0.869
+T(modifier), wheeled_vehicle, 0.861
+T(modifier), stabilizer_bar, 0.854
+T(modifier), garage, 0.85
+T(modifier), transport, 0.847
+T(modifier), vehicle_type, 0.845
+
+T(head), reupholstering, 0.896
+T(head), furniture_store, 0.889
+T(head), sitting, 0.879
+T(head), resting, 0.871
+T(head), sit_down, 0.853
+T(head), furniture_market_category, 0.851
+T(head), living_room, 0.847
+T(head), people, 0.841
+
+
+Result: {"vehicle": 0.902, "automobile": 0.874, "reupholstering": 0.896, "furniture_store": 0.889, "sitting": 0.879, "resting": 0.871, "@scenario_probability": 2.422591945259177e-07}
+Scenario: [1, 1, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0, 0, 0, 2.422591945259177e-07]

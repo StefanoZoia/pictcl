@@ -1,0 +1,30 @@
+Title: spoon-brown
+
+Head Concept Name: spoon
+Modifier Concept Name: brown
+
+
+
+
+
+T(modifier), color, 0.854
+T(modifier), cook, 0.845
+T(modifier), brownish_thing, 0.832
+T(modifier), chromatic_color, 0.822
+T(modifier), cooking, 0.82
+T(modifier), ticks, 0.777
+T(modifier), colour, 0.777
+T(modifier), eyes, 0.773
+
+T(head), silverware_drawer, 0.892
+T(head), scooping_food, 0.888
+T(head), utensil, 0.882
+T(head), stirring_coffee, 0.871
+T(head), eating, 0.869
+T(head), cutlery, 0.869
+T(head), mixing_ingredients, 0.866
+T(head), mixing_soup, 0.866
+
+
+Result: {"color": 0.854, "silverware_drawer": 0.892, "scooping_food": 0.888, "utensil": 0.882, "stirring_coffee": 0.871, "cutlery": 0.869, "@scenario_probability": 1.0004425866456052e-06}
+Scenario: [1, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 0, 1, 0, 0, 1.0004425866456052e-06]

@@ -1,0 +1,1 @@
+A butterfly (id 1) is flitting above a single carrot (id 2) lying on the ground, with the butterfly clearly separated from the carrot and both fully visible.

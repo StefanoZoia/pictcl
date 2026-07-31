@@ -1,0 +1,28 @@
+Title: novel-huge
+
+Head Concept Name: novel
+Modifier Concept Name: huge
+
+
+
+
+
+T(modifier), -diminutive, 0.825
+T(modifier), -tiny, 0.809
+T(modifier), slang, 0.731
+T(modifier), space, 0.697
+T(modifier), -minute, 0.693
+T(modifier), buildings, 0.683
+
+T(head), author, 0.897
+T(head), fiction, 0.885
+T(head), book, 0.883
+T(head), writer, 0.878
+T(head), story, 0.861
+T(head), bookstore, 0.85
+T(head), read, 0.802
+T(head), classical_studies, 0.724
+
+
+Result: {"-diminutive": 0.825, "author": 0.897, "fiction": 0.885, "book": 0.883, "writer": 0.878, "story": 0.861, "@scenario_probability": 0.0005429245475013035}
+Scenario: [1, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 0, 0, 0, 0.0005429245475013035]

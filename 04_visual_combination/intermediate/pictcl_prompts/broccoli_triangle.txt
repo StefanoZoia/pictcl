@@ -1,0 +1,1 @@
+A single broccoli is centered in the image, shown as a triangle shape with three straight edges and three corners, like a simple polygon.

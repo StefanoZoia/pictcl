@@ -1,0 +1,26 @@
+Title: sheep-impressionism
+
+Head Concept Name: sheep
+Modifier Concept Name: impressionism
+
+
+
+
+
+T(modifier), artistic_movement, 0.828
+T(modifier), arts, 0.82
+T(modifier), poetry, 0.772
+T(modifier), music_genre, 0.771
+
+T(head), graze, 0.893
+T(head), bovid, 0.886
+T(head), shearing, 0.88
+T(head), animals, 0.862
+T(head), farm, 0.848
+T(head), farm_animals, 0.848
+T(head), meadow, 0.839
+T(head), -goat, 0.837
+
+
+Result: {"artistic_movement": 0.828, "graze": 0.893, "bovid": 0.886, "shearing": 0.88, "animals": 0.862, "farm_animals": 0.848, "@scenario_probability": 0.0015797967302399536}
+Scenario: [1, 0, 0, 0, 1, 1, 1, 1, 0, 1, 0, 0, 0.0015797967302399536]

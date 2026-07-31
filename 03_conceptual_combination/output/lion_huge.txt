@@ -1,0 +1,28 @@
+Title: lion-huge
+
+Head Concept Name: lion
+Modifier Concept Name: huge
+
+
+
+
+
+T(modifier), -diminutive, 0.825
+T(modifier), -tiny, 0.809
+T(modifier), slang, 0.731
+T(modifier), space, 0.697
+T(modifier), -minute, 0.693
+T(modifier), buildings, 0.683
+
+T(head), roar, 0.889
+T(head), feline, 0.865
+T(head), zoo_to_have_on_display, 0.848
+T(head), animal, 0.846
+T(head), veldt, 0.846
+T(head), carnivore, 0.845
+T(head), safari, 0.845
+T(head), hunt_zebras, 0.829
+
+
+Result: {"-diminutive": 0.825, "roar": 0.889, "feline": 0.865, "zoo_to_have_on_display": 0.848, "animal": 0.846, "veldt": 0.846, "@scenario_probability": 0.00023965904009085206}
+Scenario: [1, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 0, 0, 0, 0.00023965904009085206]

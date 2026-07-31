@@ -1,0 +1,30 @@
+Title: sushi-necklace
+
+Head Concept Name: sushi
+Modifier Concept Name: necklace
+
+
+
+
+
+T(modifier), jewelry, 0.916
+T(modifier), pendant, 0.885
+T(modifier), wearing_around_neck, 0.884
+T(modifier), decoration, 0.877
+T(modifier), jewelry_for_neck, 0.876
+T(modifier), adornment, 0.864
+T(modifier), jewelery_store, 0.861
+T(modifier), decorate, 0.859
+
+T(head), japan, 0.867
+T(head), eating, 0.834
+T(head), dish, 0.829
+T(head), both_beautiful_and_delicious, 0.817
+T(head), japanese_food, 0.816
+T(head), very_popular_in_asian_cuisine, 0.816
+T(head), raw_fish, 0.792
+T(head), plate, 0.777
+
+
+Result: {"jewelry": 0.916, "pendant": 0.885, "wearing_around_neck": 0.884, "decoration": 0.877, "jewelry_for_neck": 0.876, "japan": 0.867, "@scenario_probability": 1.0378766941993477e-06}
+Scenario: [1, 1, 1, 1, 1, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 1.0378766941993477e-06]

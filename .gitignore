@@ -1,10 +1,8 @@
 .venv
+01_dataset_building/remove_duplicates.py
 02_prototype_generation/data/cn_backup_en_used.tsv
 02_prototype_generation/data/mini.h5
-04_visual_combination/control_intermediate
-04_visual_combination/control_output
-04_visual_combination/intermediate
-04_visual_combination/intermediate/*
-04_visual_combination/output
-04_visual_combination/output/*
-05_evaluation/human_eval_results
+05_evaluation/build_latex_table.py
+05_evaluation/latex_table.txt
+05_evaluation/human_eval_results/archive*
+05_evaluation/plots

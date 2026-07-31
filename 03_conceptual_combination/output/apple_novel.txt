@@ -1,0 +1,30 @@
+Title: apple-novel
+
+Head Concept Name: apple
+Modifier Concept Name: novel
+
+
+
+
+
+T(modifier), author, 0.897
+T(modifier), fiction, 0.885
+T(modifier), book, 0.883
+T(modifier), writer, 0.878
+T(modifier), story, 0.861
+T(modifier), bookstore, 0.85
+T(modifier), read, 0.802
+T(modifier), classical_studies, 0.724
+
+T(head), apple, 0.946
+T(head), pome, 0.894
+T(head), apple_tree, 0.887
+T(head), green, 0.886
+T(head), red, 0.876
+T(head), fall_from_tree, 0.87
+T(head), red_or_green, 0.855
+T(head), eating, 0.851
+
+
+Result: {"author": 0.897, "fiction": 0.885, "apple": 0.946, "pome": 0.894, "apple_tree": 0.887, "green": 0.886, "@scenario_probability": 2.988594843803172e-07}
+Scenario: [1, 1, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0, 0, 0, 2.988594843803172e-07]

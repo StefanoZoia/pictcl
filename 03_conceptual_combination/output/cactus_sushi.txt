@@ -1,0 +1,30 @@
+Title: cactus-sushi
+
+Head Concept Name: cactus
+Modifier Concept Name: sushi
+
+
+
+
+
+T(modifier), japan, 0.867
+T(modifier), eating, 0.834
+T(modifier), dish, 0.829
+T(modifier), both_beautiful_and_delicious, 0.817
+T(modifier), japanese_food, 0.816
+T(modifier), very_popular_in_asian_cuisine, 0.816
+T(modifier), raw_fish, 0.792
+T(modifier), plate, 0.777
+
+T(head), desert, 0.885
+T(head), succulent, 0.866
+T(head), prickly_plant, 0.865
+T(head), survive_with_little_water, 0.82
+T(head), botany, 0.784
+T(head), holding_water, 0.782
+T(head), needle_person, 0.782
+T(head), australia, 0.758
+
+
+Result: {"japan": 0.867, "eating": 0.834, "dish": 0.829, "desert": 0.885, "succulent": 0.866, "prickly_plant": 0.865, "@scenario_probability": 5.106537106563295e-06}
+Scenario: [1, 1, 1, 0, 0, 0, 0, 0, 1, 1, 1, 0, 0, 0, 0, 0, 5.106537106563295e-06]

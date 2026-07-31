@@ -1,0 +1,30 @@
+Title: fork-duck
+
+Head Concept Name: fork
+Modifier Concept Name: duck
+
+
+
+
+
+T(modifier), duck, 0.946
+T(modifier), webbed_feet, 0.909
+T(modifier), anseriform_bird, 0.877
+T(modifier), anatidae, 0.869
+T(modifier), poultry, 0.86
+T(modifier), waterfowl, 0.86
+T(modifier), dive, 0.83
+T(modifier), eat, 0.83
+
+T(head), cutlery, 0.867
+T(head), picking_up_food, 0.852
+T(head), prongs, 0.851
+T(head), silverware_drawer, 0.851
+T(head), eating_food, 0.85
+T(head), road, 0.847
+T(head), eat_dinner, 0.847
+T(head), eat_meal, 0.847
+
+
+Result: {"duck": 0.946, "webbed_feet": 0.909, "anseriform_bird": 0.877, "anatidae": 0.869, "waterfowl": 0.86, "cutlery": 0.867, "@scenario_probability": 3.4899372662479937e-07}
+Scenario: [1, 1, 1, 1, 0, 1, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 3.4899372662479937e-07]

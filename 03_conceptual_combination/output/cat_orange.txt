@@ -1,0 +1,30 @@
+Title: cat-orange
+
+Head Concept Name: cat
+Modifier Concept Name: orange
+
+
+
+
+
+T(modifier), orange, 0.946
+T(modifier), citrus_fruit, 0.902
+T(modifier), citrus, 0.891
+T(modifier), orangeish_thing, 0.883
+T(modifier), sweet, 0.881
+T(modifier), color, 0.859
+T(modifier), colour, 0.858
+T(modifier), -apple, 0.844
+
+T(head), meow, 0.94
+T(head), miaow, 0.938
+T(head), pet, 0.925
+T(head), humane_society, 0.901
+T(head), humane_shelter, 0.901
+T(head), companion_to_humans, 0.888
+T(head), -dog, 0.888
+T(head), companionship, 0.887
+
+
+Result: {"orange": 0.946, "citrus_fruit": 0.902, "meow": 0.94, "miaow": 0.938, "pet": 0.925, "humane_shelter": 0.901, "@scenario_probability": 4.170959275895825e-08}
+Scenario: [1, 1, 0, 0, 0, 0, 0, 0, 1, 1, 1, 0, 1, 0, 0, 0, 4.170959275895825e-08]

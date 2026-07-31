@@ -1,0 +1,30 @@
+Title: novel-cartoon
+
+Head Concept Name: novel
+Modifier Concept Name: cartoon
+
+
+
+
+
+T(modifier), drawing, 0.868
+T(modifier), comics, 0.863
+T(modifier), animation, 0.858
+T(modifier), draw, 0.849
+T(modifier), picture, 0.837
+T(modifier), show, 0.828
+T(modifier), art, 0.82
+T(modifier), publication, 0.819
+
+T(head), author, 0.897
+T(head), fiction, 0.885
+T(head), book, 0.883
+T(head), writer, 0.878
+T(head), story, 0.861
+T(head), bookstore, 0.85
+T(head), read, 0.802
+T(head), classical_studies, 0.724
+
+
+Result: {"drawing": 0.868, "comics": 0.863, "author": 0.897, "fiction": 0.885, "book": 0.883, "writer": 0.878, "@scenario_probability": 1.0288077063762554e-06}
+Scenario: [1, 1, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0, 0, 0, 1.0288077063762554e-06]

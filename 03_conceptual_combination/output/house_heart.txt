@@ -1,0 +1,30 @@
+Title: house-heart
+
+Head Concept Name: house
+Modifier Concept Name: heart
+
+
+
+
+
+T(modifier), circulatory_system, 0.883
+T(modifier), beat, 0.881
+T(modifier), love, 0.879
+T(modifier), pumping_blood, 0.869
+T(modifier), internal_organ, 0.863
+T(modifier), pumps_blood_around_body_by_contracton_and_relaxation_of_muscles, 0.861
+T(modifier), staying_alive, 0.857
+T(modifier), blood, 0.857
+
+T(head), dwelling, 0.886
+T(head), shelter, 0.864
+T(head), residential_area, 0.856
+T(head), home, 0.855
+T(head), protection_from_elements, 0.848
+T(head), family, 0.847
+T(head), cost_lot, 0.846
+T(head), suburbs, 0.838
+
+
+Result: {"circulatory_system": 0.883, "beat": 0.881, "love": 0.879, "pumping_blood": 0.869, "dwelling": 0.886, "shelter": 0.864, "@scenario_probability": 2.1458601696581406e-07}
+Scenario: [1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 0, 0, 0, 0, 0, 0, 2.1458601696581406e-07]

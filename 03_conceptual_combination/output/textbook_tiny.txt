@@ -1,0 +1,24 @@
+Title: textbook-tiny
+
+Head Concept Name: textbook
+Modifier Concept Name: tiny
+
+
+
+
+
+T(modifier), -huge, 0.809
+T(modifier), -large, 0.782
+T(modifier), -great, 0.771
+T(modifier), -incalculable, 0.765
+T(modifier), -giant, 0.765
+T(modifier), kitties, 0.734
+
+T(head), book, 0.883
+T(head), learning, 0.819
+T(head), locker, 0.811
+T(head), include_glossary, 0.811
+
+
+Result: {"-huge": 0.809, "-large": 0.782, "-great": 0.771, "book": 0.883, "learning": 0.819, "include_glossary": 0.811, "@scenario_probability": 0.07942446125113219}
+Scenario: [1, 1, 1, 0, 0, 0, 1, 1, 0, 1, 0.07942446125113219]

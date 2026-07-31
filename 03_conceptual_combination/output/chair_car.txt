@@ -1,0 +1,30 @@
+Title: chair-car
+
+Head Concept Name: chair
+Modifier Concept Name: car
+
+
+
+
+
+T(modifier), car_factory_like_toyota, 0.925
+T(modifier), car_dealership, 0.917
+T(modifier), vehicle, 0.914
+T(modifier), car_show, 0.899
+T(modifier), motor_vehicle, 0.897
+T(modifier), drive, 0.892
+T(modifier), tire, 0.875
+T(modifier), car_door, 0.875
+
+T(head), reupholstering, 0.896
+T(head), furniture_store, 0.889
+T(head), sitting, 0.879
+T(head), resting, 0.871
+T(head), sit_down, 0.853
+T(head), furniture_market_category, 0.851
+T(head), living_room, 0.847
+T(head), people, 0.841
+
+
+Result: {"car_factory_like_toyota": 0.925, "car_dealership": 0.917, "vehicle": 0.914, "car_show": 0.899, "motor_vehicle": 0.897, "reupholstering": 0.896, "@scenario_probability": 8.72672735628415e-08}
+Scenario: [1, 1, 1, 1, 1, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 8.72672735628415e-08]

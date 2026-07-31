@@ -1,0 +1,30 @@
+Title: cactus-lion
+
+Head Concept Name: cactus
+Modifier Concept Name: lion
+
+
+
+
+
+T(modifier), roar, 0.889
+T(modifier), feline, 0.865
+T(modifier), zoo_to_have_on_display, 0.848
+T(modifier), animal, 0.846
+T(modifier), veldt, 0.846
+T(modifier), carnivore, 0.845
+T(modifier), safari, 0.845
+T(modifier), hunt_zebras, 0.829
+
+T(head), desert, 0.885
+T(head), succulent, 0.866
+T(head), prickly_plant, 0.865
+T(head), survive_with_little_water, 0.82
+T(head), botany, 0.784
+T(head), holding_water, 0.782
+T(head), needle_person, 0.782
+T(head), australia, 0.758
+
+
+Result: {"roar": 0.889, "feline": 0.865, "zoo_to_have_on_display": 0.848, "desert": 0.885, "succulent": 0.866, "prickly_plant": 0.865, "@scenario_probability": 1.8834172715388511e-06}
+Scenario: [1, 1, 1, 0, 0, 0, 0, 0, 1, 1, 1, 0, 0, 0, 0, 0, 1.8834172715388511e-06]

@@ -1,0 +1,8 @@
+primary_color: 0.921
+-red: 0.911
+primary_colour: 0.888
+color: 0.876
+colour: 0.873
+-yellow: 0.858
+-green: 0.85
+discolor: 0.848

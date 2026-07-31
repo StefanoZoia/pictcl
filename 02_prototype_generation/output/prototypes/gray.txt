@@ -1,0 +1,8 @@
+achromatic_color: 0.858
+discolor: 0.845
+grayish_thing: 0.84
+clothing: 0.801
+organization: 0.798
+saddle_horse: 0.79
+-black: 0.763
+demography: 0.761

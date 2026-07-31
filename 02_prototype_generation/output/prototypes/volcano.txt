@@ -1,0 +1,8 @@
+volcanic_crater: 0.878
+dormant: 0.875
+extinct: 0.861
+crater: 0.86
+lava: 0.824
+land_topographical_feature: 0.755
+south_park: 0.743
+top_of_mountain: 0.736

@@ -1,0 +1,30 @@
+Title: cow-glass
+
+Head Concept Name: cow
+Modifier Concept Name: glass
+
+
+
+
+
+T(modifier), glass, 0.946
+T(modifier), glassware, 0.906
+T(modifier), drinking, 0.901
+T(modifier), recyclable, 0.893
+T(modifier), clear, 0.888
+T(modifier), ceramic, 0.877
+T(modifier), half_empty, 0.871
+T(modifier), very_fragile, 0.87
+
+T(head), county_fair, 0.928
+T(head), cattle, 0.911
+T(head), dairy_farm, 0.908
+T(head), milking, 0.889
+T(head), barnyard, 0.884
+T(head), milking_stall, 0.883
+T(head), milking_barn, 0.883
+T(head), hamburger_meat, 0.883
+
+
+Result: {"glass": 0.946, "glassware": 0.906, "drinking": 0.901, "county_fair": 0.928, "cattle": 0.911, "dairy_farm": 0.908, "@scenario_probability": 3.021863579376956e-08}
+Scenario: [1, 1, 1, 0, 0, 0, 0, 0, 1, 1, 1, 0, 0, 0, 0, 0, 3.021863579376956e-08]

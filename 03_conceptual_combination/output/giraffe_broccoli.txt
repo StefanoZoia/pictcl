@@ -1,0 +1,30 @@
+Title: giraffe-broccoli
+
+Head Concept Name: giraffe
+Modifier Concept Name: broccoli
+
+
+
+
+
+T(modifier), broccoli, 0.946
+T(modifier), crucifer, 0.894
+T(modifier), cruciferous_vegetable, 0.886
+T(modifier), green, 0.858
+T(modifier), green_vegetable, 0.839
+T(modifier), vegetable_people_may_cook, 0.829
+T(modifier), very_nutritious, 0.824
+T(modifier), plate, 0.764
+
+T(head), giraffidae, 0.91
+T(head), male, 0.873
+T(head), zoo, 0.871
+T(head), ruminant, 0.853
+T(head), mammal, 0.824
+T(head), female, 0.824
+T(head), animal, 0.808
+T(head), drink_water, 0.791
+
+
+Result: {"broccoli": 0.946, "crucifer": 0.894, "cruciferous_vegetable": 0.886, "giraffidae": 0.91, "male": 0.873, "zoo": 0.871, "@scenario_probability": 1.5383719582680553e-06}
+Scenario: [1, 1, 1, 0, 0, 0, 0, 0, 1, 1, 1, 0, 0, 0, 0, 0, 1.5383719582680553e-06]

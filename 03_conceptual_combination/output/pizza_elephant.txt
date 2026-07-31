@@ -1,0 +1,30 @@
+Title: pizza-elephant
+
+Head Concept Name: pizza
+Modifier Concept Name: elephant
+
+
+
+
+
+T(modifier), pachyderm, 0.909
+T(modifier), proboscidean, 0.887
+T(modifier), tusks, 0.878
+T(modifier), zoo, 0.854
+T(modifier), circus, 0.846
+T(modifier), africa, 0.845
+T(modifier), elephantidae, 0.836
+T(modifier), forget_to_go_on_paper, 0.827
+
+T(head), baked_in_oven, 0.922
+T(head), pizza_toppings, 0.849
+T(head), pizza_sauce, 0.849
+T(head), oven, 0.844
+T(head), popular, 0.838
+T(head), dish, 0.823
+T(head), flatbread, 0.822
+T(head), disc_shaped_food_item, 0.815
+
+
+Result: {"pachyderm": 0.909, "proboscidean": 0.887, "tusks": 0.878, "zoo": 0.854, "baked_in_oven": 0.922, "pizza_sauce": 0.849, "@scenario_probability": 7.128570161144935e-07}
+Scenario: [1, 1, 1, 1, 0, 0, 0, 0, 1, 0, 1, 0, 0, 0, 0, 0, 7.128570161144935e-07]

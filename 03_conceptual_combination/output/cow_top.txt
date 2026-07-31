@@ -1,0 +1,30 @@
+Title: cow-top
+
+Head Concept Name: cow
+Modifier Concept Name: top
+
+
+
+
+
+T(modifier), -bottom, 0.875
+T(modifier), complete, 0.823
+T(modifier), hit, 0.817
+T(modifier), reach, 0.815
+T(modifier), inning, 0.815
+T(modifier), covering, 0.815
+T(modifier), spin, 0.81
+T(modifier), turn, 0.809
+
+T(head), county_fair, 0.928
+T(head), cattle, 0.911
+T(head), dairy_farm, 0.908
+T(head), milking, 0.889
+T(head), barnyard, 0.884
+T(head), milking_stall, 0.883
+T(head), milking_barn, 0.883
+T(head), hamburger_meat, 0.883
+
+
+Result: {"-bottom": 0.875, "county_fair": 0.928, "cattle": 0.911, "dairy_farm": 0.908, "milking": 0.889, "barnyard": 0.884, "@scenario_probability": 6.292139976178924e-07}
+Scenario: [1, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 0, 0, 0, 6.292139976178924e-07]

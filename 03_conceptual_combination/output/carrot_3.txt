@@ -1,0 +1,30 @@
+Title: carrot-3
+
+Head Concept Name: carrot
+Modifier Concept Name: 3
+
+
+
+
+
+T(modifier), three, 0.898
+T(modifier), -5, 0.897
+T(modifier), spelled_three, 0.815
+T(modifier), characters, 0.8
+T(modifier), higher_number_than_2, 0.738
+T(modifier), nuber, 0.735
+T(modifier), military, 0.73
+T(modifier), locomotive, 0.725
+
+T(head), carrot, 0.946
+T(head), reward, 0.836
+T(head), root, 0.829
+T(head), herb, 0.821
+T(head), vegetable, 0.821
+T(head), root_vegetable, 0.807
+T(head), -stick, 0.752
+T(head), eaten, 0.707
+
+
+Result: {"three": 0.898, "-5": 0.897, "carrot": 0.946, "reward": 0.836, "root": 0.829, "vegetable": 0.821, "@scenario_probability": 2.0760550707660285e-05}
+Scenario: [1, 1, 0, 0, 0, 0, 0, 0, 1, 1, 1, 0, 1, 0, 0, 0, 2.0760550707660285e-05]

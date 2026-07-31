@@ -1,0 +1,1 @@
+A carrot (id 1) lies on top of a closed textbook (id 2).

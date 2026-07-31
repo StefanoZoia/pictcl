@@ -1,0 +1,30 @@
+Title: carrot-bottom
+
+Head Concept Name: carrot
+Modifier Concept Name: bottom
+
+
+
+
+
+T(modifier), -top, 0.875
+T(modifier), inning, 0.85
+T(modifier), cargo_ship, 0.843
+T(modifier), hit, 0.833
+T(modifier), region, 0.805
+T(modifier), cabinetwork, 0.796
+T(modifier), turn, 0.793
+T(modifier), supply, 0.785
+
+T(head), carrot, 0.946
+T(head), reward, 0.836
+T(head), root, 0.829
+T(head), herb, 0.821
+T(head), vegetable, 0.821
+T(head), root_vegetable, 0.807
+T(head), -stick, 0.752
+T(head), eaten, 0.707
+
+
+Result: {"-top": 0.875, "inning": 0.85, "cargo_ship": 0.843, "hit": 0.833, "carrot": 0.946, "reward": 0.836, "@scenario_probability": 5.618874542208626e-06}
+Scenario: [1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 0, 0, 0, 0, 0, 0, 5.618874542208626e-06]

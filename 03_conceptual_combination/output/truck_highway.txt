@@ -1,0 +1,30 @@
+Title: truck-highway
+
+Head Concept Name: truck
+Modifier Concept Name: highway
+
+
+
+
+
+T(modifier), motor_vehicles_to_travel_on, 0.898
+T(modifier), getting_from_one_place_to_another, 0.875
+T(modifier), driving_on, 0.869
+T(modifier), drive_on, 0.866
+T(modifier), travel, 0.863
+T(modifier), trucks, 0.861
+T(modifier), driving, 0.858
+T(modifier), speeding, 0.857
+
+T(head), vehicle, 0.902
+T(head), automobile, 0.874
+T(head), motor_vehicle, 0.869
+T(head), wheeled_vehicle, 0.861
+T(head), stabilizer_bar, 0.854
+T(head), garage, 0.85
+T(head), transport, 0.847
+T(head), vehicle_type, 0.845
+
+
+Result: {"motor_vehicles_to_travel_on": 0.898, "getting_from_one_place_to_another": 0.875, "driving_on": 0.869, "vehicle": 0.902, "automobile": 0.874, "motor_vehicle": 0.869, "@scenario_probability": 1.7498003717779666e-07}
+Scenario: [1, 1, 1, 0, 0, 0, 0, 0, 1, 1, 1, 0, 0, 0, 0, 0, 1.7498003717779666e-07]

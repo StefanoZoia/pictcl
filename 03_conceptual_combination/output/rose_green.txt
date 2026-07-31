@@ -1,0 +1,30 @@
+Title: rose-green
+
+Head Concept Name: rose
+Modifier Concept Name: green
+
+
+
+
+
+T(modifier), primary_colour, 0.862
+T(modifier), environmentalist, 0.858
+T(modifier), color, 0.855
+T(modifier), -blue, 0.85
+T(modifier), colour, 0.844
+T(modifier), golf_course, 0.843
+T(modifier), peppers, 0.833
+T(modifier), -red, 0.828
+
+T(head), pink, 0.868
+T(head), red, 0.86
+T(head), flower_room, 0.854
+T(head), thorns, 0.837
+T(head), flower, 0.827
+T(head), shrub, 0.826
+T(head), garden, 0.796
+T(head), smell_nice, 0.786
+
+
+Result: {"primary_colour": 0.862, "environmentalist": 0.858, "color": 0.855, "pink": 0.868, "red": 0.86, "flower_room": 0.854, "@scenario_probability": 9.112216714928497e-07}
+Scenario: [1, 1, 1, 0, 0, 0, 0, 0, 1, 1, 1, 0, 0, 0, 0, 0, 9.112216714928497e-07]

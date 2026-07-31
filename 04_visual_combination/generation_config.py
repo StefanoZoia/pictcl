@@ -7,19 +7,19 @@ COCOS_DIR = '../03_conceptual_combination/output'
 # set to True for object-object combination, False for normal ConceptMix image compositions
 IS_COMBINATION = False
 # if True, read and use the representation of the combined concepts by TCL
-USE_COCOS = True
+USE_TCL = True
 
 # path to the directory where the refined jsons are saved
-REF_CONFIG_DIR = 'control_intermediate/refined-jsons' #NOTE: independent by the use of cocos
+REF_CONFIG_DIR = 'intermediate/refined-jsons' #NOTE: independent by the use of cocos
 # path to the directory where the generated prompts are saved
-PROMPT_DIR = f'control_intermediate/{'cocos_' if USE_COCOS else ''}prompts'
+PROMPT_DIR = f'intermediate/{'pictcl_' if USE_TCL else 'baseline_'}prompts'
 # path to the directory where the generated images are saved
-IMAGE_DIR = f'control_output/{'cocos_' if USE_COCOS else ''}images'
+IMAGE_DIR = f'output/{'pictcl_' if USE_TCL else 'baseline_'}images'
 
 # path to the directory where the generated evaluation questions are saved
-QUESTIONS_DIR = f'intermediate/{'cocos_' if USE_COCOS else ''}questions'
+QUESTIONS_DIR = f'intermediate/{'pictcl_' if USE_TCL else 'baseline_'}questions'
 # path to the directory where the generated evaluation scores are saved
-SCORE_DIR = f'output/{'cocos_' if USE_COCOS else ''}scores'
+SCORE_DIR = f'output/{'pictcl_' if USE_TCL else 'baseline_'}scores'
 
 # text to text model used to refine the json and to generate the prompt
 TEXT_API = 'OpenAI'  # APIs to use: 'Pollinations' or 'OpenAI'

@@ -1,0 +1,30 @@
+Title: orange-volcano
+
+Head Concept Name: orange
+Modifier Concept Name: volcano
+
+
+
+
+
+T(modifier), volcanic_crater, 0.878
+T(modifier), dormant, 0.875
+T(modifier), extinct, 0.861
+T(modifier), crater, 0.86
+T(modifier), lava, 0.824
+T(modifier), land_topographical_feature, 0.755
+T(modifier), south_park, 0.743
+T(modifier), top_of_mountain, 0.736
+
+T(head), orange, 0.946
+T(head), citrus_fruit, 0.902
+T(head), citrus, 0.891
+T(head), orangeish_thing, 0.883
+T(head), sweet, 0.881
+T(head), color, 0.859
+T(head), colour, 0.858
+T(head), -apple, 0.844
+
+
+Result: {"volcanic_crater": 0.878, "orange": 0.946, "citrus_fruit": 0.902, "citrus": 0.891, "orangeish_thing": 0.883, "sweet": 0.881, "@scenario_probability": 1.1542694798523318e-06}
+Scenario: [1, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 0, 0, 0, 1.1542694798523318e-06]

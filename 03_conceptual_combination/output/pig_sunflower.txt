@@ -1,0 +1,25 @@
+Title: pig-sunflower
+
+Head Concept Name: pig
+Modifier Concept Name: sunflower
+
+
+
+
+
+T(modifier), flower, 0.873
+T(modifier), flowering_plant, 0.785
+T(modifier), organic_chemistry, 0.732
+
+T(head), pigsty, 0.848
+T(head), find_truffles, 0.843
+T(head), find_truffle, 0.843
+T(head), -hog, 0.818
+T(head), ingot, 0.812
+T(head), live, 0.805
+T(head), pen, 0.792
+T(head), mud, 0.785
+
+
+Result: {"flower": 0.873, "pigsty": 0.848, "find_truffles": 0.843, "find_truffle": 0.843, "-hog": 0.818, "ingot": 0.812, "@scenario_probability": 0.017558371690879444}
+Scenario: [1, 0, 0, 1, 1, 1, 1, 1, 0, 0, 0, 0.017558371690879444]

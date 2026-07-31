@@ -1,0 +1,30 @@
+Title: man-highway
+
+Head Concept Name: man
+Modifier Concept Name: highway
+
+
+
+
+
+T(modifier), motor_vehicles_to_travel_on, 0.898
+T(modifier), getting_from_one_place_to_another, 0.875
+T(modifier), driving_on, 0.869
+T(modifier), drive_on, 0.866
+T(modifier), travel, 0.863
+T(modifier), trucks, 0.861
+T(modifier), driving, 0.858
+T(modifier), speeding, 0.857
+
+T(head), -woman, 0.87
+T(head), male, 0.854
+T(head), -boy, 0.84
+T(head), lover, 0.825
+T(head), -female, 0.816
+T(head), -lady, 0.815
+T(head), subordinate, 0.811
+T(head), international_intelligence_agency, 0.807
+
+
+Result: {"motor_vehicles_to_travel_on": 0.898, "getting_from_one_place_to_another": 0.875, "driving_on": 0.869, "drive_on": 0.866, "travel": 0.863, "-woman": 0.87, "@scenario_probability": 6.360786816340705e-07}
+Scenario: [1, 1, 1, 1, 1, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 6.360786816340705e-07]

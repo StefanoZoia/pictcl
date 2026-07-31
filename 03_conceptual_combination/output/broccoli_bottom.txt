@@ -1,0 +1,30 @@
+Title: broccoli-bottom
+
+Head Concept Name: broccoli
+Modifier Concept Name: bottom
+
+
+
+
+
+T(modifier), -top, 0.875
+T(modifier), inning, 0.85
+T(modifier), cargo_ship, 0.843
+T(modifier), hit, 0.833
+T(modifier), region, 0.805
+T(modifier), cabinetwork, 0.796
+T(modifier), turn, 0.793
+T(modifier), supply, 0.785
+
+T(head), broccoli, 0.946
+T(head), crucifer, 0.894
+T(head), cruciferous_vegetable, 0.886
+T(head), green, 0.858
+T(head), green_vegetable, 0.839
+T(head), vegetable_people_may_cook, 0.829
+T(head), very_nutritious, 0.824
+T(head), plate, 0.764
+
+
+Result: {"-top": 0.875, "inning": 0.85, "broccoli": 0.946, "crucifer": 0.894, "cruciferous_vegetable": 0.886, "green": 0.858, "@scenario_probability": 2.5381250102974337e-06}
+Scenario: [1, 1, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0, 0, 0, 2.5381250102974337e-06]
