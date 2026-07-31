@@ -1,6 +1,14 @@
-PiCTCL system: TCL logic applied to Images
+ # PiCT<sup>CL</sup> (Picture Construction in Typicality-based Compositional Logic)
 
 A Python tool for dynamic generation of knowledge in Description Logics of Typicality applied to text-to-image generation.
+
+Size of the full repository: 3.160 MB
+
+Setup instructions:
+1. Install Python (tested on version 3.12) on your system.
+2. Create and activate the wirtual environment where you want to run the code.
+3. Check that you have PIP installed: <code>pip --version</code>, if not, proceed with PIP installation.
+4. Install the requirements: <code>pip install -r requirements.txt</code>
 
 This work includes data from ConceptNet 5, which was compiled by the Commonsense Computing Initiative. ConceptNet 5 is freely available under the Creative Commons Attribution-ShareAlike license (CC BY SA 4.0) from https://conceptnet.io. The included data was created by contributors to Commonsense Computing projects, contributors to Wikimedia projects, Games with a Purpose, Princeton University's WordNet, DBPedia, OpenCyc, and Umbel.
 
@@ -12,7 +20,10 @@ This work includes data from ConceptNet 5, which was compiled by the Commonsense
 
 This module features the ConceptMix configuration files, and is used to configure the contents of the images to generate.
 
-The visual content of the images to be generated is represented in two formats: a full json description of the configuration and a tsv with just the two visual concepts involved.
+The visual content of the images to be generated is represented in two formats:
+
+- a .json description of the complete configuration and
+- a .tsv with just the two visual concepts involved.
 
 ---
 
@@ -35,11 +46,11 @@ Prototypes of each concept involved in some visual composition
 
 ### How to run
 
-To run the retrieval of relation from ConceptNet: python cn_rel_getter.py
+To run the retrieval of relation from ConceptNet: <code>python cn_rel_getter.py</code>
 
 - please, note that the execution may require some time, needed to query the ConceptNet Knowledge Base
 
-To run the generation of prototypes of concepts: python prototyper.py
+To run the generation of prototypes of concepts: <code>python prototyper.py</code>
 
 ### Configuration
 
@@ -72,11 +83,11 @@ Prototypes of the combined visual concepts.
 
 ### How to run
 
-To run the generation of the input file for TCL: python cocos_preprocessing.py
+To run the generation of the input file for TCL: <code>python cocos_preprocessing.py</code>
 
 - the preprocessing step writes the prototypes of each couple of concepts involved in a visual composition into a suitable file
 
-To run the conceptual combination with TCL: python cocos.py
+To run the conceptual combination with TCL: <code>python cocos.py</code>
 
 - This runs the combination on all the files in a specified folder.
 - To run on a single file, simply call the cocos() function. The function takes the file name as the first parameter and the maximum number of properties in the resulting concept as a second (optional) parameter.
@@ -105,9 +116,9 @@ The generated images.
 
 ### How to run
 
-To run the text-to-image generation: python generation.py
+To run the text-to-image generation: <code>python generation.py</code>
 
-To run the VLM-based automatic scoring: python auto_score.py
+To run the VLM-based automatic scoring: <code>python auto_score.py</code>
 
 ### Configuration
 
@@ -124,6 +135,6 @@ Computes the evaluation metrics.
 
 ### How to run
 
-To compute the automatic evaluation metrics: python automatic_eval.py
+To compute the automatic evaluation metrics: <code>python automatic_eval.py</code>
 
-To compute the human evaluation metrics: python human_eval.py
+To compute the human evaluation metrics: <code>python human_eval.py</code>
