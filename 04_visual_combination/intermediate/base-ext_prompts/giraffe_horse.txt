@@ -1,0 +1,1 @@
+In a zoo enclosure, a giraffe (id 1) stands on the left with its long neck upright, while a horse (id 2) stands on the right facing the giraffe across a short distance on the same sandy ground.

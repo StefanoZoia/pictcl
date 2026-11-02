@@ -1,0 +1,88 @@
+import os
+import json
+import numpy as np
+from infer_ci import bootstrap_ci
+
+BASELINE_IMAGE_DIR = "../04_visual_combination/output/baseline_images"
+BASELINE_SCORE_DIR = "../04_visual_combination/output/baseline_scores"
+
+BASE_EXT_IMAGE_DIR = "../04_visual_combination/output/base-ext_images"
+BASE_EXT_SCORE_DIR = "../04_visual_combination/output/base-ext_scores"
+
+USE_TCL = True
+
+# check that the call to LLM has already been done and return its result
+def read_json_file(path):
+    # read or generate the output of the llm
+    if os.path.exists(path):
+        with open(path, encoding="utf-8") as f:
+            return json.loads(f.read())
+    else:
+        #raise FileNotFoundError(f"Missing file at {path}: check your path and run auto_score.py first")
+        print(f"Missing file at {path}: check your path and run auto_score.py first")
+        return None
+
+def list_images(path):
+    return {
+        f for f in os.listdir(path)
+           if os.path.isfile(os.path.join(path, f))
+           and f.lower().endswith((".png", ".jpg", ".jpeg", ".webp"))
+    }
+
+def main():
+
+    baseline_images = list_images(BASELINE_IMAGE_DIR)
+    extended_images = list_images(BASE_EXT_IMAGE_DIR)
+
+    full_mark_score = list()    #images having all correct answers
+    concept_fraction_score = list()
+
+    # for each generated image (ignoring object-object combinations)
+    for filename in baseline_images:
+
+        image_name = filename.split(".")[0]
+
+        if "ooc_" not in image_name:
+
+            score_dir = BASE_EXT_SCORE_DIR if (USE_TCL and filename in extended_images) else BASELINE_SCORE_DIR
+
+            # load score
+            score_path = f"{score_dir}/{image_name}.json"
+            img_info = read_json_file(score_path)
+
+            if img_info:
+                # add image's individual question scores to the lists
+                concept_fraction_score.extend(img_info["scores"])
+                full_mark_score.append(np.min(img_info["scores"]))
+        
+    # compute overall scores with CI
+    print(f"Evaluated images: {len(full_mark_score)}")
+    print(f"Evaluation questions: {len(concept_fraction_score)}")
+
+    ci = bootstrap_ci(
+        y_true = np.ones(len(full_mark_score)),
+        y_pred = full_mark_score,
+        metric = lambda true, x : np.mean(x),
+        confidence_level = 0.95,
+        n_resamples = 10000,
+        random_state = 322026
+    )
+    plus_minus = (ci[1][1] - ci[1][0]) / 2 
+    print(f"Perfect-scoring images: {np.sum(full_mark_score)} / {len(full_mark_score)}")
+    print(f"Full-mark score: {np.mean(full_mark_score):.2f} ±{plus_minus:.2f}")
+
+    ci = bootstrap_ci(
+        y_true = np.ones(len(concept_fraction_score)),
+        y_pred = concept_fraction_score,
+        metric = lambda true, x : np.mean(x),
+        confidence_level = 0.95,
+        n_resamples = 10000,
+        random_state = 322026
+    )
+    plus_minus = (ci[1][1] - ci[1][0]) / 2 
+    print(f"Correctly depicted concepts: {np.sum(concept_fraction_score)} / {len(concept_fraction_score)}")
+    print(f"Conceptual fraction score: {np.mean(concept_fraction_score):.2f} ±{plus_minus:.2f}")
+
+
+
+if __name__ == "__main__": main()

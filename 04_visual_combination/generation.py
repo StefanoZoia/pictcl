@@ -5,6 +5,9 @@ import json
 import time
 import base64
 from openai import OpenAI
+from dotenv import load_dotenv
+
+load_dotenv()
 
 # functions for text-to-image generation
 
@@ -262,9 +265,11 @@ def ooc_t2i_prompt(img_info):
 
 
 # read the results of the conceptual combination
-def read_cocos_output(file_path):
+def read_cocos_output(file_path, outer_join: bool = False):
     head = None
     modifier = None
+    h_properties = list()
+    m_properties = list()
     combination_result = None
     
     if not os.path.isfile(file_path):
@@ -290,16 +295,38 @@ def read_cocos_output(file_path):
             # if the combination is successful, read the result
             if line[0] == 'Result':
                 combination_result = json.loads(line[1])
+
+            # read all the properties of the head and modifier concepts
+            if outer_join and ("T(head)" in line[0] or "T(modifier)" in line[0]):
+                assertion = [x.strip() for x in line[0].split(',')]
+                if "T(head)" in assertion[0]:
+                    h_properties.append(assertion[1])
+                if "T(modifier)" in assertion[0]:
+                    m_properties.append(assertion[1])
+
         
-    if combination_result is None:
-        return None
+    if outer_join:
+        # return all the properties of the head and modifier concepts
 
-    features = list(combination_result.keys())
-    features.remove('@scenario_probability')
-    features = [f.replace("-", "not ", 1) if f[0] == "-" else f for f in features]
-    features = [f.replace("-", " ").replace("_", " ") for f in features]
+        # join (concatenate) the two lists
+        features = h_properties + m_properties
+        # format the feature names
+        features = [f.replace("-", "not ", 1) if f[0] == "-" else f for f in features]
+        features = [f.replace("-", " ").replace("_", " ") for f in features]
 
-    return features
+        print(features)
+        return features
+    else:
+        #return the properties of the conceptual combination
+        if combination_result is None:
+            return None
+
+        features = list(combination_result.keys())
+        features.remove('@scenario_probability')
+        features = [f.replace("-", "not ", 1) if f[0] == "-" else f for f in features]
+        features = [f.replace("-", " ").replace("_", " ") for f in features]
+
+        return features
 
 # check if the call to LLM has already been done and return its result
 def read_or_generate(path, call_to_llm, data, save_result):
@@ -333,14 +360,14 @@ def main():
         modifier = img["skills"][1]
 
         # define image name
-        image_name = f"_{'ooc_' if cfg.IS_COMBINATION else ''}{head.replace(" ", "-")}_{modifier.replace(" ", "-")}"
+        image_name = f"{'ooc_' if cfg.IS_COMBINATION else ''}{head.replace(" ", "-")}_{modifier.replace(" ", "-")}"
         
         ref_config_path = f"{cfg.REF_CONFIG_DIR}/{image_name}.json"
         prompt_path = f"{cfg.PROMPT_DIR}/{image_name}.txt"
         image_path = f"{cfg.IMAGE_DIR}/{image_name}.jpeg"
         print(f'\nWorking on image {image_name}.')
 
-        cocos_features = read_cocos_output(f'{cfg.COCOS_DIR}/{head}_{modifier}.txt')
+        cocos_features = read_cocos_output(f'{cfg.COCOS_DIR}/{head}_{modifier}.txt', cfg.BASE_EXT)
         if cfg.USE_TCL and cocos_features is None:
             print(f"skipping {image_name}: no Conceptal Combination results")
 

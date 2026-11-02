@@ -1,4 +1,5 @@
 .venv
+.env
 01_dataset_building/remove_duplicates.py
 02_prototype_generation/data/cn_backup_en_used.tsv
 02_prototype_generation/data/mini.h5

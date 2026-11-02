@@ -3,8 +3,15 @@ from scipy.stats import binomtest
 import matplotlib.pyplot as plt
 import matplotlib.patches as mpatches
 import numpy as np
+import pandas as pd
 import json
 import os
+from scipy import stats
+
+#from pymer4.models import Lmer
+#from rpy2.robjects.packages import importr
+import bambi as bmb
+import arviz as az
 
 
 def compute_binomtest(name, n_pictcl, n_baseline):
@@ -495,28 +502,272 @@ def compute_overall(trusted_sessions):
 
 
 
-    #print(i)
-    compute_binomtest("Overall", count_pictcl, count_baseline)
-    compute_binomtest("Object combinations", count_ooc_pictcl, count_ooc_baseline)
-    plot_preference_results([("Overall", count_pictcl, count_baseline),
-                             ("Object combinations", count_ooc_pictcl, count_ooc_baseline)],
-                            splitname="overall", sort_by_proportion=False, fig_size=(5,2))
+# UNDER REVISION
+
+def sessions_to_df(trusted_sessions:dict):
+    rows = [
+        {"session_id": pid, "trial": i, **trial}
+        for pid, trials in trusted_sessions.items()
+        for i, trial in enumerate(trials)
+    ]
+    df = pd.DataFrame(rows)
+    
+    df = df[~df["winner"].str.contains("/static/control_", na=False)]
+    df = df[df["winner"].str.contains("ooc_", na=False)]
+
+    df["win"] = (df.winner.str.contains("/static/cocos_images")).astype(int)   # 1 = pictcl won
+
+    return(df)
 
 
-def main():
-    sessions = read_sessions("human_eval_results/evaluation-final.csv")
+
+
+#compute the overall preference, normalizing the weight of each session
+def compute_normalized(trusted_sessions):
+    normalized_proportions = list()
+    overall_count = 0
+    normalized_ooc_proportions = list()
+    overall_ooc_count = 0
+
+    for s in trusted_sessions:
+        count_pictcl = 0
+        count_baseline = 0        
+        count_ooc_pictcl = 0
+        count_ooc_baseline = 0
+        count_left = 0
+        count_right = 0
+        for curr_ans in trusted_sessions[s]:
+            if "/static/control_" not in curr_ans["winner"]:
+                if "/static/cocos_images" in curr_ans["winner"]:
+                    count_pictcl += 1
+                    if "ooc_" in curr_ans["winner"]:
+                        count_ooc_pictcl += 1
+                elif "/static/images" in curr_ans["winner"]:
+                    count_baseline += 1
+                    if "ooc_" in curr_ans["winner"]:
+                        count_ooc_baseline += 1
+                else:
+                    print(curr_ans["winner"])
+
+                if "right" in curr_ans["position"]:
+                    count_right += 1
+                elif "left" in curr_ans["position"]:
+                    count_left += 1
+                else:
+                    print(curr_ans["position"])
+                    
+        img_count = count_pictcl + count_baseline
+        overall_count += img_count
+        normalized_proportions.append(count_pictcl / img_count)
+        ooc_img_count = count_ooc_pictcl + count_ooc_baseline
+        overall_ooc_count += ooc_img_count
+        normalized_ooc_proportions.append(count_ooc_pictcl / ooc_img_count)
+
+
+    # compute mean proportion
+    # compute binomtest on normalized preferences
+    #compute_binomtest("Overall", count_pictcl, count_baseline)
+    #compute_binomtest("Object combinations", count_ooc_pictcl, count_ooc_baseline)
+    #plot_preference_results([("Overall", count_pictcl, count_baseline),
+    #                         ("Object combinations", count_ooc_pictcl, count_ooc_baseline)],
+    #                        splitname="overall", sort_by_proportion=False, fig_size=(5,2))
+
+
+def split_on_concept_category(trusted_sessions):
+    skill_to_cat = load_config_files("../01_dataset_building/data/ConceptMix")
+    categories = dict({"object excluded ooc":  pd.DataFrame()})
+
+    for s in trusted_sessions:
+        for curr_ans in trusted_sessions[s]:
+            if "/static/control_" not in curr_ans["winner"]:
+                image_name = curr_ans["winner"].split("/")[-1].replace(".jpeg", "").replace("ooc_", "")
+                obj = image_name.split("_")[0]
+                concept_2 = image_name.split("_", 1)[1]
+                cat = skill_to_cat[concept_2]
+                pictcl_wins = None
+                if "/static/cocos_images" in curr_ans["winner"]:
+                    pictcl_wins = True
+                elif "/static/images" in curr_ans["winner"]:
+                    pictcl_wins = False
+                else:
+                    print(curr_ans["winner"])
+                    raise(Exception)
+                
+                if cat in categories:
+                    if pictcl_wins:
+                        categories[cat] = {"n_pictcl": categories[cat]["n_pictcl"] + 1,
+                                        "n_baseline": categories[cat]["n_baseline"]}
+                    else:
+                        categories[cat] = {"n_pictcl": categories[cat]["n_pictcl"],
+                                        "n_baseline": categories[cat]["n_baseline"] + 1}
+
+                else:
+                    categories[cat] = {"n_pictcl": 1 if pictcl_wins else 0,
+                                    "n_baseline": 0 if pictcl_wins else 1}
+                    
+
+                if cat == "object" and "ooc_" not in curr_ans["winner"]:
+                    if pictcl_wins:
+                        categories["object excluded ooc"] = {"n_pictcl": categories["object excluded ooc"]["n_pictcl"] + 1,
+                                        "n_baseline": categories["object excluded ooc"]["n_baseline"]}
+                    else:
+                        categories["object excluded ooc"] = {"n_pictcl": categories["object excluded ooc"]["n_pictcl"],
+                                        "n_baseline": categories["object excluded ooc"]["n_baseline"] + 1}
+
+    res = list()    
+    for cat in categories:
+        compute_binomtest(cat, categories[cat]["n_pictcl"], categories[cat]["n_baseline"])
+        res.append((cat, categories[cat]["n_pictcl"], categories[cat]["n_baseline"]))
+    plot_preference_results(res, splitname="category")
+
+
+
+def append_row(df, row):
+    return pd.concat([
+                df, 
+                pd.DataFrame([row], columns=row.index)]
+           ).reset_index(drop=True)
+
+def read_sessions_df(filename):
+    sessions = read_sessions(filename)
     trusted_sessions = filter_trusted_sessions(sessions)
 
-    compute_overall(trusted_sessions)
+    skill_to_cat = load_config_files("../01_dataset_building/data/ConceptMix")
 
-    find_safe_images(trusted_sessions)
+    sessions = pd.DataFrame(columns=('session_id', 'winner', 'position', 'win', 'object', 'category', 'ooc'))
+
+    with open(filename, encoding="utf-8") as csvfile:
+        reader = csv.reader(csvfile)
+        reader.__next__()
+        for row in reader:
+            session_id = row[1]
+            winner_image = row[4]
+
+            if session_id in trusted_sessions and "/static/control_" not in winner_image:
+                winner_position = row[5]
+                win = 1 if "/static/cocos_images" in winner_image else 0
+
+                image_name = winner_image.split("/")[-1].replace(".jpeg", "").replace("ooc_", "")
+                obj = image_name.split("_")[0]
+                concept_2 = image_name.split("_")[1]
+                cat = skill_to_cat[concept_2]
+                ooc = "ooc_" in winner_image
+
+                new_row = pd.Series({"session_id": session_id, "winner": winner_image, "position": winner_position,
+                                    "win": win, "object": obj, "category": cat, "ooc": ooc})
+                
+                sessions = append_row(sessions, new_row)
+
+    return sessions
+
+def compute_mixed_effects(sessions_df):
     
-    split_on_difficulty(trusted_sessions)
-    split_on_concept_category(trusted_sessions)
-    split_on_objects(trusted_sessions)
+    #m = Lmer("win ~ 1 + (1|session_id)", data=df, family="binomial")
+    #m.fit()
+    model = bmb.Model(
+        "win ~ 1 + (1|session_id)",
+        data=sessions_df, family="bernoulli"
+    )
+    idata = model.fit(draws=2000, chains=4, random_seed=1)
+    print(az.summary(idata, var_names=["Intercept", "1|session_id_sigma"]))
 
-    find_prompts_with_cocos_features(trusted_sessions)
+# equal weighting between the participants, returns the preference of the average participant
+def compute_subject_level(sessions_df):
+
+    p = sessions_df.groupby("session_id")["win"].mean()   # one win rate per participant
+    p.to_numerics()
+    print(p)
+
+    # t-test of mean participant win rate vs 0.5
+    print(stats.ttest_1samp(p, 0.5))
+
+    # nonparametric alternative
+    print(stats.wilcoxon(p - 0.5))
+
+    # cluster bootstrap CI for the equal-weighted mean
+    rng = np.random.default_rng(1)
+    boot = [rng.choice(p.values, size=len(p), replace=True).mean() for _ in range(10000)]
+    print(np.percentile(boot, [2.5, 97.5]))
+
+    # pooled vs equal-weighted win rate
+    print(sessions_df["win"].mean(), sessions_df.groupby("session_id")["win"].mean().mean())
+
+    # trials per participant, and whether volume relates to win rate
+    g = sessions_df.groupby("session_id")["win"].agg(["mean", "count"])
+    print(g["count"].describe())
+    print(g[["mean", "count"]].corr(method="spearman"))
+
+def split_on_concept_category(trusted_sessions):
+    skill_to_cat = load_config_files("../01_dataset_building/data/ConceptMix")
+    categories = dict({"object excluded ooc":  pd.DataFrame()})
+
+    for s in trusted_sessions:
+        for curr_ans in trusted_sessions[s]:
+            if "/static/control_" not in curr_ans["winner"]:
+                image_name = curr_ans["winner"].split("/")[-1].replace(".jpeg", "").replace("ooc_", "")
+                obj = image_name.split("_")[0]
+                concept_2 = image_name.split("_", 1)[1]
+                cat = skill_to_cat[concept_2]
+                pictcl_wins = None
+                if "/static/cocos_images" in curr_ans["winner"]:
+                    pictcl_wins = True
+                elif "/static/images" in curr_ans["winner"]:
+                    pictcl_wins = False
+                else:
+                    print(curr_ans["winner"])
+                    raise(Exception)
+                
+                if cat in categories:
+                    if pictcl_wins:
+                        categories[cat] = {"n_pictcl": categories[cat]["n_pictcl"] + 1,
+                                        "n_baseline": categories[cat]["n_baseline"]}
+                    else:
+                        categories[cat] = {"n_pictcl": categories[cat]["n_pictcl"],
+                                        "n_baseline": categories[cat]["n_baseline"] + 1}
+
+                else:
+                    categories[cat] = {"n_pictcl": 1 if pictcl_wins else 0,
+                                    "n_baseline": 0 if pictcl_wins else 1}
+                    
+
+                if cat == "object" and "ooc_" not in curr_ans["winner"]:
+                    if pictcl_wins:
+                        categories["object excluded ooc"] = {"n_pictcl": categories["object excluded ooc"]["n_pictcl"] + 1,
+                                        "n_baseline": categories["object excluded ooc"]["n_baseline"]}
+                    else:
+                        categories["object excluded ooc"] = {"n_pictcl": categories["object excluded ooc"]["n_pictcl"],
+                                        "n_baseline": categories["object excluded ooc"]["n_baseline"] + 1}
+
+    res = list()    
+    for cat in categories:
+        compute_binomtest(cat, categories[cat]["n_pictcl"], categories[cat]["n_baseline"])
+        res.append((cat, categories[cat]["n_pictcl"], categories[cat]["n_baseline"]))
+    plot_preference_results(res, splitname="category")
+
+
+    
+def main():
+    pass
+    #compute_overall(trusted_sessions)
+
+    #find_safe_images(trusted_sessions)
+    
+    #split_on_difficulty(trusted_sessions)
+    #split_on_concept_category(trusted_sessions)
+    #split_on_objects(trusted_sessions)
+
+    #find_prompts_with_cocos_features(trusted_sessions)
+
+
+def review_main():
+    sessions_df = read_sessions_df("human_eval_results/evaluation-final.csv")
+    sessions_df.to_csv("sessions.csv")
+
+    #compute_mixed_effects(sessions_df)
+
+    #compute_subject_level(sessions_df)
+    #compute_mixed_effects(trusted_sessions)
 
 if __name__ == "__main__":
-    main()
+    review_main()
 

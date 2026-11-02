@@ -1,0 +1,1 @@
+A truck is parked inside a garage, fully within the garage interior and not outside.
